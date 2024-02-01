@@ -26,25 +26,25 @@ const Stats2 = () => {
 
         <div className='-mx-4 flex flex-wrap'>
           <StatsItem
-            title='target'
+            title='target:'
             user={totalContribution}
             detail='Total Contribution'
             icon={<FaSearchDollar className='w-10 h-10' />}
           />
           <StatsItem
-            title='from'
-            user='9,000'
+            title='from:'
+            user={totalVestedMember}
             detail='Vested Members'
             icon={<TbUsersGroup className='w-10 h-10' />}
           />
           <StatsItem
-            title='for about'
+            title='for about:'
             user='$17.36'
             detail='contribution per member'
             icon={<TbUserDollar className='w-10 h-10' />}
           />
           <StatsItem
-            title='and'
+            title='and:'
             user='$2.17'
             detail='individual contribution per death'
             icon={<AiOutlineDollarCircle className='w-10 h-10' />}
