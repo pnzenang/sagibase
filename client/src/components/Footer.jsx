@@ -62,7 +62,7 @@ const Footer = () => {
                     <span className='mr-3 mt-[10px]'>
                       <FiPhoneCall className='w-6 h-6 text-white' />
                     </span>
-                    1(443)-531-5852
+                    1(410)-705-0450
                   </p>
                 </li>
 

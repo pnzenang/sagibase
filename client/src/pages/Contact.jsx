@@ -29,7 +29,7 @@ const Contact5 = () => {
                     Phone Number
                   </h4>
                   <p className='text-primary text-body-color dark:text-dark-6'>
-                    +88 (800) 123 4567
+                    1(410)-705-0450
                   </p>
                 </div>
               </div>
@@ -60,10 +60,10 @@ const Contact5 = () => {
                     Our Address
                   </h4>
                   <p className='text-primary text-body-color dark:text-dark-6'>
-                    82 12th Street, Office 14,
+                    23612 Public House Rd
                   </p>
                   <p className='text-primary text-body-color dark:text-dark-6'>
-                    Edinburgh, UK
+                    Clarksburg, MD 20871
                   </p>
                 </div>
               </div>
