@@ -1,5 +1,5 @@
-import { Outlet } from 'react-router-dom';
-import { Header, Navbar, Sidebar } from '../components';
+import { Outlet, useNavigation } from 'react-router-dom';
+import { Header, Navbar, Sidebar, Loading } from '../components';
 import { createContext, useContext, useState } from 'react';
 import Footer from '../components/Footer';
 
@@ -7,6 +7,8 @@ const HomeContext = createContext();
 
 const HomeLayout = () => {
   const [showSidebar, setShowSidebar] = useState(true);
+  const navigation = useNavigation();
+  const isPageLoading = navigation.state === 'loading';
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
@@ -18,7 +20,7 @@ const HomeLayout = () => {
       <Navbar />
       <Sidebar />
       <section className='align-element py-20'>
-        <Outlet />
+        {isPageLoading ? <Loading /> : <Outlet />}
       </section>
       <Footer />
     </HomeContext.Provider>

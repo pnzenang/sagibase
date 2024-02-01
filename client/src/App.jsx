@@ -1,4 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import {
   About,
   How,
@@ -59,6 +61,14 @@ import { action as resetAction } from './pages/ResetPassword';
 import { loader as adminAllDeceasedLoader } from './pages/AdminAllDeceased';
 import { loader as adminEditDeceasedLoader } from './pages/AdminEditDeceased';
 import { action as adminEditDeceasedAction } from './pages/AdminEditDeceased';
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5,
+    },
+  },
+});
 
 const router = createBrowserRouter([
   {
@@ -163,7 +173,7 @@ const router = createBrowserRouter([
         path: 'stats',
         element: <Stats />,
         errorElement: <ErrorElement />,
-        loader: statLoader,
+        loader: statLoader(queryClient),
       },
       {
         path: 'announcement',
@@ -237,6 +247,11 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />;
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
+  );
 };
 export default App;
