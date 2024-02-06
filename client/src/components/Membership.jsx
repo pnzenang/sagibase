@@ -133,9 +133,14 @@ const Membership = () => {
                     Traditional membership
                   </h3>
                   <p className='text-base text-body-color dark:text-dark-6 mb-9'>
-                    Clean, refreshing and high-quality that gives positive
-                    vibes. Figma source file also provided so you can use to
-                    prototype, experiment, play or adjust.
+                    Here, individuals are SAGI members through a SAGI
+                    association member, and does not interact directly with
+                    SAGI, he or she rely 100% on the delegates, and should voice
+                    all his concerns and remarks to the delegates who will then
+                    relay them to SAGI Administration. this membership is free
+                    and does not require any upfront prepayment, the members pay
+                    for their registration fee and their contribution when they
+                    are solicited,
                   </p>
                 </div>
               </div>
@@ -149,9 +154,13 @@ const Membership = () => {
                     Pool membership
                   </h3>
                   <p className='text-base-content mb-9'>
-                    Developer experience is our #1 priority, entire library is
-                    designed, coded, and organized in a way that saves hundreds
-                    of hours and increases productivity.
+                    This membership is reserve to those who could not or are not
+                    willing to join and association or a group of at least 20
+                    people, in this situation, unlike in the first option, the
+                    members have to keep a close contact with SAGI
+                    administration and have to prepay a deposit to ensure smooth
+                    contribution when needed. so the member takes care of their
+                    registration and also their deposit.
                   </p>
                 </div>
               </div>

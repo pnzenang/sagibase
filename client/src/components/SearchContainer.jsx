@@ -1,12 +1,6 @@
 import {
   FormInputs,
-  FormInput,
-  SubmitBtn,
-  FormDate,
-  FormSelect,
   FormSelects,
-  FormInput2,
-  FormInput3,
 } from '../components';
 import { styled } from 'styled-components';
 

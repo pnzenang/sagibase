@@ -8,7 +8,7 @@ import ListUpdatesFaqs from './ListUpdatesFaqs';
 
 const Card2 = () => {
   return (
-    <section className='bg-base-100 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]'>
+    <section className='bg-base-100 pb-10 pt-20 px-1 dark:bg-dark lg:pb-20 lg:pt-[120px]'>
       <div className='container mx-auto'>
         <div className='-mx-4 flex flex-wrap'>
           <SingleCard
@@ -16,42 +16,42 @@ const Card2 = () => {
             CardTitle='SAGI Addition'
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='The Delegate add members to his or her group or association through his dashboard via the link "Add Member", so no more email sent to SAGI administration to request addition..'
           />
           <SingleCard
             image={withdrawal}
             CardTitle='SAGI Withdrawal'
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='The delegate signal the withdrawal of members through his dashboard, directly on the member card by clicking on "Delegate Recommendation" and choosing the option: REMOVE.'
           />
           <SingleCard
             image={transfer}
             CardTitle='SAGI Transfer'
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Delegation recommendation: and select the option: TRANSFER.'
           />
           <SingleCard
             image={nameExchange}
             CardTitle='Name Change'
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipvcsvrererasfafwfwfwrffbdbdsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='The name change should be done by emailing and name change form before.  Should be accompanied by documentation unless it is a mistake on the name requiring change of letters '
           />
           <SingleCard
             image={deathAnnouncement}
             CardTitle='Death Announcement'
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='The death announcement is done straight on the dashboard, but the delegate would have previously declared the member deceased.'
           />
           <SingleCard
             image={contacts}
             CardTitle='Contact Information '
             titleHref='#'
             btnHref='#'
-            CardDescription='Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.'
+            CardDescription='The contact information update should be done by emailing Just like before .  Should be accompanied. the name or updated contact should be emailed'
           />
         </div>
       </div>

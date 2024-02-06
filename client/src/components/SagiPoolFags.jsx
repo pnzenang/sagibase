@@ -7,7 +7,7 @@ const SagiPoolFaqs = () => {
   return (
     <>
       <div className='mx-auto mb-[60px]  text-center pt-20 lg:mb-20'>
-        <h2 className='text=xl sm:text-4xl font-bold text-base-content'>
+        <h2 className='mb-4 text-3xl font-bold text-base-content sm:text-[40px]/[48px]'>
           Frequently ask questions about list updates
         </h2>
       </div>
@@ -162,8 +162,8 @@ const Button = ({ children, tabNumber }) => {
           onClick={() => setOpenTab(tabNumber)}
           className={`block w-full border-l-4 px-7 py-6 text-left text-base font-medium md:px-10 lg:px-7 xl:px-10 ${
             tabNumber === openTab
-              ? 'border-primary bg-primary/[.13] text-dark dark:bg-dark-2 dark:text-white'
-              : 'border-transparent text-body-color hover:border-primary hover:text-dark dark:text-dark-6 dark:hover:text-white'
+              ? 'border-primary bg-primary/[.13] text-dark dark:bg-dark-2 dark:text-base-content'
+              : 'border-transparent text-body-color hover:border-primary hover:text-dark dark:text-dark-6 dark:hover:text-base-content'
           }`}
         >
           {children}

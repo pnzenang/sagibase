@@ -6,13 +6,7 @@ import PageBtnContainer from './PageBtnContainer';
 
 const MembersContainer = () => {
   const { data } = useAllMembersContext();
-  const {
-    members,
-    membersForAnnouncement,
-    numOfPages,
-    currentPage,
-    totalMembers,
-  } = data;
+  const { members, numOfPages, totalMembers } = data;
 
   if (members.length === 0)
     return (

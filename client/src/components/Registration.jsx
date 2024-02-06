@@ -25,81 +25,184 @@ const Registration = () => {
           </div>
 
           <div className='-mx-4 flex flex-wrap'>
-            <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
+            <div className='w-full px-4 md:w-1/2 xl:w-1/4 hover:bg-base-200'>
               <div className='relative mx-auto mb-10 max-w-[370px] text-center'>
                 <div className='absolute -right-4 top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='relative mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-primary text-white'>
                   <LiaUsersCogSolid className='w-10 h-10' />
                 </div>
-                <h3 className='mb-5 text-3xl font-semibold text-primary'>
+                <h3 className='mb-5 text-2xl font-semibold text-primary'>
                   Individuals
                 </h3>
                 <p className='text-base-content text-left'>
-                  It depend on the type of membership and your role. If you are
-                  an individual looking for SAGI coverage, if you want the
-                  traditional and the most common type of membership, the only
-                  thing you need to do is to enlist with and association-member
-                  of SAGI or an association which is ready to register with
-                  SAGI, and follow the delegates direction.
+                  If your association is already member of SAGI, and already has
+                  a 4-letter code.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>1</span>- The
+                  delegate should Fill out this mandatory form:
+                  <br />
+                  <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    className='text-cyan-600 font-bold '
+                  >
+                    SAGI INTRODUCTORY FORM
+                  </a>
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>2</span>-One delegate
+                  (the main delegate) should register their association by
+                  clicking the register button (top right of the screen), and
+                  log in to his/her dashboard to add and start managing the
+                  members.
+                  <br />
+                  <br /> <span className='font-bold text-primary'>3</span>-If
+                  the members are already SAGI members, there is nothing else to
+                  do after filing the SAGI mandatory introductory form, SAGI
+                  management will render them vested withing 48 hours.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>4</span>-If the
+                  members are new, they will have to wait for 90 days, and make
+                  sure that their registration fees are received by SAGI
+                  administration within 90 days in order to receive their
+                  matriculations.
                 </p>
               </div>
             </div>
-            <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
+            <div className='w-full px-4 md:w-1/2 xl:w-1/4 hover:bg-base-200'>
               <div className='relative mx-auto mb-10 max-w-[370px] text-center'>
                 <div className='absolute -left-4 top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='absolute right-[-14px] top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-primary text-white'>
                   <LiaClipboardListSolid className='w-10 h-10' />
                 </div>
-                <h3 className='mb-5 text-3xl font-semibold text-primary'>
-                  Delegates
+                <h3 className='mb-5 text-2xl font-semibold text-primary'>
+                  Existing associations.
                 </h3>
                 <p className='text-base-content text-left'>
                   If your association is already member of SAGI, and already has
-                  a 4-letter code, go straight to register your association by
-                  clicking the register button (top left of the screen), then
-                  login to your dashboard, add your members, if the members are
-                  already SAGI members, there is nothing else to do, the
-                  management will make them vested withing 48 hours.
+                  a 4-letter code.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>1</span>- The
+                  delegate should Fill out this mandatory form:
+                  <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    className='text-cyan-600 font-bold '
+                  >
+                    <br />
+                    SAGI INTRODUCTORY FORM
+                  </a>
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>2</span>-One delegate
+                  (the main delegate) should register their association by
+                  clicking the register button (top right of the screen), and
+                  log in to his/her dashboard to add and start managing the
+                  members.
+                  <br />
+                  <br /> <span className='font-bold text-primary'>3</span>-If
+                  the members are already SAGI members, there is nothing else to
+                  do after filing the SAGI mandatory introductory form, they
+                  will be rendered vested within 48 hours.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>4</span>-If the
+                  members are new, they will have to wait for 90 days, and make
+                  sure that their registration fees are received by SAGI
+                  administration within 90 days in order to receive their
+                  matriculations.
                 </p>
               </div>
             </div>
-            <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
+
+            <div className='w-full px-4 md:w-1/2 xl:w-1/4 hover:bg-base-200'>
               <div className='relative mx-auto mb-10 max-w-[370px] text-center'>
                 <div className='absolute -left-4 top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='absolute right-[-14px] top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-primary text-white'>
                   <LuGroup className='w-10 h-10' />
                 </div>
-                <h3 className='mb-5 text-3xl font-semibold text-primary'>
-                  Associations.
+                <h3 className='mb-5 text-2xl font-semibold text-primary'>
+                  New Associations.
                 </h3>
                 <p className='text-base-content text-left'>
-                  The associations are responsible of making sure that all their
-                  members are matriculated, the main delegate create an account
-                  on behalf of the association and add their members. The
-                  delegate should collect all individual information required in
-                  the dashboard link that allow member addition, and the
-                  individual registration fee.
+                  If your association is new to SAGI, don't attend to create
+                  your own 4-letter code as it will get disregarded voided and
+                  deleted with your account all together.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>1</span>- The
+                  delegate should Fill out this mandatory form:
+                  <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    className='text-cyan-600 font-bold '
+                  >
+                    <br />
+                    SAGI INTRODUCTORY FORM
+                  </a>
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>2</span>-No more than
+                  48 hours after filling the mandatory form above, the main
+                  delegate will receive the association 4-letter code witch will
+                  allow him to create the association's authentic account. The
+                  delegate can then log in and start adding and managing his
+                  association's members.
+                  <br />
+                  <br /> <span className='font-bold text-primary'>3</span>
+                  -Members that are already SAGI members will be rendered vested
+                  withing 48 hours.
+                  <br />
+                  new members will wait for 90 days, and make sure that their
+                  registration fees are received by SAGI administration within
+                  90 days in order to receive their matriculations
                 </p>
               </div>
             </div>
-            <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
+            <div className='w-full px-4 md:w-1/2 xl:w-1/4 hover:bg-base-200'>
               <div className='relative mx-auto mb-10 max-w-[370px] text-center'>
                 <div className='absolute left-[-14px] top-12 hidden h-1 w-16 border-t-2 border-dashed border-primary xl:block 2xl:w-[75px]'></div>
                 <div className='mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-primary text-white'>
                   <MdOutlineAdminPanelSettings className='w-10 h-10' />
                 </div>
-                <h3 className='mb-5 text-3xl font-semibold text-primary'>
-                  SAGI Admin.
+                <h3 className='mb-5 text-2xl font-semibold text-primary'>
+                  Returning Associations.
                 </h3>
                 <p className='text-base-content text-left'>
-                  The role of the administration is to make sure that all the
-                  individuals who request to become member accomplish their
-                  goals in a timely fashion. We should update members status as
-                  soon as as they become vested, and clean up the database as as
-                  soon as necessary to avoid confusion in the database, and
-                  optimize accuracy of SAGI lists.
+                  If your association was member of SAGI, and already has a
+                  4-letter code but has not been participating.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>1</span>- The
+                  delegate should Fill out this mandatory form:
+                  <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    className='text-cyan-600 font-bold'
+                  >
+                    <br />
+                    SAGI INTRODUCTORY FORM
+                  </a>
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>2</span>-One delegate
+                  (the main delegate) should register their association by
+                  clicking the register button (top right of the screen), and
+                  login to his/her dashboard to add and start managing the
+                  members.
+                  <br />
+                  <br /> <span className='font-bold text-primary'>3</span>-Get
+                  in touch with SAGI administration by sending an email to{' '}
+                  <span className='text-primary'>info@mySagi.org</span> in order
+                  to signal the Admin that your association is returning and
+                  receive all the modalities to return in good standing.
+                  <br />
+                  <br />
+                  <span className='font-bold text-primary'>4</span>-the existing
+                  members will receive their matriculations as soon as the
+                  association comply with all the SAGI requirements to return,
+                  while the new members wait for their 90 days.
                 </p>
               </div>
             </div>

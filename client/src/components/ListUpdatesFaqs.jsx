@@ -7,7 +7,7 @@ const ListUpdatesFaqs = () => {
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>
             <div className='mx-auto mb-[60px]  text-center lg:mb-20'>
-              <h2 className='text-3xl font-bold text-base-content'>
+              <h2 className='mb-4 text-3xl font-bold text-base-content sm:text-[40px]/[48px]'>
                 Frequently ask questions about list updates
               </h2>
             </div>
