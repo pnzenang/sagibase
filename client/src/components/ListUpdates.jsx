@@ -30,7 +30,7 @@ const Card2 = () => {
             CardTitle='SAGI Transfer'
             titleHref='#'
             btnHref='#'
-            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Delegation recommendation: and select the option: TRANSFER.'
+            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Edit Recommendation: and select the option: TRANSFER.'
           />
           <SingleCard
             image={nameExchange}
@@ -44,14 +44,14 @@ const Card2 = () => {
             CardTitle='Death Announcement'
             titleHref='#'
             btnHref='#'
-            CardDescription='The death announcement is done straight on the dashboard, but the delegate would have previously declared the member deceased.'
+            CardDescription='The death announcement is done straight on the dashboard, but the delegate would have previously declared the member deceased from "Edit Recommendation".'
           />
           <SingleCard
             image={contacts}
             CardTitle='Contact Information '
             titleHref='#'
             btnHref='#'
-            CardDescription='The contact information update should be done by emailing Just like before .  Should be accompanied. the name or updated contact should be emailed'
+            CardDescription='The contact information update should be done by emailing Just like before.  in some case Should be accompanied by some documentation such from the court of immigration.'
           />
         </div>
       </div>

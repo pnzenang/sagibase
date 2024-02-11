@@ -160,7 +160,7 @@ const Button = ({ children, tabNumber }) => {
       {({ openTab, setOpenTab }) => (
         <button
           onClick={() => setOpenTab(tabNumber)}
-          className={`block w-full border-l-4 px-7 py-6 text-left text-base font-medium md:px-10 lg:px-7 xl:px-10 ${
+          className={`block w-full border-l-4 px-7 py-6 text-left text-base-content font-medium md:px-10 lg:px-7 xl:px-10 ${
             tabNumber === openTab
               ? 'border-primary bg-primary/[.13] text-dark dark:bg-dark-2 dark:text-base-content'
               : 'border-transparent text-body-color hover:border-primary hover:text-dark dark:text-dark-6 dark:hover:text-base-content'
@@ -178,7 +178,7 @@ const ContentItem = ({ title, text, text2, children, tabNumber }) => {
     <StateContext.Consumer>
       {({ openTab }) => (
         <div className={`${openTab === tabNumber ? 'block' : 'hidden'}`}>
-          <h2 className='mb-6 text-3xl font-semibold text-dark dark:text-white'>
+          <h2 className='mb-6 text-3xl font-semibold text-base-content'>
             {title}
           </h2>
           <p className='mb-8 text-base leading-relaxed text-body-color dark:text-dark-6'>

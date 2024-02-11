@@ -32,8 +32,9 @@ const Announcement = () => {
 
   return (
     <AnnouncementContext.Provider value={{ data, searchValues }}>
-      <h2 className='text-primary text-center md:text-xl'>
-        Delegate, please: click on the button "announce dead" in the deceased
+      <h2 className='text-primary  md:text-xl'>
+        Delegate, check the name again to make sure you are announcing the right
+        death and bravely click on the button "announce dead" in the deceased
         member's card to announce the death. may his or her soul rest in peace.
       </h2>
       <AnnouncementSearchContainer />
