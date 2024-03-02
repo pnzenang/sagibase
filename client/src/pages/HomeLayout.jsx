@@ -19,9 +19,7 @@ const HomeLayout = () => {
       {/* <Header /> */}
       <Navbar />
       <Sidebar />
-      <section className='py-20'>
-        {isPageLoading ? <Loading /> : <Outlet />}
-      </section>
+      <section className=''>{isPageLoading ? <Loading /> : <Outlet />}</section>
       <Footer />
     </HomeContext.Provider>
   );
