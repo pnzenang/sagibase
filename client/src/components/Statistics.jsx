@@ -25,7 +25,7 @@ const Stats2 = () => {
             icon={<TbUserDollar className='w-10 h-10 text-primary' />}
           />
           <StatsItem
-            user='$2,500,000+'
+            user='$9,000,000+'
             title='Total Payouts to date'
             icon={<GiMoneyStack className='w-10 h-10 text-primary' />}
           />
