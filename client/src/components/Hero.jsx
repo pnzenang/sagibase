@@ -41,6 +41,7 @@ const Hero12 = () => {
                   is the hallmark of the African solidarity.
                   <br />
                   SAGI membership give us protection and peace of mind.
+                  <br />
                   Moreover, at SAGI we give with love.
                 </p>
               </div>
