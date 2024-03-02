@@ -40,7 +40,8 @@ const Hero12 = () => {
                   effort together every time one of our member falls. It is that
                   is the hallmark of the African solidarity.
                   <br />
-                  SAGI membership give us protection and peace of mind.
+                  SAGI membership give us a sense of protection and peace of
+                  mind.
                   <br />
                   Moreover, at SAGI we give with love.
                 </p>
