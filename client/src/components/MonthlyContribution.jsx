@@ -3,14 +3,15 @@ import { FaSearchDollar } from 'react-icons/fa';
 import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
 
-let totalContribution = 160000;
-
-let totalVestedMember = 9000;
+let totalContribution = '$160,000';
+let totalVestedMember = '9,000';
+let contributionPerMember = '$16.88';
+let individualContribution = '$2.11';
 
 const Stats2 = () => {
   return (
     <section
-      className='min-h-screen  bg-base-200 pb-10 pt-10 dark:bg-dark lg:pb-30 lg:pt-32 rounded-xl mt-32 mb-12'
+      className='min-h-screen  bg-base-100 pb-10 pt-10  lg:py-10  rounded-xl  '
       id='contribution'
     >
       <div className='mx-auto px-4 sm:container p-32'>
@@ -39,13 +40,13 @@ const Stats2 = () => {
           />
           <StatsItem
             title='for about:'
-            user='$17.36'
+            user={contributionPerMember}
             detail='contribution per member'
             icon={<TbUserDollar className='w-10 h-10' />}
           />
           <StatsItem
             title='and:'
-            user='$2.17'
+            user={individualContribution}
             detail='individual contribution per death'
             icon={<AiOutlineDollarCircle className='w-10 h-10' />}
           />
@@ -60,7 +61,7 @@ export default Stats2;
 const StatsItem = ({ user, title, icon, detail }) => {
   return (
     <div className='w-full px-4 sm:w-1/2 lg:w-1/4 '>
-      <div className='mb-10 text-center '>
+      <div className=' text-center '>
         <h3 className='mb-4 text-xl sm:text-2xl capitalize'>{title}</h3>
         <div className='mx-auto mb-8 flex h-[90px] w-[90px] items-center justify-center rounded-[15px] bg-base-300 text-primary shadow-1 dark:bg-dark-2 dark:shadow-box-dark'>
           {icon}

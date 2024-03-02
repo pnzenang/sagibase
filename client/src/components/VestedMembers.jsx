@@ -5,12 +5,12 @@ const VestedMembers = () => {
   return (
     <section
       id='list'
-      className='min-h-screen bg-base-200 py-10 lg:py-32 lg:my-32 rounded-xl'
+      className='min-h-screen bg-base-100 py-10 lg:py-20  rounded-xl'
     >
-      <div className='container mx-auto '>
-        <div className=' flex flex-wrap items-center pt-20'>
+      <div className='container mx-auto align-element'>
+        <div className=' flex flex-wrap items-center justify-center py-10'>
           <div className='w-full px-4 md:w-5/12 lg:w-6/12'>
-            <div className='relative z-10 mb-14 mr-5 md:mb-0 md:mr-10 lg:mr-14'>
+            <div className='relative z-10 mb-14 mr-5 md:mb-0 md:mr-10 lg:mr-'>
               <img src={list} alt='image' className='mx-auto w-full' />
 
               <div className='absolute -bottom-5 -right-5 -z-10 block h-full w-full bg-primary lg:-bottom-7 lg:-right-7'></div>

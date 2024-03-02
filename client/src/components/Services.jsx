@@ -13,7 +13,7 @@ const Services = () => {
         <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto'></div>
       </div>
 
-      <div className='service-center section-center mt-20 text-center grid gap-5 '>
+      <div className='service-center section-center mt-20 text-center grid gap-5 align-element '>
         <article className='card bg-base-200 hover:bg-base-100 shadow-md rounded-md service hover:text-white p-8 text-center border-2 border-base-100 hover:border-primary'>
           <div className='text-3xl text-base-content '>
             <RiFocus2Line className='text-8xl icon ' />

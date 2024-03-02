@@ -45,3 +45,4 @@ export { default as AdminNecrologyMember } from './AdminNecrologyMember';
 export { default as Team } from './Team';
 export { default as Delegates } from './Delegates';
 export { default as Loading } from './Loading';
+export { default as MapComponent } from './MapComponent';

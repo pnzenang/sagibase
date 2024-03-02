@@ -2,8 +2,8 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <section className='overflow-hidden bg-dark pb-20 pt-20 lg:pb-[10] lg:pt-[120px]'>
-      <div className='container mx-auto'>
+    <section className='overflow-hidden bg-base-200 pb-20 pt-10 lg:pb-[10] lg:pt-[50px]'>
+      <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>
             <div className='mx-auto mb-[60px] max-w-[510px] text-center'>
@@ -73,7 +73,7 @@ const TeamCard = ({
   return (
     <>
       <div className='w-full px-4 sm:w-1/2 lg:w-1/3 xl:w-1/4 '>
-        <div className='group mb-8 bg-white dark:bg-dark-2'>
+        <div className='group mb-8 bg-base-100'>
           <div className='relative'>
             <img src={imageSrc} alt='team' className='w-full' />
             <div className='absolute bottom-0 left-0 flex w-full items-center justify-center space-x-4 opacity-0 transition-all group-hover:bottom-6 group-hover:opacity-100'>

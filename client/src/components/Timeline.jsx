@@ -18,7 +18,7 @@ const Timeline = () => {
           <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto mb-20'></div>
         </div>
 
-        <div className='section-center timeline-center '>
+        <div className='section-center timeline-center align-element'>
           <article className='timeline-item bg-base-200  '>
             <h4 className='text-3xl font-extrabold px-6 sm:px-14 italic text-cyan-600 pb-2'>
               Before 2009

@@ -5,7 +5,6 @@ export { default as Error } from './Error';
 export { default as Home } from './Home';
 export { default as HomeLayout } from './HomeLayout';
 export { default as Landing } from './Landing';
-
 export { default as Login } from './Login';
 export { default as Updates } from './Updates';
 export { default as Team } from './Team';
@@ -29,3 +28,4 @@ export { default as AdminEditMember } from './AdminEditMember';
 export { default as AdminEditDeceased } from './AdminEditDeceased';
 export { default as DeathAnnouncement } from './DeathAnnouncement';
 export { default as SingleNecrology } from './SingleNecrology';
+

@@ -11,9 +11,9 @@ const Tabs = ({ color }) => {
   return (
     <>
       <div className='flex flex-wrap'>
-        <div className=''>
+        <div className='align-element'>
           <ul
-            className='flex mb-0 list-none flex-wrap pt-3 pb-4 gap-4 '
+            className='flex mb-0 list-none flex-wrap pt-3 pb-4 gap-4 align-element'
             role='tablist'
           >
             <li className='-mb-px  last:mr-0 flex-auto text-center'>

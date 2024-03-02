@@ -75,15 +75,6 @@ const Register = () => {
             <SubmitBtn text='register' />
           </div>
         </div>
-        <p className='text-center '>
-          Already a member?
-          <Link
-            to='/login'
-            className='ml-2 link link-hover link-primary capitalize'
-          >
-            login
-          </Link>
-        </p>
       </Form>
     </section>
   );

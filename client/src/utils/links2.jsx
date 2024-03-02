@@ -5,6 +5,7 @@ import { MdOutlineAnnouncement } from 'react-icons/md';
 import { MdOutlineAdminPanelSettings } from 'react-icons/md';
 import { TfiStatsUp } from 'react-icons/tfi';
 import { PiUsersFourLight, PiExcludeSquareDuotone } from 'react-icons/pi';
+import { SiGnuprivacyguard } from 'react-icons/si';
 
 const links2 = [
   {
@@ -46,6 +47,11 @@ const links2 = [
     text: 'all deceased-admin',
     path: 'all-deceased-admin',
     icon: <PiExcludeSquareDuotone />,
+  },
+  {
+    text: 'register',
+    path: 'register',
+    icon: <SiGnuprivacyguard />,
   },
 ];
 export default links2;

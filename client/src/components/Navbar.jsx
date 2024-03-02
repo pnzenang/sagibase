@@ -7,6 +7,7 @@ import { useHomeContext } from '../pages/HomeLayout';
 import { useDispatch } from 'react-redux';
 import { toggleTheme } from '../features/themeSlice';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { toggleSidebar } = useHomeContext();
@@ -37,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-end'>
           {/* THEME SETUP */}
-          <div className='w-11 h-11   flex items-center justify-center rounded-xl hover:shadow-xl hover:bg-base-100'>
+          <div className='w-11 h-11   flex items-center justify-center rounded-xl hover:shadow-xl hover:bg-base-100 mr-2'>
             <label className='swap swap-rotate '>
               <input type='checkbox' onChange={handleTheme} />
               {/* sun icon */}
@@ -45,6 +46,11 @@ const Navbar = () => {
               {/* moon icon */}
               <BsSun className='swap-off h-7 w-7  ' />
             </label>
+          </div>
+          <div className='flex gap-x-6 justify-center items-center my-7'>
+            <Link to='/login' className='btn btn-outline btn-primary'>
+              Login
+            </Link>
           </div>
         </div>
       </div>

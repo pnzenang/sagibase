@@ -16,10 +16,10 @@ const HomeLayout = () => {
 
   return (
     <HomeContext.Provider value={{ showSidebar, toggleSidebar }}>
-      <Header />
+      {/* <Header /> */}
       <Navbar />
       <Sidebar />
-      <section className='align-element py-20'>
+      <section className='py-20'>
         {isPageLoading ? <Loading /> : <Outlet />}
       </section>
       <Footer />

@@ -32,7 +32,7 @@ const ResetPassword = () => {
 
         <div className='mt-4'>
           <SubmitBtn text='send reset email' />
-          <p className='text-center mt-4'>
+          {/* <p className='text-center mt-4'>
             Not a member yet?
             <Link
               to='/register'
@@ -40,7 +40,7 @@ const ResetPassword = () => {
             >
               register
             </Link>
-          </p>
+          </p> */}
         </div>
       </Form>
     </section>

@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import {
+  register,
   getCurrentUser,
   getRegistrationStats,
   adminGetAllMembers,
@@ -13,6 +14,7 @@ import {
   validateUpdateUserInput,
   validateIdParam,
   validateIdParamForDeceased,
+  validateRegisterInput,
 } from '../middleware/validationMiddleware.js';
 import { authorizePermissions } from '../middleware/authMiddleware.js';
 import upload from '../middleware/multerMiddleware.js';
@@ -32,6 +34,9 @@ router.get('/admin/all-deceased-admin', [
   authorizePermissions('admin'),
   adminGetAllDeceased,
 ]);
+
+router.post('/admin/register', [authorizePermissions('admin'), register]);
+
 router.patch('/admin/admin-edit-member/:id', [
   authorizePermissions('admin'),
   validateIdParam,

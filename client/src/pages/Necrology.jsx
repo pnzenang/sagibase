@@ -31,7 +31,7 @@ const Necrology = () => {
   const { data, searchValues } = useLoaderData();
 
   return (
-    <section className='my-10'>
+    <section className='my-10 align-element'>
       <ScrollToTop smooth color='#0891b2' width='40' />
       <div>
         <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>

@@ -2,7 +2,6 @@ import { Router } from 'express';
 const router = Router();
 import {
   login,
-  register,
   forgotPassword,
   resetPassword,
   logout,
@@ -22,7 +21,7 @@ const apiLimiter = rateLimiter({
   message: { msg: 'IP rate limit exceeded; try again after 15 minutes' },
 });
 
-router.post('/register', apiLimiter, validateRegisterInput, register);
+// router.post('/register', apiLimiter, validateRegisterInput, register);
 router.post('/login', apiLimiter, validateLoginInput, login);
 router.get('/logout', logout);
 router.get('/necrology', necrology);

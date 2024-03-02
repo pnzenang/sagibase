@@ -19,7 +19,7 @@ const Footer = () => {
 
               <p className='mb-7 text-base text-gray-7'>
                 SAGI gather people from all areas of our motherland Cameroon fo
-                the awesome of helping each other.
+                the awesome purpose of helping each other.
               </p>
               <div className='-mx-3 flex items-center'>
                 <SocialLinks />

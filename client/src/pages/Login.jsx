@@ -34,12 +34,18 @@ const Login = () => {
           <SubmitBtn text='login' />
           <p className='text-center mt-4'>
             Not a member yet?
-            <Link
+            <a
+              href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+              className='ml-2 link link-hover link-primary capitalize'
+            >
+              register
+            </a>
+            {/* <Link
               to='/register'
               className='ml-2 link link-hover link-primary capitalize'
             >
               register
-            </Link>
+            </Link> */}
           </p>
           <p className='text-center mt-4'>
             Forgot password?

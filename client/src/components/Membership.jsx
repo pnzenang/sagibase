@@ -3,7 +3,7 @@ import { PiUserFocusDuotone } from 'react-icons/pi';
 import working from '../assets/images/workingSagi.jpg';
 const Membership = () => {
   return (
-    <section className='overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-base-100'>
+    <section className='overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-2 bg-base-100'>
       <div className='container mx-auto'>
         <div className='flex flex-wrap items-center justify-between -mx-4'>
           <div className='w-full px-4 lg:w-6/12'>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa6';
 const RegistrationFaqs = () => {
   return (
-    <section className='relative z-2 overflow-hidden bg-base-100 pb-12 pt-20 dark:bg-dark lg:pb-12 lg:pt-[70px]'>
+    <section className='relative z-2 overflow-hidden bg-base-200 pb-12 pt-20 dark:bg-dark lg:pb-12 lg:pt-[70px]'>
       <div className='container mx-auto'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>

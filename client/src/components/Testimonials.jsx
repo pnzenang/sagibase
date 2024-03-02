@@ -6,8 +6,8 @@ import testimonyUser from '../assets/images/testimonyUser.png';
 
 const Testimonial5 = () => {
   return (
-    <section className='pb-10 pt-20 dark:bg-dark lg:pb-10 lg:pt-[150px]'>
-      <div className='container mx-auto'>
+    <section className='pb-10 pt-10 dark:bg-dark lg:pb-5 lg:pt-[100px]'>
+      <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap justify-center'>
           <div className='w-full px-4'>
             <div className='mb-[60px] max-w-[600px] lg:mb-[70px]'>
@@ -25,27 +25,30 @@ const Testimonial5 = () => {
         <div className='-mx-4 flex flex-wrap justify-center'>
           <SingleTestimonial
             image={testimonyUser}
-            name='Jason Keys'
-            position='Founder @ Dreampeet.'
-            details="I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys."
+            name='Pecky PENE'
+            position='President Haut-Nkam Washington DC'
+            details='SAGI: UN GROS ET MERVEILLEUX CADEAU DE NOEL POUR TOUS!
+Initialement une fete chretienne pour celebrer la naissance du Christ, la fete de Noel est devenu au fil des annees une fete populaire pendant laquelle nous faisons plaisir aux enfants en leur remettant des cadeaux, et aussi une occasion de retrouvaille entre les membres de la famille et les amis.
+.'
           />
           <SingleTestimonial
             image={testimonyUser}
-            name='Anee Doe'
-            position='CEO @ Trorex.'
-            details="I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys."
+            name='Pecky PENE'
+            position='President Haut-Nkam Washington DC'
+            details=' Deux (2) membres decedes et repatries en 2 ans coutent pres de $300 par membre avec cette ancienne formule inefficace, alors qu’avec la SAGI les memes $300 enveront le corps de plus de 150 freres et soeurs jusque dans leur villages. Les membres de leurs  familles recevront egalement une envelope de pres $5000 (cinq mil dollars) pour l’organisation des obseques.'
           />
           <SingleTestimonial
             image={testimonyUser}
-            name='Dipali Dow'
-            position='Founder @ Cradow.'
-            details="I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys."
+            name='Innocent Chia'
+            position='Citizen Journalist.'
+            details=' The majority of Cameroonians who are neither home owners nor car owners list the death of a loved one in America as their largest single expenditure – other than a trip to the emergency room…. But that may be over now. An association has come to the rescue with a scheme where members spend a maximum of $15.00 and the corpse is taken all the way to the village in Cameroon.'
           />
           <SingleTestimonial
             image={testimonyUser}
-            name='John Doe'
-            position='Founder @ Poettry.'
-            details="I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys."
+            name='Alliance Tchokonte'
+            position='Awesome Group Las Vegas.'
+            details=' LE MERVEILLEUX CADEAU DE LA SAGI:  $ 1.95 DE CONTRIBUTION PAR DECES
+Il y’a de cela quelques annees seulement, le repatriement de la depouille des camerounais decedes’ aux Etats-Unis etait tres difficile, tres complique’ et tres cher. C’etait l’epreuve la plus terrifiante pour une famille et  une communaute’. Plusieurs solutions ont ete’ experimentees’, mais SAGI a enfin trouve la cle, Dieu merci'
           />
         </div>
       </div>

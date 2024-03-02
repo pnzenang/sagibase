@@ -16,7 +16,7 @@ const Sidebar = () => {
           showSidebar ? 'sidebar show-sidebar' : 'sidebar bg-base-100  '
         }
       >
-        <div className='nav-header mx-4'>
+        <div className='nav-header mx-4 '>
           <div>
             <Logo />
           </div>
@@ -36,7 +36,7 @@ const Sidebar = () => {
             );
           })}
         </ul>
-        <div className='flex gap-x-6 justify-center items-center'>
+        {/* <div className='flex gap-x-6 justify-center items-center'>
           <Link
             to='/login'
             className='link link-hover text-xs sm:text-sm btn btn-primary'
@@ -49,7 +49,7 @@ const Sidebar = () => {
           >
             Register
           </Link>
-        </div>
+        </div> */}
         <div className='social-links'>
           <SocialLinks />
         </div>
@@ -64,7 +64,7 @@ const Wrapper = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 12;
+    z-index: 50;
     transition: all 0.3s linear;
     display: grid;
     grid-template-columns: 1fr;
@@ -113,7 +113,7 @@ const Wrapper = styled.section`
     margin-bottom: 5rem;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 992px) {
     transform: translateX(-100%);
   }
 `;

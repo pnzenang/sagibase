@@ -14,7 +14,8 @@ const NavLinks2 = () => {
             role === 'user' &&
             (path === 'admin' ||
               path === 'all-members-admin' ||
-              path === 'all-deceased-admin')
+              path === 'all-deceased-admin' ||
+              path === 'register')
           )
             return;
         }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Delegates = () => {
   return (
-    <section className='overflow-hidden bg-tg-bg pb-10 pt-10 dark:bg-dark lg:pb-5 lg:pt-5'>
-      <div className='container mx-auto'>
+    <section className='overflow-hidden bg-tg-bg pb-10 pt-10 lg:pb-5 lg:pt-20'>
+      <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap justify-center'>
           <TeamCard
             imageSrc='https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-01.png'
@@ -62,9 +62,9 @@ const TeamCard = ({
   instagramLink,
 }) => {
   return (
-    <div className='w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4'>
-      <div className='group mb-8 rounded-[5px] bg-white px-5 pb-10 pt-12 shadow-xl dark:bg-dark-2 dark:shadow-box-dark'>
-        <div className='relative z-10 mx-auto mb-5 h-[120px] w-[120px]'>
+    <div className='w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4 '>
+      <div className='group mb-8 rounded-[5px] px-5 pb-10 pt-12 shadow-xl bg-base-200 dark:shadow-box-dark '>
+        <div className='relative z-10 mx-auto mb-5 h-[120px] w-[120px] '>
           <img
             src={imageSrc}
             alt='team'

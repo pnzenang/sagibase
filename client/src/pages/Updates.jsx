@@ -9,7 +9,7 @@ import VestedMembers from '../components/VestedMembers';
 const Updates = () => {
   return (
     <Wrapper>
-      <section className=' my-10 '>
+      <section className=' my-10  '>
         <ScrollToTop smooth color='#0891b2' width='40' />
         <div>
           <div className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content '>
@@ -18,7 +18,7 @@ const Updates = () => {
           <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto   '></div>
         </div>
       </section>
-      <ul className='grid sm:grid-cols-2 gap-4 my-20 '>
+      <ul className='grid sm:grid-cols-2 gap-4 my-20 align-element '>
         {updateInfo.map((update) => {
           return (
             <li key={update.id}>

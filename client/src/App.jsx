@@ -134,12 +134,6 @@ const router = createBrowserRouter([
     action: loginAction,
   },
   {
-    path: '/register',
-    element: <Register />,
-    errorElement: <Error />,
-    action: registerAction,
-  },
-  {
     path: '/reset',
     element: <ResetPassword />,
     errorElement: <Error />,
@@ -241,6 +235,12 @@ const router = createBrowserRouter([
         errorElement: <ErrorElement />,
         action: adminEditDeceasedAction,
         loader: adminEditDeceasedLoader,
+      },
+      {
+        path: 'register',
+        element: <Register />,
+        errorElement: <Error />,
+        action: registerAction,
       },
     ],
   },
