@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div className='w-full'>
                     <h4 className='mb-1 text-xl font-bold text-base-content'>
-                      Our Location
+                      Location
                     </h4>
                     <p className='text-base-content'>
                       23612 Public House Road
