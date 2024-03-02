@@ -71,7 +71,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='mb-1 text-xl font-bold text-dark dark:text-white'>
+                    <h4 className='mb-1 text-xl font-bold text-base-content'>
                       Phone Number
                     </h4>
                     <p className='text-base text-body-color dark:text-dark-6'>
@@ -96,7 +96,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='mb-1 text-xl font-bold text-dark dark:text-white'>
+                    <h4 className='mb-1 text-xl font-bold text-base-content'>
                       Email Address
                     </h4>
                     <p className='text-base text-body-color dark:text-dark-6'>
