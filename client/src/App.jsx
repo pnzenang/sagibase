@@ -21,7 +21,6 @@ import {
   AddMembers,
   AllMembers,
   Announcement,
-  AssociationList,
   Stats,
   Profile,
   Admin,
@@ -181,11 +180,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorElement />,
         action: profileAction,
       },
-      {
-        path: 'list',
-        element: <AssociationList />,
-        errorElement: <ErrorElement />,
-      },
+
       {
         path: 'admin',
         element: <Admin />,

@@ -18,8 +18,8 @@ const AnnouncementMembersContainer = () => {
     return (
       <>
         <h1 className='text-3xl'>
-          Hey delegate, members need first to be vested and declared deceased in
-          order to receive benefits, please add vested and deceased members.
+          Hey delegate, members need to be vested and declared deceased in order
+          to receive benefits, please add vested and deceased members.
         </h1>
       </>
     );

@@ -1,7 +1,4 @@
-import {
-  FormInputs,
-  FormSelects,
-} from '../components';
+import { FormInputs, FormSelects } from '../components';
 import { styled } from 'styled-components';
 
 import {

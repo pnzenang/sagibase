@@ -18,6 +18,7 @@ const links2 = [
     path: '.',
     icon: <TbUsersGroup />,
   },
+
   {
     text: 'delegate profile',
     path: 'profile',
@@ -28,11 +29,13 @@ const links2 = [
     path: 'announcement',
     icon: <MdOutlineAnnouncement />,
   },
+
   {
     text: 'stats',
     path: 'stats',
     icon: <TfiStatsUp />,
   },
+
   {
     text: 'admin',
     path: 'admin',
@@ -43,6 +46,7 @@ const links2 = [
     path: 'all-members-admin',
     icon: <PiUsersFourLight />,
   },
+
   {
     text: 'all deceased-admin',
     path: 'all-deceased-admin',

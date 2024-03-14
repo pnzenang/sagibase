@@ -17,7 +17,6 @@ export { default as DashboardLayout } from './DashboardLayout';
 export { default as AddMembers } from './AddMembers';
 export { default as Announcement } from './Announcement';
 export { default as AllMembers } from './AllMembers';
-export { default as AssociationList } from './AssociationList';
 export { default as Profile } from './Profile';
 export { default as Stats } from './Stats';
 export { default as Admin } from './Admin';
@@ -28,4 +27,3 @@ export { default as AdminEditMember } from './AdminEditMember';
 export { default as AdminEditDeceased } from './AdminEditDeceased';
 export { default as DeathAnnouncement } from './DeathAnnouncement';
 export { default as SingleNecrology } from './SingleNecrology';
-

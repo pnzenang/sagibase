@@ -31,7 +31,7 @@ const Register = () => {
     <section className='h-full grid  place-items-center mt-6'>
       <Form
         method='POST'
-        className='card w-96 lg:w-2/5 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 border-t-4 border-primary'
+        className='card w-96 lg:w-3/5 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 border-t-4 border-primary'
       >
         <Logo />
         <h4 className='text-center text-3xl font-bold mt-4'>Register</h4>
