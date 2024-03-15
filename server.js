@@ -43,7 +43,15 @@ app.use(express.static(path.resolve(__direname, './client/dist')));
 
 app.use(cookieParser());
 app.use(express.json());
-// app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        'script-src': ["'self'", 'https://cloudinary.com'],
+      },
+    },
+  })
+);
 app.use(mongoSanitize());
 
 app.use('/api/v1/members', authenticateUser, memberRouter);
