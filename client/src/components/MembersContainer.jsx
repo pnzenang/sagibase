@@ -18,7 +18,7 @@ const TdStyle = {
 };
 
 const MembersContainer = () => {
-  const [layout, setLayout] = useState('grid');
+  const [layout, setLayout] = useState('list');
   const setActiveStyles = (pattern) => {
     return `text-xl btn btn-circle btn-sm ${
       pattern === layout
