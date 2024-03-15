@@ -1,7 +1,7 @@
-import { FormInput, SubmitBtn, FormDate, FormSelect } from '../components'
-import { styled } from 'styled-components'
-import day from 'dayjs'
-import advancedFormat from 'dayjs/plugin/advancedFormat'
+import { FormInput, SubmitBtn, FormDate, FormSelect } from '../components';
+import { styled } from 'styled-components';
+import day from 'dayjs';
+import advancedFormat from 'dayjs/plugin/advancedFormat';
 
 import {
   Form,
@@ -9,41 +9,41 @@ import {
   redirect,
   useOutletContext,
   useLoaderData,
-} from 'react-router-dom'
+} from 'react-router-dom';
 import {
   MEMBER_STATUS,
   DELEGATE_RECOMMENDATIONS,
-} from '../../../utils/constants'
-import { toast } from 'react-toastify'
-import customFetch from '../utils/customFetch'
+} from '../../../utils/constants';
+import { toast } from 'react-toastify';
+import customFetch from '../utils/customFetch';
 
 export const loader = async ({ params }) => {
   try {
-    const { data } = await customFetch.get(`/members/${params.id}`)
+    const { data } = await customFetch.get(`/members/${params.id}`);
 
-    return data
+    return data;
   } catch (error) {
-    toast.error(error?.response?.data?.msg)
-    return redirect('/dashboard/all-members')
+    toast.error(error?.response?.data?.msg);
+    return redirect('/dashboard/all-members');
   }
-}
+};
 
 export const action = async ({ request, params }) => {
-  const formData = await request.formData()
-  const data = Object.fromEntries(formData)
+  const formData = await request.formData();
+  const data = Object.fromEntries(formData);
   try {
-    await customFetch.patch(`/members/${params.id}`, data)
-    toast.success('member edited successfully')
-    return redirect('/dashboard')
+    await customFetch.patch(`/members/${params.id}`, data);
+    toast.success('member edited successfully');
+    return redirect('/dashboard');
   } catch (error) {
-    toast.error(error?.response?.data?.msg)
-    return error
+    toast.error(error?.response?.data?.msg);
+    return error;
   }
-}
+};
 
 const EditMember = () => {
-  const { member } = useLoaderData()
-  const { user } = useOutletContext()
+  const { member } = useLoaderData();
+  const { user } = useOutletContext();
 
   return (
     <section className='h-full grid  place-items-center mt-20 '>
@@ -94,7 +94,7 @@ const EditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              value={member.dateOfBirth}
+              value={day(member.dateOfBirth).format('MMM Do, YYYY')}
               onChange={() => null}
             />
           ) : (
@@ -102,7 +102,7 @@ const EditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              defaultValue={member.dateOfBirth}
+              defaultValue={day(member.dateOfBirth).format('MMM Do, YYYY')}
               onChange={() => null}
             />
           )}
@@ -193,6 +193,6 @@ const EditMember = () => {
         </div>
       </Form>
     </section>
-  )
-}
-export default EditMember
+  );
+};
+export default EditMember;

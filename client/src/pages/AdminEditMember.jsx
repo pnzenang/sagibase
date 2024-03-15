@@ -134,7 +134,7 @@ const AdminEditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              value={member.dateOfBirth}
+              value={day(member.dateOfBirth).format('MMM Do, YYYY')}
               onChange={() => null}
             />
           ) : (
@@ -142,7 +142,7 @@ const AdminEditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              defaultValue={member.dateOfBirth}
+              defaultValue={day(member.dateOfBirth).format('MMM Do, YYYY')}
               onChange={() => null}
             />
           )}
