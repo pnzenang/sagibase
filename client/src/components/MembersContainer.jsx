@@ -57,10 +57,10 @@ const MembersContainer = () => {
 
       <div>
         {members.length === 0 ? (
-          <h4 className='text-2xl mt-16 text-center'>
+          <h4 className='text-2xl mt-16 '>
             {' '}
-            Welcome Delegate, your association has no members now in this
-            category at this time.
+            Welcome Delegate, your association has no members in this category
+            at this time.
           </h4>
         ) : layout === 'grid' ? (
           <>
