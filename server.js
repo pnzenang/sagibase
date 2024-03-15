@@ -9,7 +9,7 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 import cloudinary from 'cloudinary';
-import helmet from 'helmet';
+import helmet, { contentSecurityPolicy } from 'helmet';
 import mongoSanitize from 'express-mongo-sanitize';
 
 //routers
@@ -43,7 +43,7 @@ app.use(express.static(path.resolve(__direname, './client/dist')));
 
 app.use(cookieParser());
 app.use(express.json());
-app.use(helmet());
+app.use(helmet.contentSecurityPolicy.getDefaultDirectives());
 app.use(mongoSanitize());
 
 app.use('/api/v1/members', authenticateUser, memberRouter);
