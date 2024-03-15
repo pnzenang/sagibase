@@ -39,17 +39,17 @@ const MembersContainer = () => {
         <div className='flex gap-x-2'>
           <button
             type='button'
-            onClick={() => setLayout('grid')}
-            className={setActiveStyles('grid')}
-          >
-            <BsFillGridFill />
-          </button>
-          <button
-            type='button'
             onClick={() => setLayout('list')}
             className={setActiveStyles('list')}
           >
             <BsList />
+          </button>
+          <button
+            type='button'
+            onClick={() => setLayout('grid')}
+            className={setActiveStyles('grid')}
+          >
+            <BsFillGridFill />
           </button>
         </div>
       </div>
