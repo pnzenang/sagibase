@@ -3,10 +3,7 @@ import list from '../assets/images/list.svg';
 
 const VestedMembers = () => {
   return (
-    <section
-      id='list'
-      className='min-h-screen bg-base-100 py-10 lg:py-20  rounded-xl'
-    >
+    <section id='list' className=' bg-base-100 py-10 lg:py-20  rounded-xl'>
       <div className='container mx-auto align-element'>
         <div className=' flex flex-wrap items-center justify-center py-10'>
           <div className='w-full px-4 md:w-5/12 lg:w-6/12'>

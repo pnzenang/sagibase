@@ -11,11 +11,11 @@ let individualContribution = '$2.11';
 const Stats2 = () => {
   return (
     <section
-      className='min-h-screen  bg-base-100 pb-10 pt-10  lg:py-10  rounded-xl  '
+      className='  bg-base-100  pt-10  lg:py-10  rounded-xl  '
       id='contribution'
     >
-      <div className='mx-auto px-4 sm:container p-32'>
-        <div className='mx-auto mb-[70px] max-w-[570px] text-center'>
+      <div className='mx-auto px-4 sm:container p-20'>
+        <div className='mx-auto mb-[70px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-5xl capitalize'>
             Our contribution this month
           </h2>
@@ -67,7 +67,7 @@ const StatsItem = ({ user, title, icon, detail }) => {
           {icon}
         </div>
         <div className=''>
-          <h3 className='mb-[10px] text-3xl font-bold leading-[1.2] text-base-contentxl:text-[40px]'>
+          <h3 className='mb-[10px] text-3xl font-bold leading-[1.2] text-base-content xl:text-[40px]'>
             {user}
           </h3>
           <p className='w-48 text-lg text-body-color dark:text-dark-6  mx-auto'>

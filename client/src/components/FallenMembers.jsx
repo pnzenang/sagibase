@@ -1,75 +1,98 @@
-const tableData = [
-  {
-    firstName: 'Patrice',
-    lastAndMiddleName: 'Nzenang',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'UNAD',
-  },
-  {
-    firstName: 'Andre',
-    lastAndMiddleName: 'Mambo',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'UNND',
-  },
-  {
-    firstName: 'Toto',
-    lastAndMiddleName: 'Albert',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'UASD',
-  },
-  {
-    firstName: 'Albertin',
-    lastAndMiddleName: 'Jeameau',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'MUNN',
-  },
-  {
-    firstName: 'Merlin',
-    lastAndMiddleName: 'Noutabt',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'USAM',
-  },
-  {
-    firstName: 'derivc',
-    lastAndMiddleName: 'cdrer',
-    DateOfDeath: '05-Jan-2024',
-    DateAnnounced: '14-Jan-2024',
-    association: 'USAM',
-  },
-];
+const TdStyle = {
+  ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-6 px-3 text-lg font-medium text-white lg: py-7 lg:px-4`,
+  TdStyle: `text-dark border-t  border-primary bg-base-100 dark:bg-dark-3 dark:border-dark dark:text-dark-7 py-8 px-2 text-center text-base font-medium`,
+  TdStyle2: `text-dark border-t border-primary bg-base-100 dark:border-dark dark:bg-dark-2 dark:text-dark-7 py-5 px-2 text-center text-base font-medium`,
+};
 
-const headers = [
-  { name: 'first names', styles: 'min-w-[220px] text-base-content' },
-  { name: 'last and middle  ', styles: 'min-w-[150px] text-base-content' },
-  { name: 'date of death', styles: 'min-w-[120px] text-base-content' },
-  { name: 'date announced', styles: 'min-w-[100px] text-base-content' },
-  { name: 'Association', styles: 'min-w-[100px] text-base-content' },
-];
-
-const FallenMembers = () => {
+const Table = () => {
   return (
-    <section
-      id='death'
-      className='bg-base-200 my-28 py-20 lg:py-[120px] rounded-xl'
-    >
-      <h1 className='text-center pb-10 text-xl sm:text-5xl'>
-        Fallen Members for whom we are contributing.
-      </h1>
-      <div className='container mx-auto'>
-        <div className='-mx-4  flex flex-wrap justify-center'>
-          <div className='w-full px-4 lg:w-10/12'>
-            <div className='p-6 bg-base-300 rounded-[10px]  shadow-[0px_1px_4px_0px_rgba(0,0,0,0.15)] lg:p-9'>
-              <div className='max-w-full overflow-x-auto'>
-                <table className='w-full table-auto '>
-                  <TableHead headers={headers} />
-                  <TableBody data={tableData} />
-                </table>
-              </div>
+    <section className=' dark:bg-dark lg:py-20 bg-base-200 mx-auto' id='death'>
+      <div className='align-element'>
+        <div className='flex flex-wrap '>
+          <div className='w-full '>
+            <div className='max-w-full overflow-x-auto '>
+              <h1 className='text-2xl text-center sm:text-5xl py-10 font-bold '>
+                Members for whom we are contributing for this month.
+              </h1>
+              <table className='w-full table-auto'>
+                <thead className='text-center bg-primary'>
+                  <tr>
+                    <th className={TdStyle.ThStyle}> Matriculation </th>
+                    <th className={TdStyle.ThStyle}> First Name </th>
+                    <th className={TdStyle.ThStyle}> Last Name </th>
+                    <th className={TdStyle.ThStyle}> Registration Date </th>
+                    <th className={TdStyle.ThStyle}> Date of Death </th>
+                    <th className={TdStyle.ThStyle}> Publication Date </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                  <tr>
+                    <td className={TdStyle.TdStyle}>ASANNA234567</td>
+                    <td className={TdStyle.TdStyle2}>Manfred</td>
+                    <td className={TdStyle.TdStyle}>MANDIN ATOGA</td>
+                    <td className={TdStyle.TdStyle2}>3-MAR-2022</td>
+                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>6-FEB-2024</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
@@ -77,49 +100,5 @@ const FallenMembers = () => {
     </section>
   );
 };
-export default FallenMembers;
 
-const TableHead = ({ headers }) => {
-  return (
-    <thead>
-      <tr className='text-left rounded  bg-primary'>
-        {headers.map((header, index) => (
-          <th
-            className={`py-4 px-4 first:pl-9 xl:first:pl-11 last:pr-9 xl:last:pr-11 text-base font-medium uppercase text-white ${header.styles}`}
-            key={index}
-          >
-            {header.name}
-          </th>
-        ))}
-      </tr>
-    </thead>
-  );
-};
-
-const TableBody = ({ data }) => {
-  return (
-    <tbody>
-      {data.map((row, index) => (
-        <tr key={index}>
-          <td className='px-4 py-10 border-b border-stroke dark:border-dark-3 pl-9 xl:pl-11'>
-            <h5 className='text-base font-medium text-base-content'>
-              {row.firstName}
-            </h5>
-          </td>
-          <td className='px-4 py-5 border-b border-stroke dark:border-dark-3'>
-            <p className='text-base-content'>{row.lastAndMiddleName}</p>
-          </td>
-          <td className='px-4 py-5 border-b border-stroke dark:border-dark-3'>
-            <p className='text-base-content'>{row.DateOfDeath}</p>
-          </td>
-          <td className='px-4 py-5 border-b border-stroke dark:border-dark-3'>
-            <p className='text-base-content'>{row.DateAnnounced}</p>
-          </td>
-          <td className='px-4 py-5 border-b border-stroke dark:border-dark-3'>
-            <p className='text-base-content'>{row.association}</p>
-          </td>
-        </tr>
-      ))}
-    </tbody>
-  );
-};
+export default Table;
