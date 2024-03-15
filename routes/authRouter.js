@@ -2,6 +2,7 @@ import { Router } from 'express';
 const router = Router();
 import {
   login,
+  register,
   forgotPassword,
   resetPassword,
   logout,
@@ -23,9 +24,9 @@ const apiLimiter = rateLimiter({
 
 // router.post('/register', apiLimiter, validateRegisterInput, register);
 router.post('/login', apiLimiter, validateLoginInput, login);
+router.post('/register', validateRegisterInput, register);
 router.get('/logout', logout);
 router.get('/necrology', necrology);
-
 router.post('/forgot', forgotPassword);
 router.post('/reset', validateResetPasswordInput, resetPassword);
 

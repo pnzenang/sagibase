@@ -4,17 +4,7 @@ import Member from '../models/MemberModel.js';
 import cloudinary from 'cloudinary';
 import { promises as fs } from 'fs';
 import DeceasedMember from '../models/DeceasedMemberModel.js';
-
-export const register = async (req, res) => {
-  const isdFirstAccount = (await User.countDocuments()) === 0;
-  req.body.role = isdFirstAccount ? 'admin' : 'user';
-
-  const hashedPassword = await hashPassword(req.body.password);
-  req.body.password = hashedPassword;
-
-  const user = await User.create(req.body);
-  res.status(StatusCodes.CREATED).json({ msg: 'user created' });
-};
+import { hashPassword } from '../utils/passwordUtils.js';
 
 export const getCurrentUser = async (req, res) => {
   const user = await User.findOne({ _id: req.user.userId });

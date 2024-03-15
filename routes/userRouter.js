@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import {
-  register,
   getCurrentUser,
   getRegistrationStats,
   adminGetAllMembers,
@@ -10,6 +9,7 @@ import {
   adminGetAllDeceased,
   adminUpdateDeceased,
 } from '../controllers/userController.js';
+import { register } from '../controllers/authController.js';
 import {
   validateUpdateUserInput,
   validateIdParam,
@@ -35,7 +35,7 @@ router.get('/admin/all-deceased-admin', [
   adminGetAllDeceased,
 ]);
 
-router.post('/admin/register', [authorizePermissions('admin'), register]);
+router.get('/auth/register', [authorizePermissions('admin'), register]);
 
 router.patch('/admin/admin-edit-member/:id', [
   authorizePermissions('admin'),

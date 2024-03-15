@@ -12,16 +12,16 @@ import DeceasedMember from '../models/DeceasedMemberModel.js';
 import crypto from 'crypto';
 import { sendResetPasswordEmail } from '../utils/sendResetPasswordEmail.js';
 
-// export const register = async (req, res) => {
-//   const isdFirstAccount = (await User.countDocuments()) === 0;
-//   req.body.role = isdFirstAccount ? 'admin' : 'user';
+export const register = async (req, res) => {
+  const isdFirstAccount = (await User.countDocuments()) === 0;
+  req.body.role = isdFirstAccount ? 'admin' : 'user';
 
-//   const hashedPassword = await hashPassword(req.body.password);
-//   req.body.password = hashedPassword;
+  const hashedPassword = await hashPassword(req.body.password);
+  req.body.password = hashedPassword;
 
-//   const user = await User.create(req.body);
-//   res.status(StatusCodes.CREATED).json({ msg: 'user created' });
-// };
+  const user = await User.create(req.body);
+  res.status(StatusCodes.CREATED).json({ msg: 'user created' });
+};
 
 export const login = async (req, res) => {
   const user = await User.findOne({ email: req.body.email });
@@ -116,8 +116,6 @@ export const necrology = async (req, res) => {
     .status(StatusCodes.OK)
     .json({ totalMembers, numOfPages, currentPage: page, necrology });
 };
-
-
 
 export const forgotPassword = async (req, res) => {
   const { email } = req.body;
