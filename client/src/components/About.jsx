@@ -7,40 +7,14 @@ import togetherSagi from '../assets/images/togetherSagi.jpg';
 const About = () => {
   return (
     <Wrapper>
-      {/* <section className='section'>
-        <div className='section-center about-center my-20'>
-          <article className='about-img'>
-            <img src={main} alt='awesome beach' className='about-photo' />
-          </article>
-          <article className='about-info'>
-            <h3 className='text-3xl capitalize font-extrabold text-gray-500'>
-              What is SAGI really about?
-            </h3>
-            <p className=' max-w-xl text-lg leading-8 p-1 text-gray-500'>
-              SAGI means "<span className='font-bold'>S</span>olidarite
-              <span className='font-bold'> Agi</span>ssante", simply the french
-              translation of "Active Solidarity".
-            </p>
-            <p className=' max-w-xl text-lg leading-8 p-1 text-gray-500 '>
-              The idea came about in 2009 when we noticed that most of the time,
-              when a Cameroonian died, the family and close friends of the
-              deceased were left to themselves to find ways to organize the
-              burial or repatriation and had to dispatched people to beg for
-              funds at churches' entrances or crossroads, and at the same time
-              the vigils were crowded with valiant Cameroonians who usually
-              helped, but the aid was dispersed and often never reach the real
-              recipients.
-            </p>
-            <p className=' max-w-xl text-lg leading-8 p-2 text-gray-500'>
-              SAGI's aim is to bring all Cameroonians and sympathizers , living
-              in United Sates, together under one group in order to organize the
-              donations amount so it reach its purpose.
-            </p>
-          </article>
+      <section className='overflow-hidden  pb-12 lg:pt-[120px] lg:pb-[90px] bg-base-200 rounded-lg '>
+        <div>
+          <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content '>
+            about us
+          </h1>
+          <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto mb-20'></div>
         </div>
-      </section> */}
-      <section className='overflow-hidden my-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-base-200 rounded-lg '>
-        <div className='container mx-auto p-10'>
+        <div className='container mx-auto p-10 align-element'>
           <div className='flex flex-wrap items-center justify-between -mx-4'>
             <div className='w-full px-4 lg:w-6/12'>
               <div className='flex items-center -mx-3 sm:-mx-4 '>

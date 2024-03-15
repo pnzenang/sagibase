@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <Wrapper>
       <div className=''>
-        <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content'>
+        <h1 className='text-3xl sm:text-6xl pt-14 text-center font-bold capitalize text-base-content'>
           Sagi mission
         </h1>
         <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto'></div>

@@ -2,13 +2,13 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <section className='overflow-hidden bg-base-200 pb-20 pt-10 lg:pb-[10] lg:pt-[50px]'>
+    <section className='overflow-hidden bg-base-200 pb-20 pt-10 lg:pb-20 lg:pt-[100px]'>
       <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>
             <div className='mx-auto mb-[60px] max-w-[510px] text-center'>
               <div>
-                <h1 className='text-3xl sm:text-6xl text-center font-bold capitalize text-base-content '>
+                <h1 className='text-3xl sm:text-6xl  text-center font-bold capitalize text-base-content '>
                   SAGI Team
                 </h1>
                 <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto mb-5'></div>
