@@ -10,7 +10,7 @@ const Hero12 = () => {
         'a peace of mind.',
         'a true solidarity.',
         'a dynamic help.',
-        'our noble culture.',
+        'a noble culture.',
       ],
       typeSpeed: 90,
       backSpeed: 90,
