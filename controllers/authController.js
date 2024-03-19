@@ -128,7 +128,7 @@ export const forgotPassword = async (req, res) => {
     const passwordToken = crypto.randomBytes(70).toString('hex');
     //send email
     // const origin = "http://active-solidarity-com.onrender.com";
-    const origin = 'https://sagibase.onrender.com/';
+    const origin = 'https://sagibase.onrender.com';
 
     await sendResetPasswordEmail({
       name: `${user.firstName}  ${user.lastAndMiddleNames}`,
