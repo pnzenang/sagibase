@@ -6,9 +6,9 @@ import { GiMoneyStack } from 'react-icons/gi';
 
 const Stats2 = () => {
   return (
-    <section className='bg-base-200 py-10 dark:bg-dark lg:py-20 '>
+    <section className='bg-base-200 py-10  lg:py-20  '>
       <div className='mx-auto px-10 sm:container align-element'>
-        <div className='-mx-4 flex flex-wrap'>
+        <div className='-mx-4 flex flex-wrap '>
           <StatsItem
             user='10,000+'
             title='Vested members'

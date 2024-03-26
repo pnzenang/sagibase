@@ -47,3 +47,4 @@ export { default as Delegates } from './Delegates';
 export { default as Loading } from './Loading';
 export { default as MapComponent } from './MapComponent';
 export { default as Partners } from './Partners';
+export { default as Mission } from './Mission';

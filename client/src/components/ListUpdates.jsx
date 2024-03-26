@@ -16,7 +16,7 @@ const Card2 = () => {
             CardTitle='SAGI Addition'
             titleHref='#'
             btnHref='#'
-            CardDescription='The Delegate add members to his or her group or association through his dashboard via the link "Add Member", so no more email sent to SAGI administration to request addition..'
+            CardDescription='The Delegate add members to his or her group or association through his dashboard via the link "Add Member", so no more email sent to SAGI administration to request addition.'
           />
           <SingleCard
             image={withdrawal}
@@ -30,14 +30,14 @@ const Card2 = () => {
             CardTitle='SAGI Transfer'
             titleHref='#'
             btnHref='#'
-            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Edit Recommendation: and select the option: TRANSFER.'
+            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Delegate Recommendation: and select the option: TRANSFER.'
           />
           <SingleCard
             image={nameExchange}
             CardTitle='Name Change'
             titleHref='#'
             btnHref='#'
-            CardDescription='The name change should be done by emailing and name change form before.  Should be accompanied by documentation unless it is a mistake on the name requiring change of letters '
+            CardDescription='The name change should be done by email. the delegate should  fill form F5 as requested and accompany  with documentation unless it is a mistake on the name requiring change of letters.'
           />
           <SingleCard
             image={deathAnnouncement}
@@ -51,7 +51,7 @@ const Card2 = () => {
             CardTitle='Contact Information '
             titleHref='#'
             btnHref='#'
-            CardDescription='The contact information update should be done by emailing Just like before.  in some case Should be accompanied by some documentation such from the court of immigration.'
+            CardDescription='The contact information update should be done by email Just like before. The delegate will have to fill out form F6 indicating the name phone number and email address of the new delegate.'
           />
         </div>
       </div>

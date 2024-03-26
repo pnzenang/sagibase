@@ -1,4 +1,4 @@
-import { Hero, Statistics, Partners } from '../components';
+import { Hero, Statistics, Partners, Mission } from '../components';
 import Testimonials from '../components/Testimonials';
 import Home from './Home';
 import ScrollToTop from 'react-scroll-to-top';
@@ -9,6 +9,7 @@ const Landing = () => {
       <ScrollToTop smooth color='#0891b2' width='40' />
       <Hero />
       <Statistics />
+      <Mission />
       <Partners />
       <Testimonials />
     </section>
