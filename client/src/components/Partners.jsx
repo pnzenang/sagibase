@@ -41,7 +41,7 @@ function AutoPlay() {
     ],
   };
   return (
-    <div className='slider-container py-10 sm:py-20  bg-primary text-white'>
+    <div className='slider-container py-16 sm:py-32  bg-primary text-white'>
       <Slider {...settings}>
         {associations.map((association) => {
           return (
