@@ -8,7 +8,7 @@ const Mission = () => {
           <div className='w-full px-4'>
             <div className='mx-auto mb-[60px] max-w-[710px] text-center lg:mb-[70px]'>
               <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]'>
-                What SAGI promises its members?
+                What SAGI promises to its members:
               </h2>
               <p className='text-base text-body-color dark:text-dark-6'>
                 There are many variations of passages of Lorem Ipsum available
@@ -22,22 +22,22 @@ const Mission = () => {
           <ServiceCard
             number='1'
             title='DEDICATION'
-            details='Lorem ipsum dolor amet adipiscing eiusmod.'
+            details='At SAGI, we are committed in helping people help each other.'
           />
           <ServiceCard
             number='2'
             title='FAIRNESS'
-            details='Lorem ipsum dolor amet adipiscing eiusmod.'
+            details='As SAGI, we serve without favoritism or discrimination.'
           />
           <ServiceCard
             number='3'
             title='CONSISTENCY'
-            details='Lorem ipsum dolor amet adipiscing eiusmod.'
+            details='At SAGI, we conformably apply the internal rules.'
           />
           <ServiceCard
             number='4'
             title='COMPASSION'
-            details='Lorem ipsum dolor amet adipiscing eiusmod.'
+            details='At SAGI we are concerned with the well being of the families.'
           />
         </div>
       </div>

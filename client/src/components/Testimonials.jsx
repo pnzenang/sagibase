@@ -8,10 +8,10 @@ const Testimonial5 = () => {
   return (
     <section className='pb-10 pt-10 dark:bg-dark lg:pb-5 lg:pt-[100px]'>
       <div className='container mx-auto align-element'>
-        <div className='-mx-4 flex flex-wrap justify-center'>
+        <div className='-mx-4 flex flex-wrap  justify-center'>
           <div className='w-full px-4'>
-            <div className='mb-[60px] max-w-[600px] lg:mb-[70px]'>
-              <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content sm:text-4xl md:text-[40px]'>
+            <div className='mb-[60px] max-w-[600px] lg:mb-[70px] text-center mx-auto'>
+              <h2 className='mb-3 text-3xl font-bold  leading-[1.2] text-base-content sm:text-4xl md:text-[40px]'>
                 What People Say about SAGI !
               </h2>
               <p className='text-base-content'>
