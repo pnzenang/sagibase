@@ -618,7 +618,7 @@ const About = () => {
 
             <div className='w-full px-4 lg:w-1/2 xl:w-5/12'>
               <div className='mt-10 lg:mt-0'>
-                <h2 className='mb-5 text-3xl font-bold text-base-content sm:text-[40px]/[48px]'>
+                <h2 className='mb-5 text-3xl font-bold text-base-content sm:text-4xl'>
                   What is SAGI really about?
                 </h2>
                 <p className='mb-5 text-base-content'>
@@ -634,14 +634,14 @@ const About = () => {
                   the deceased were left to themselves to find ways to organize
                   the burial or repatriation and had to dispatched people to beg
                   for funds at churches' entrances or crossroads, and at the
-                  same time the vigils were crowded with valiant Cameroonians
-                  who usually helped, but the aid was dispersed and often never
-                  reach the real recipients.
+                  same time the vigils were full of valiant Cameroonians who
+                  usually helped, but the aid was dispersed and often never
+                  reach the intended recipients.
                 </p>
                 <p className='mb-8 text-base text-body-color dark:text-dark-6'>
                   SAGI's aim is to bring all Cameroonians and sympathizers ,
                   living in United Sates, together under one group in order to
-                  organize the donations amount so it reach its purpose.
+                  organize the donations so they reach their intended purpose.
                 </p>
               </div>
             </div>

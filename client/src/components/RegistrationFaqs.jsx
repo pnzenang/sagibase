@@ -11,8 +11,8 @@ const RegistrationFaqs = () => {
                 Any Questions about registration?
               </h2>
               <p className='text-base text-body-color dark:text-dark-6'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Here, you can find answers to many questions you may have in
+                your mind about registering to SAGI at this time.
               </p>
             </div>
           </div>
@@ -21,12 +21,12 @@ const RegistrationFaqs = () => {
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4 lg:w-1/2'>
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='Can one register as an individual?'
+              text='Yes, today SAGI has SAGI pool and any individual who come to SAGI on his own will register in SAGI pool by filling out the SAGI POOL FORM in SAGI POOL tab of this section.'
             />
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='How to register my association with SAGI?'
+              text='The first step is to constitute an association or group for SAGI purpose, then fill out SAGI INTRODUCTORY FORM above, and go from there. .'
             />
             <AccordionItem
               header='How long we deliver your first blog post?'

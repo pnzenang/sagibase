@@ -30,7 +30,7 @@ const Card2 = () => {
             CardTitle='SAGI Transfer'
             titleHref='#'
             btnHref='#'
-            CardDescription='Two delegates should signal the transfer of the same member directly on the dashboard by clicking "Delegate Recommendation: and select the option: TRANSFER.'
+            CardDescription='Two delegates should have signaled the transfer of the same member directly on the dashboard by clicking "Delegate Recommendation: and select the option: TRANSFER.'
           />
           <SingleCard
             image={nameExchange}

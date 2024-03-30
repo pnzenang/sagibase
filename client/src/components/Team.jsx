@@ -6,7 +6,7 @@ const Team = () => {
       <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4'>
-            <div className='mx-auto mb-[60px] max-w-[510px] text-center'>
+            <div className='mx-auto mb-[60px] max-w-[600px] text-center'>
               <div>
                 <h1 className='text-3xl sm:text-6xl  text-center font-bold capitalize text-base-content '>
                   SAGI Team
@@ -14,8 +14,8 @@ const Team = () => {
                 <div className='w-28 h-1 mt-3 bg-cyan-600 mx-auto mb-5'></div>
               </div>
               <p className='text-base font-medium text-base-content'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Below are the faces of a very small part of all the people who
+                make SAGI move.
               </p>
             </div>
           </div>

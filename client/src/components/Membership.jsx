@@ -135,12 +135,13 @@ const Membership = () => {
                   <p className='text-base text-body-color dark:text-dark-6 mb-9'>
                     Here, individuals are SAGI members through a SAGI
                     association member, and does not interact directly with
-                    SAGI, he or she rely 100% on the delegates, and should voice
-                    all his concerns and remarks to the delegates who will then
-                    relay them to SAGI Administration. this membership is free
-                    and does not require any upfront prepayment, the members pay
-                    for their registration fee and their contribution when they
-                    are solicited,
+                    SAGI, they rely 100% on the delegates, and should voice all
+                    their concerns and remarks to the delegates who will then
+                    relay them to SAGI Administration. this membership is open
+                    to all Cameroonians and spouse of Cameroonians and does not
+                    require any upfront prepayment, the members pay for their
+                    registration fee and their contributions when they are
+                    solicited.
                   </p>
                 </div>
               </div>
@@ -154,13 +155,13 @@ const Membership = () => {
                     Pool membership
                   </h3>
                   <p className='text-base-content mb-9'>
-                    This membership is reserve to those who could not or are not
-                    willing to join and association or a group of at least 20
-                    people, in this situation, unlike in the first option, the
-                    members have to keep a close contact with SAGI
-                    administration and have to prepay a deposit to ensure smooth
-                    contribution when needed. so the member takes care of their
-                    registration and also their deposit.
+                    This membership is reserve Cameroonians or spouse of
+                    Cameroonians who could not or are not willing to join an
+                    association or a group of at least 20 people, in this
+                    situation, unlike in the first option, the members have to
+                    keep a close contact with SAGI admin through SAGI POOL, and
+                    may have to prepay a deposit to ensure smooth contributions
+                    when needed.
                   </p>
                 </div>
               </div>

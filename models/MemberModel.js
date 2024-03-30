@@ -1,5 +1,5 @@
-import mongoose from 'mongoose'
-import { MEMBER_STATUS, DELEGATE_RECOMMENDATIONS } from '../utils/constants.js'
+import mongoose from 'mongoose';
+import { MEMBER_STATUS, DELEGATE_RECOMMENDATIONS } from '../utils/constants.js';
 
 const MemberSchema = new mongoose.Schema(
   {
@@ -31,6 +31,6 @@ const MemberSchema = new mongoose.Schema(
     },
   },
   { timestamps: true }
-)
+);
 
-export default mongoose.model('Member', MemberSchema)
+export default mongoose.model('Member', MemberSchema);

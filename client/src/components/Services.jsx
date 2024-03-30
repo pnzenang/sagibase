@@ -38,7 +38,8 @@ const Services = () => {
           <p className=' max-w-xl text-lg leading-8 text-base-content'>
             SAGI’s strategy here is to grow its membership in order to reduce
             the individual contribution to less than $1.00 per death while
-            minimizing each member monthly contribution.
+            minimizing each member monthly contribution by keeping the
+            oversights as low as practically possible.
           </p>
         </article>
         <article className='card bg-base-200 hover:bg-base-100 shadow-md rounded-md service hover:text-white p-8 text-center border-2 border-base-100 hover:border-primary'>

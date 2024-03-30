@@ -24,16 +24,16 @@ const Timeline = () => {
               Before 2009
             </h4>
             <p className=' text-lg leading-8 px-6 sm:px-14 text-base-content'>
-              Until 2009, when an African family in general and Cameroonian in
-              particular was struck by a bereavement, we felt a serious
-              bitterness, not only linked to the loss of the loved one, but also
-              how to answer the financial question that arose and was pressing,
-              how to pay for the morgue, without delay, and how to repatriate
-              the body, and very often the family alone were not able to take
-              care of it immediately, the members of the family entered into
-              unusual practices such as than asking for alms in front of the
-              church, getting into debt without having an idea where the money
-              will come from to repay. <br />
+              Up until 2009, when an African family in general and Cameroonian
+              in particular was struck by the death of a member, most of time it
+              had to go through a though time, not only linked to the loss of
+              the loved one, but also related to the financial question that
+              arose and was pressing, how to pay for the morgue, without delay,
+              and how to repatriate the body. And very often the family alone
+              were not able to take care of it immediately, the members of the
+              family usually had to enter into unusual practices such as asking
+              for alms in front of the church, getting into debt without having
+              an idea about where the money will come from to repay. <br />
               In the meantime, during the vigils, there were many brave
               Cameroonians who even helped, but the funds were very often
               misdirected and did not achieve the main goal which was to take
@@ -52,23 +52,22 @@ const Timeline = () => {
               2009
             </h4>
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
-              We remember that in 2009, one of the founding members was part of
-              an association where, after the death of one of their members,
-              they undertook to carry out a collection of funds in their
-              association, each member had to pay $300 at the time, and it was
-              quite insufficient to take care of the funeral of the deceased.
+              We remember that in 2009, one of us was part of an association
+              where, after the death of one of their members, they undertook to
+              carry out a collection of funds in their association, each member
+              had to pay $300 at the time, and it was quite insufficient to take
+              care of the funeral of the deceased.
               <br /> Having observed these gloomy moments, and based on our
               personal experiences, we began to think about other ways forward,
-              and the idea of SAGI came about at the end of 2009 when six
-              Cameroonians met almost regularly over more than two months to set
-              up SAGI, the initial idea was that anytime a member passes away,
-              the only thing the family should do was to mourn their loved one,
-              and that the SAGI community was suppose to do the rest. The
-              initial bureau was composed of two founding members and 3 other
-              countrymen who accepted to give their time to make the
-              organization succeed: Mr. Gaston Tchientcheu, Dieudonne Wangmegni
-              were amongst those who accepted to sacrifice their time to help
-              SAGI to take off.
+              and the idea of SAGI came about at the end of 2009 when we met six
+              of us over more than two months to set up SAGI, the initial idea
+              was that anytime a member passes away, the only thing the family
+              should do was to mourn their loved one, and that the SAGI
+              community was suppose to do the rest. The initial bureau was
+              composed of two founding members and 3 other countrymen who
+              accepted to give their time to make the organization succeed: Mr.
+              Gaston T., Dieudonne W. were amongst those who accepted to
+              sacrifice their time to help SAGI to take off.
             </p>
             <span className='number '>
               <div className='avatar'>
@@ -85,16 +84,15 @@ const Timeline = () => {
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
               After registering sagi with the Maryland Busness Authority, we had
               to face the though part of putting our idea into practice, by
-              first making people register to SAGI, we went door to door, going
-              from association to association during their meetings, to
-              convincing them to join, we faced a lot of difficulty, and above
-              all, we encountered not only skeptics but above also compatriots
-              who called us all sort of names, from dreaming to a band of
-              bandits having just a plan to defraud Cameroonians, but knowing
-              the scope of what we were presenting to the Cameroonians, we
-              continued, especially thanks to the support of some in the
-              community such as Mr. Norbert Yousse or Mrs. Anne Tchuisseu to
-              name just a few. <br />
+              first making people register to SAGI, we went door to door, from
+              associations to associations during their meetings, to convincing
+              them to join, we faced a lot of difficulties, we encountered not
+              only skeptics but above also compatriots who called us all sort of
+              names, from dreaming to a band of bandits having just a plan to
+              defraud Cameroonians, but knowing the scope of what we were
+              presenting to the Cameroonians, we continued, especially thanks to
+              the support of some in the community such as Mr. Norbert Yousse or
+              Mrs. Anne Tchuisseu to name just a few. <br />
               And the worst happened when we recorded our first death in SAGI,
               an association in Kentucky, the first contribution was for more
               than $15 per person for that single death, in the end the funds
@@ -117,11 +115,11 @@ const Timeline = () => {
               After the difficult phase described above, SAGI began to make
               itself known on the ground, the associations which had subscribed
               began to see the merits of such a structure, and we began to raise
-              funds for the dead each time it was necessary. arrived, and
-              moreover the Cameroonians had confidence in the structure, the
-              Cameroonian consular authorities had taken note and also
-              appreciated. it became easier to convince the skeptics and raise
-              fund because the structure had taken off.
+              funds for the dead each time it was necessary, and moreover the
+              Cameroonians had confidence in the structure, the Cameroonian
+              consular authorities had taken note and also appreciated. it
+              became easier to convince the skeptics and raise fund because the
+              structure had taken off.
             </p>
             <span className='number '>
               <div className='avatar'>
@@ -136,16 +134,16 @@ const Timeline = () => {
               2016
             </h4>
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
-              In 2016, the fellow initially chosen to lead the first years of
-              SAGI got a little carry away by SAGI's initial success and at that
-              point began to make unilateral changes, he manage to pushed out of
-              the SAGI administration people like Mr. Gaston Mr. Diedonne or Mr.
-              Emmanuel Mbankeu, bringing his friends and members of his family
-              into the structure. In October 2026, we notified him of the
-              deviation of SAGI and invited him to a meeting to try together to
-              put things back in order, but he hit us with a lawsuit accompanied
-              with a restraining order, threatening to jail us over it, claiming
-              that we had tried to destabilize his organization.
+              In 2016, the fellow countryman initially chosen to lead the first
+              years of SAGI got a little carry away by SAGI's initial success
+              and at that point began to make unilateral changes, he managed to
+              push out of the SAGI administration people like Mr. Gaston T. Mr.
+              Diedonne W. or Mr. Emmanuel M., brought on board his friends and
+              members of his family. In October 2016, we notified him of the
+              deviation that SAGI was taking and invited him to a meeting to try
+              together to put things back in order, but he hit us with a lawsuit
+              accompanied with a restraining order, threatening to jail us over
+              it, claiming that we had tried to destabilize his organization.
             </p>
             <span className='number '>
               <div className='avatar'>
@@ -161,9 +159,9 @@ const Timeline = () => {
             </h4>
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
               For more than 7 years we have religiously followed the progress of
-              the legal debates, through motions and counter-motions, which
-              ended with the court decision of April 2023 which gave us the
-              management of SAGI.
+              the legal fight in court, through motions and counter-motions,
+              which ended with the court decision of April 2023 which gave us
+              the management of SAGI.
             </p>
             <span className='number '>
               <div className='avatar'>
@@ -202,7 +200,7 @@ const Timeline = () => {
 };
 const Wrapper = styled.section`
   .timeline-center {
-    width: 80vw;
+    width: 90vw;
     max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
@@ -210,7 +208,7 @@ const Wrapper = styled.section`
   .timeline-item {
     border-top: 1px dashed #0891b2;
     margin: 0;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     position: relative;
   }
   .timeline p {

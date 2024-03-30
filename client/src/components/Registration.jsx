@@ -11,14 +11,14 @@ const Registration = () => {
         <div className=' mx-auto '>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
-              <div className='mx-auto mb-[60px] max-w-[510px] text-center lg:mb-[90px]'>
+              <div className='mx-auto mb-[60px] max-w-[800px] text-center lg:mb-[90px]'>
                 <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content sm:text-4xl md:text-[40px]'>
                   What is the SAGI registration process?
                 </h2>
                 <p className='text-base-content '>
                   Your registration depend on the type of member you want to be,
-                  as you may already know, SAGI has two types of membership: the
-                  traditional membership and the Pool membership.
+                  as you may already know, SAGI has two types of memberships:
+                  the traditional membership and the Pool membership.
                 </p>
               </div>
             </div>
@@ -36,22 +36,21 @@ const Registration = () => {
                 </h3>
                 <p className='text-base-content text-left'>
                   If you belong to an association member of SAGI,and desire to
-                  become SAGI member, give your full name, date of birth, as it
-                  appeared in your official documents, your state and your
-                  country of birth.
+                  become SAGI member, give your full name, date of birth, as
+                  they appeared in your official documents, your state and your
+                  country of birth to your associations's delegates.
                   <br />
                   <br />
                   <span className='font-bold text-primary'>1</span>- The main
                   delegate should register you to SAGI as soon as he received
                   your information and can let you know the time frame and the
-                  approximate date when you become vested.
+                  approximate date when you will become vested.
                   <br />
                   <br />
                   <span className='font-bold text-primary'>2</span>-As a
                   prospective member, you should just sit and relax, waiting for
                   your waiting period to pass, and make sure to send your
-                  registration fee to the delegate during that time or as he
-                  requests.
+                  registration fee to the delegate as he requests.
                   <br />
                   <br /> <span className='font-bold text-primary'>3</span>-If
                   you do not belong to an association member but still desire to
@@ -133,9 +132,9 @@ const Registration = () => {
                   <br />
                   <br />
                   <span className='font-bold text-primary'>2</span>- Within 48
-                  hours, The main delegate should received his login credentials
-                  in his email and should login to begin registering his
-                  members.
+                  hours, The main delegate should received her/his login
+                  credentials in his email and should login to begin registering
+                  his members.
                   <br />
                   <br /> <span className='font-bold text-primary'>3</span>-If
                   the members were already SAGI members, there is nothing else
@@ -146,8 +145,7 @@ const Registration = () => {
                   <span className='font-bold text-primary'>4</span>-If the
                   members are new, they will have to wait for a minimum of 90
                   days, and make sure that their registration fees are received
-                  by SAGI administration within 90 days in order to receive
-                  their matriculations.
+                  by SAGI administration within 90 days.
                 </p>
               </div>
             </div>
@@ -178,12 +176,12 @@ const Registration = () => {
                   <span className='font-bold text-primary'>2</span>-No more than
                   48 hours after filling the mandatory form above, the main
                   delegate will receive the association 4-letter code along with
-                  his login credentials in order to login and start registering
-                  his members.
+                  her/his login credentials in order to login and start
+                  registering his members.
                   <br />
                   <br /> <span className='font-bold text-primary'>3</span>
-                  -The main delegate will then login and start registering his
-                  members.
+                  -The main delegate will then login and start registering
+                  her/his association members.
                   <br />
                   <br /> <span className='font-bold text-primary'>4</span>-The
                   new members will wait for at least 90 days, and make sure that

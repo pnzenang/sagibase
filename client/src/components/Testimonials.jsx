@@ -10,13 +10,14 @@ const Testimonial5 = () => {
       <div className='container mx-auto align-element'>
         <div className='-mx-4 flex flex-wrap  justify-center'>
           <div className='w-full px-4'>
-            <div className='mb-[60px] max-w-[600px] lg:mb-[70px] text-center mx-auto'>
+            <div className='mb-[60px] max-w-[700px] lg:mb-[70px] text-center mx-auto'>
               <h2 className='mb-3 text-3xl font-bold  leading-[1.2] text-base-content sm:text-4xl md:text-[40px]'>
                 What People Say about SAGI !
               </h2>
               <p className='text-base-content'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                SAGI has brought joy to countless Cameroonian families and today
+                has shown the way to so many similar cameroonians
+                organizations,and some have voiced their satisfaction.
               </p>
             </div>
           </div>

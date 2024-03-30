@@ -94,7 +94,7 @@ const EditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              value={day(member.dateOfBirth).format('MMM Do, YYYY')}
+              value={member.dateOfBirth}
               onChange={() => null}
             />
           ) : (
@@ -102,7 +102,7 @@ const EditMember = () => {
               type='text'
               label='member date of birth'
               name='dateOfBirth'
-              defaultValue={day(member.dateOfBirth).format('MMM Do, YYYY')}
+              defaultValue={member.dateOfBirth}
               onChange={() => null}
             />
           )}
