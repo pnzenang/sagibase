@@ -5,7 +5,10 @@ import logo from '../assets/logo.svg';
 const Logo = () => {
   return (
     <NavLink to='/' className='flex  text-3xl items-center'>
-      <img src={logo} alt='logo' />
+      <img
+        src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1711892220/sagiLogo_p8gsbw.svg'
+        alt='logo'
+      />
     </NavLink>
   );
 };
