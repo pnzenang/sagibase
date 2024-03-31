@@ -48,7 +48,7 @@ app.use(
   helmet.contentSecurityPolicy({
     useDefaults: true,
     directives: {
-      'img-src': ['https://mysitename.com', 'https://res.cloudinary.com/'],
+      // 'img-src': ['https://res.cloudinary.com/'],
       upgradeInsecureRequests: [],
     },
     reportOnly: false,
