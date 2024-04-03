@@ -21,8 +21,8 @@ const RegistrationFaqs = () => {
         <div className='-mx-4 flex flex-wrap'>
           <div className='w-full px-4 lg:w-1/2'>
             <AccordionItem
-              header='Can one register as an individual?'
-              text='Yes, today SAGI has SAGI pool and any individual who come to SAGI on his own will register in SAGI pool by filling out the SAGI POOL FORM in SAGI POOL tab of this section.'
+              header='Can one register to SAGI as an individual?'
+              text='Yes, today SAGI has SAGI POOL and any individual who come to SAGI on his own can register in SAGI POOL by filling out the SAGI POOL REGISTRATION FORM in the REGISTRATION tab of this section.'
             />
             <AccordionItem
               header='How to register my association with SAGI?'

@@ -1,4 +1,4 @@
-import { FormInputs, Logo, SubmitBtn } from '../components';
+import { FormInput, Logo, SubmitBtn } from '../components';
 import {
   Form,
   Link,
@@ -48,7 +48,7 @@ const ResetPassword = () => {
           reset password
         </h4>
 
-        <FormInputs type='password' label=' new password' name='password' />
+        <FormInput type='password' label=' new password' name='password' />
         <div className='my-4'>
           <SubmitBtn text='reset password' />
         </div>

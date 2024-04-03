@@ -9,14 +9,17 @@ const Contact = () => {
         <div className='container align-element '>
           <div className='-mx-4 flex flex-wrap lg:justify-between'>
             <div className='w-full px-4 lg:w-1/2 xl:w-6/12'>
-              <div className='mb-12 max-w-[570px] lg:mb-0'>
+              <div className='my-12 max-w-[570px] lg:mb-0'>
                 <h2 className='mb-6 text-[32px] font-bold uppercase text-primary sm:text-[40px] lg:text-[36px] xl:text-[40px]'>
                   LET'S GET IN TOUCH
                 </h2>
                 <p className='mb-9 text-base leading-relaxed text-body-color dark:text-dark-6'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                  We would love to have you on board with us, but if you have
+                  not made the decision to join us yet, it is fine.
+                  Nevertheless, we still like to here from you, call or email us
+                  to voice your concerns or make any remarks anytime, your
+                  questions or remarks are always welcome. they will help us to
+                  grow.
                 </p>
                 <div className='mb-8 flex w-full max-w-[370px]'>
                   <div className='mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]'>
@@ -92,7 +95,7 @@ const Contact = () => {
                   </div>
                 </form>
                 <div>
-                  <span className='absolute -right-9 -top-10 z-[-1]'>
+                  {/* <span className='absolute -right-9 -top-10 z-[-1]'>
                     <svg
                       width={100}
                       height={100}
@@ -327,7 +330,7 @@ const Contact = () => {
                         fill='#13C296'
                       />
                     </svg>
-                  </span>
+                  </span> */}
                   <span className='absolute -bottom-7 -left-7 z-[-1]'>
                     <svg
                       width={107}

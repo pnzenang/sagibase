@@ -74,7 +74,7 @@ const Profile = () => {
             onChange={() => null}
           />
 
-          <FormInputs
+          <FormInput
             type='email'
             label='email'
             name='email'

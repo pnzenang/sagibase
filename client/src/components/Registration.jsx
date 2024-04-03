@@ -35,28 +35,33 @@ const Registration = () => {
                   Individuals
                 </h3>
                 <p className='text-base-content text-left'>
-                  If you belong to an association member of SAGI,and desire to
-                  become SAGI member, give your full name, date of birth, as
-                  they appeared in your official documents, your state and your
-                  country of birth to your associations's delegates.
+                  If you belong to an association member of SAGI, get in touch
+                  with your association delegates.
                   <br />
                   <br />
-                  <span className='font-bold text-primary'>1</span>- The main
-                  delegate should register you to SAGI as soon as he received
-                  your information and can let you know the time frame and the
-                  approximate date when you will become vested.
+                  <span className='font-bold text-primary'>1</span>- The
+                  delegates should register you to SAGI as soon as they received
+                  your information and can let you know the approximate date
+                  when you will become vested.
                   <br />
                   <br />
                   <span className='font-bold text-primary'>2</span>-As a
                   prospective member, you should just sit and relax, waiting for
                   your waiting period to pass, and make sure to send your
-                  registration fee to the delegate as he requests.
+                  registration fee to the delegate as he requests it.
                   <br />
                   <br /> <span className='font-bold text-primary'>3</span>-If
                   you do not belong to an association member but still desire to
-                  register with SAGI, go to the SAGI POOL Section
+                  register with SAGI, fill out SAGI POOL form:
+                  <a
+                    href='https://forms.gle/csrYvQ2RthR8gLJf6'
+                    className='text-cyan-600 font-bold '
+                  >
+                    <br />
+                    SAGI POOL REGISTRATION FORM
+                  </a>
                   <br />
-                  <br />
+                  The SAGI POOL specialist will contact you with the next steps.
                 </p>
               </div>
             </div>
@@ -77,7 +82,7 @@ const Registration = () => {
                   <span className='font-bold text-primary'>1</span>- The main
                   delegate should Fill out this mandatory form:
                   <a
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    href='https://forms.gle/6EuKoTdmFff1UxKSA'
                     className='text-cyan-600 font-bold '
                   >
                     <br />
@@ -123,7 +128,7 @@ const Registration = () => {
                   <span className='font-bold text-primary'>1</span>- The main
                   delegate should Fill out this mandatory form:
                   <a
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    href='https://forms.gle/6EuKoTdmFff1UxKSA'
                     className='text-cyan-600 font-bold'
                   >
                     <br />
@@ -165,7 +170,7 @@ const Registration = () => {
                   <span className='font-bold text-primary'>1</span>- The
                   delegate should Fill out this mandatory form:
                   <a
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+                    href='https://forms.gle/6EuKoTdmFff1UxKSA'
                     className='text-cyan-600 font-bold '
                   >
                     <br />
