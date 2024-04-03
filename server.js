@@ -48,10 +48,7 @@ app.use(
   helmet.contentSecurityPolicy({
     useDefaults: true,
     directives: {
-      'img-src': [
-        'https://sagibase.onrender.com/',
-        'https://res.cloudinary.com/',
-      ],
+      'img-src': ['https://www.mysagi.org/', 'https://res.cloudinary.com/'],
       upgradeInsecureRequests: [],
     },
     reportOnly: false,
