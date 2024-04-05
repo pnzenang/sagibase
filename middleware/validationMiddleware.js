@@ -140,11 +140,9 @@ export const validateRegisterInput = withValidationErrors([
 ]);
 
 export const validateLoginInput = withValidationErrors([
-  body('email')
-    .notEmpty()
-    .withMessage('email is required')
-    .isEmail()
-    .withMessage('invalid email format'),
+  body('associationCode').notEmpty().withMessage('username is required'),
+  // .isEmail()
+  // .withMessage('invalid username'),
 
   body('password').notEmpty().withMessage('password is required'),
 ]);

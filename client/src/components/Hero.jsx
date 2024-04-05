@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import hero1 from '../assets/solidarity.jpg';
+import hero2 from '../assets/protect.jpg';
+import hero3 from '../assets/saving2.jpg';
+import hero4 from '../assets/heart.jpg';
 
 const Hero12 = () => {
   const typedJSRef = useRef(null);
@@ -52,7 +56,7 @@ const Hero12 = () => {
                 <div className='w-1/2 px-2 sm:px-4'>
                   <div className='mb-4 h-[256px] sm:mb-8 sm:h-[442px] lg:h-[332px] xl:h-[442px]'>
                     <img
-                      src='https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-12/image-1.jpg'
+                      src={hero2}
                       alt='hero image'
                       className='h-full w-full object-cover object-center'
                     />
@@ -61,14 +65,14 @@ const Hero12 = () => {
                 <div className='w-1/2 px-2 sm:px-4'>
                   <div className='mb-4 h-[120px] sm:mb-8 sm:h-[205px] lg:h-[150px] xl:h-[205px]'>
                     <img
-                      src='https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-12/image-2.jpg'
+                      src={hero1}
                       alt='hero image'
                       className='h-full w-full object-cover object-center'
                     />
                   </div>
                   <div className='mb-4 h-[120px] sm:mb-8 sm:h-[205px] lg:h-[150px] xl:h-[205px]'>
                     <img
-                      src='https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-12/image-3.jpg'
+                      src={hero4}
                       alt='hero image'
                       className='h-full w-full object-cover object-center'
                     />

@@ -24,7 +24,9 @@ export const register = async (req, res) => {
 };
 
 export const login = async (req, res) => {
-  const user = await User.findOne({ email: req.body.email });
+  const user = await User.findOne({
+    associationCode: req.body.associationCode,
+  });
 
   // if (!user) throw new UnauthenticatedError("invalid credentials");
   // const isPasswordCorrect = await comparePassword(

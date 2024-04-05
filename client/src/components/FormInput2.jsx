@@ -16,7 +16,7 @@ const FormInput2 = ({
         type={type}
         name={name}
         defaultValue={defaultValue}
-        className={`bg-base-200 text-l input input-bordered ${size}  `}
+        className={`bg-base-200 md:text-lg input uppercase input-bordered ${size}  `}
         value={value}
         onChange={onChange}
         required

@@ -120,8 +120,8 @@ const Membership = () => {
           </div>
           <div className='w-full px-4 lg:w-1/2 2xl:w-5/12'>
             <div className='mt-10 lg:mt-0'>
-              <h2 className='text-3xl font-bold leading-tight text-base-content mb-11 sm:text-4xl sm:leading-tight md:text-5xl lg:text-4xl lg:leading-tight xl:text-5xl'>
-                At SAGI, there are two types of membership:
+              <h2 className='text-3xl font-bold leading-tight text-base-content mb-11 sm:text-3xl sm:leading-tight md:text-3xl lg:text-4xl lg:leading-tight xl:text-5xl'>
+                There are two types of membership:
               </h2>
 
               <div className='flex mb-8'>

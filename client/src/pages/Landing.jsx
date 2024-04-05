@@ -1,4 +1,10 @@
-import { Hero, Statistics, Partners, Mission } from '../components';
+import {
+  Hero,
+  Statistics,
+  Partners,
+  Mission,
+  Testimonials2,
+} from '../components';
 import Testimonials from '../components/Testimonials';
 import Home from './Home';
 import ScrollToTop from 'react-scroll-to-top';
@@ -11,7 +17,8 @@ const Landing = () => {
       <Statistics />
       <Mission />
       <Partners />
-      <Testimonials />
+      {/* <Testimonials /> */}
+      <Testimonials2 />
     </section>
   );
 };

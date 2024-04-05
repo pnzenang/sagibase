@@ -29,13 +29,13 @@ const Footer = () => {
 
           <div className='w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12'></div>
 
-          <LinkGroup header='Organization'>
+          <LinkGroup header='Organization' className='text-primary'>
             <NavLink link='/#' label='About Our Organization' />
             <NavLink link='/#' label='Organization services' />
             <NavLink link='/#' label='Job opportunities' />
             <NavLink link='/#' label='How it work' />
           </LinkGroup>
-          <LinkGroup header='Members'>
+          <LinkGroup header='Members' className='text-primary'>
             <NavLink link='/#' label='Membership ' />
             <NavLink link='/#' label='List Updates' />
             <NavLink link='/#' label='Death Announcement' />
@@ -44,14 +44,14 @@ const Footer = () => {
 
           <div className='w-full px-4 sm:w-1/2 lg:w-4/12 2xl:w-2/12'>
             <div className='mb-10 w-full'>
-              <h4 className='mb-9 text-lg font-semibold text-white'>
+              <h4 className='mb-9 text-lg font-semibold text-primary'>
                 Contact Info
               </h4>
               <ul>
                 <li>
                   <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7'>
                     <span className='mr-3 mt-[10px]'>
-                      <FaRegEnvelope className='w-6 h-6 text-white' />
+                      <FaRegEnvelope className='w-6 h-6 text-primary' />
                     </span>
                     info@mySagi.org
                   </p>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li>
                   <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7'>
                     <span className='mr-3 mt-[10px]'>
-                      <FiPhoneCall className='w-6 h-6 text-white' />
+                      <FiPhoneCall className='w-6 h-6 text-primary' />
                     </span>
                     1(804)-214-6390
                   </p>
@@ -70,7 +70,7 @@ const Footer = () => {
                   <div className='inline-flex mb-3  items-start text-base leading-loose text-gray-7'>
                     <div>
                       <span className='mr-3 mt-[10px]'>
-                        <HiOutlineBuildingOffice2 className='w-6 h-6 text-white' />
+                        <HiOutlineBuildingOffice2 className='w-6 h-6 text-primary' />
                       </span>
                     </div>
                     <div className='ml-3 text-sm'>
@@ -90,7 +90,8 @@ const Footer = () => {
             <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
               <div className='my-1 flex justify-center md:justify-start'>
                 <p className='text-base text-gray-7'>
-                  &copy; {new Date().getFullYear()} SAGI: Active Solidarity
+                  &copy; {new Date().getFullYear()} SAGI: Active Solidarity, Ltd
+                  | Help people help each other.
                 </p>
               </div>
             </div>
@@ -115,7 +116,7 @@ const LinkGroup = ({ children, header }) => {
   return (
     <div className='w-full px-4 sm:w-1/2 lg:w-3/12 2xl:w-2/12'>
       <div className='mb-10 w-full'>
-        <h4 className='mb-9 text-lg font-semibold text-white'> {header} </h4>
+        <h4 className='mb-9 text-lg font-semibold text-primary'> {header} </h4>
         <ul className='space-y-3'>{children}</ul>
       </div>
     </div>

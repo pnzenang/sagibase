@@ -8,8 +8,28 @@ import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import { styled } from 'styled-components';
+import {
+  Page,
+  Text,
+  View,
+  Document,
+  StyleSheet,
+  PDFViewer,
+} from '@react-pdf/renderer';
 
 day.extend(advancedFormat);
+
+const styles = StyleSheet.create({
+  page: {
+    flexDirection: 'row',
+    backgroundColor: '#E4E4E4',
+  },
+  section: {
+    margin: 10,
+    padding: 10,
+    flexGrow: 1,
+  },
+});
 
 const TdStyle = {
   ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-4 pl-3 text-lg font-bold text-white lg:py-7 lg:px-4`,
@@ -151,6 +171,7 @@ const MembersContainer = () => {
                 </div>
               </div>
             </section>
+
             {numOfPages > 1 && <ComplexPaginationContainer />}
           </>
         )}

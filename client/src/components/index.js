@@ -48,3 +48,4 @@ export { default as Loading } from './Loading';
 export { default as MapComponent } from './MapComponent';
 export { default as Partners } from './Partners';
 export { default as Mission } from './Mission';
+export { default as Testimonials2 } from './Testimonials2';

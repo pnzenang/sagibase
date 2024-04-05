@@ -24,7 +24,7 @@ const LogoutContainer = () => {
         )} */}
         <FaUserCircle className='text-cyan-100' />
         <div className='text-cyan-50 lg:text-lg text-sm'>
-          Hi, {user?.firstName.charAt(0)} {user?.lastAndMiddleNames}
+          Hi, {user?.associationCode} Delegate
         </div>
         <FaCaretDown className='text-cyan-100' />
       </button>
