@@ -33,7 +33,7 @@ const Hero12 = () => {
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4 lg:w-1/2'>
               <div className='mb-12 lg:mb-0'>
-                <h2 className='mb-4 text-3xl font-bold !leading-[1.208] text-primary lg:text-5xl xl:text-7xl'>
+                <h2 className='mb-4 text-4xl font-bold !leading-[1.208] text-primary lg:text-5xl xl:text-7xl'>
                   SAGI infers
                   <br />
                   <span ref={typedJSRef} />

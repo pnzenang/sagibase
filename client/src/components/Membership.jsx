@@ -10,7 +10,7 @@ const Membership = () => {
             <div className='relative mb-12 lg:mb-0'>
               <div className='mx-auto max-w-[430px] rounded-tl-[50px] sm:rounded-tl-[70px]'>
                 <img
-                  src='https://res.cloudinary.com/dp8tkb7hq/image/upload/c_crop,h_1230,w_927/v1710490099/xjh0dbsca9bwciklrhha.jpg'
+                  src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1712416722/belinda-fewings-rzy5eClR31Y-unsplash_mim4hp.jpg'
                   alt='about image'
                   className='w-full rounded-tl-[50px] sm:rounded-tl-[70px]'
                 />
