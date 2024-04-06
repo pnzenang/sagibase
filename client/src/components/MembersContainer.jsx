@@ -8,28 +8,11 @@ import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import { styled } from 'styled-components';
-import {
-  Page,
-  Text,
-  View,
-  Document,
-  StyleSheet,
-  PDFViewer,
-} from '@react-pdf/renderer';
+
+import { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 
 day.extend(advancedFormat);
-
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: 'row',
-    backgroundColor: '#E4E4E4',
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
-  },
-});
 
 const TdStyle = {
   ThStyle: `w-1/6 min-w-[160px] border-l border-transparent py-4 pl-3 text-lg font-bold text-white lg:py-7 lg:px-4`,
@@ -38,6 +21,12 @@ const TdStyle = {
 };
 
 const MembersContainer = () => {
+  const contentToPrint = useRef(null);
+  const handlePrint = useReactToPrint({
+    documentTitle: 'Print This Document',
+    removeAfterPrint: true,
+  });
+
   const [layout, setLayout] = useState('list');
   const setActiveStyles = (pattern) => {
     return `text-xl btn btn-circle btn-sm ${
@@ -56,7 +45,16 @@ const MembersContainer = () => {
             {totalMembers} member{members.length > 1 && 's'} found
           </h5>
         </div>
+
         <div className='flex gap-x-2'>
+          <button
+            onClick={() => {
+              handlePrint(null, () => contentToPrint.current);
+            }}
+            className='px-2 bg-primary rounded-lg text-white text-xs sm:text-sm'
+          >
+            PRINT PAGE
+          </button>
           <button
             type='button'
             onClick={() => setLayout('list')}
@@ -75,7 +73,7 @@ const MembersContainer = () => {
       </div>
       <div className=' border-b mt-1 border-primary mx-auto mb-3'></div>
 
-      <div>
+      <div ref={contentToPrint}>
         {members.length === 0 ? (
           <h4 className='text-2xl mt-16 '>
             {' '}
