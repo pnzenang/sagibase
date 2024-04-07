@@ -1,4 +1,7 @@
-import { FormInput, FormInput2, FormInputs, SubmitBtn } from '../components';
+import { Eye, EyeOff } from 'lucide-react';
+import { useState } from 'react';
+
+import { FormInput, FormInput2, SubmitBtn } from '../components';
 import { Form, redirect, Link } from 'react-router-dom';
 import Logo from '../components/Logo';
 import customFetch from '../utils/customFetch';
@@ -20,6 +23,19 @@ export const action = async ({ request }) => {
 };
 
 const Login = () => {
+  const [password, setPassword] = useState('');
+  const [type, setType] = useState('password');
+  const [Icon, setIcon] = useState(EyeOff);
+
+  const handleToggle = () => {
+    if (type === 'password') {
+      setIcon(Eye);
+      setType('text');
+    } else {
+      setIcon(EyeOff);
+      setType('password');
+    }
+  };
   return (
     <section className='h-screen grid place-items-center'>
       <Form
@@ -28,14 +44,45 @@ const Login = () => {
       >
         <Logo />
         <h4 className='text-center text-3xl font-bold mt-4 '>Login</h4>
-        <FormInput2 type='text' label='username' name='associationCode' />
-        <FormInput type='password' label='password' name='password' />
-        <div className='mt-4'>
+        <FormInput2
+          type='text'
+          label='association code'
+          name='associationCode'
+        />
+        {/* <FormInputLogin type='password' label='password' name='password' /> */}
+        <div>
+          <div>
+            <div className='label'>
+              <span className='label-text'>Password</span>
+            </div>
+            <div className='flex '>
+              <input
+                className='input
+                input-bordered
+                w-full bg-base-200 md:text-lg max-w-xs'
+                type={type}
+                name='password'
+                // placeholder='Password'
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                autoComplete='current-password'
+              />
+              <span
+                className='flex justify-around items-center'
+                onClick={handleToggle}
+              >
+                <Icon className='absolute mr-10' size={25} />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className='mt-6'>
           <SubmitBtn text='login' />
           <p className='text-center mt-4'>
             Not a member yet?
             <a
-              href='https://docs.google.com/forms/d/e/1FAIpQLSdGmkYyHR03aV9otU2Z7I1rvtP3pbDHJBzGmCamqDvOmvQTMg/viewform?usp=sf_link'
+              href='https://forms.gle/1az8VaLtgn7KZvtJ6'
               className='ml-2 link link-hover link-primary capitalize'
             >
               register

@@ -1,5 +1,6 @@
 const FormInputs = ({
   label,
+  id,
   name,
   type,
   defaultValue,
@@ -13,6 +14,7 @@ const FormInputs = ({
         <span className='label-text uppercase'>{label}</span>
       </label>
       <input
+        id={id}
         type={type}
         name={name}
         defaultValue={defaultValue}

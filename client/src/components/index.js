@@ -2,6 +2,7 @@ export { default as FormInput } from './FormInput';
 export { default as FormInputs } from './FormInputs';
 export { default as FormInput2 } from './FormInput2';
 export { default as FormInput3 } from './FormInput3';
+// export { default as FormInputLogin } from './FormInputLogin';
 export { default as SubmitBtn } from './SubmitBtn';
 export { default as Header } from './Header';
 export { default as Navbar } from './Navbar';
