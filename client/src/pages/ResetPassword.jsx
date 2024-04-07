@@ -61,7 +61,7 @@ const ResetPassword = () => {
         className='card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 border-t-4  border-primary'
       >
         <Logo />
-        <h4 className='text-center text-3xl font-bold mt-4 capitalize'>
+        <h4 className='text-center text-3xl font-bold mt-4 capitalize text-primary'>
           reset password
         </h4>
 
@@ -69,7 +69,7 @@ const ResetPassword = () => {
         <div>
           <div>
             <div className='label'>
-              <span className='label-text'>Password</span>
+              <span className='label-text'>New Password</span>
             </div>
             <div className='flex '>
               <input
