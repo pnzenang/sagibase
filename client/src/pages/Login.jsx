@@ -43,7 +43,9 @@ const Login = () => {
         className='card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 border-t-4  border-primary'
       >
         <Logo />
-        <h4 className='text-center text-3xl font-bold mt-4 '>Login</h4>
+        <h4 className='text-center text-3xl font-bold mt-4 text-primary '>
+          Login
+        </h4>
         <FormInput2
           type='text'
           label='association code'
@@ -71,7 +73,7 @@ const Login = () => {
                 className='flex justify-around items-center'
                 onClick={handleToggle}
               >
-                <Icon className='absolute mr-10' size={25} />
+                <Icon className='absolute mr-10 text-primary' size={25} />
               </span>
             </div>
           </div>

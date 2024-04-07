@@ -1,3 +1,6 @@
+import { Eye, EyeOff } from 'lucide-react';
+import { useState } from 'react';
+
 import { FormInput, Logo, SubmitBtn } from '../components';
 import {
   Form,
@@ -37,6 +40,20 @@ export const action = async ({ request }) => {
 };
 
 const ResetPassword = () => {
+  const [password, setPassword] = useState('');
+  const [type, setType] = useState('password');
+  const [Icon, setIcon] = useState(EyeOff);
+
+  const handleToggle = () => {
+    if (type === 'password') {
+      setIcon(Eye);
+      setType('text');
+    } else {
+      setIcon(EyeOff);
+      setType('password');
+    }
+  };
+
   return (
     <section className='h-screen grid place-items-center'>
       <Form
@@ -48,7 +65,33 @@ const ResetPassword = () => {
           reset password
         </h4>
 
-        <FormInput type='password' label=' new password' name='password' />
+        {/* <FormInput type='password' label=' new password' name='password' /> */}
+        <div>
+          <div>
+            <div className='label'>
+              <span className='label-text'>Password</span>
+            </div>
+            <div className='flex '>
+              <input
+                className='input
+                input-bordered
+                w-full bg-base-200 md:text-lg max-w-xs'
+                type={type}
+                name='password'
+                // placeholder='Password'
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                autoComplete='current-password'
+              />
+              <span
+                className='flex justify-around items-center'
+                onClick={handleToggle}
+              >
+                <Icon className='absolute mr-10 text-primary' size={25} />
+              </span>
+            </div>
+          </div>
+        </div>
         <div className='my-4'>
           <SubmitBtn text='reset password' />
         </div>
