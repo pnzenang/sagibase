@@ -44,16 +44,16 @@ app.use(express.static(path.resolve(__direname, './client/dist')));
 app.use(cookieParser());
 app.use(express.json());
 // app.use(helmet());
-app.use(
-  helmet.contentSecurityPolicy({
-    useDefaults: true,
-    directives: {
-      'img-src': ['https://www.mysagi.org/', 'https://res.cloudinary.com/'],
-      upgradeInsecureRequests: [],
-    },
-    reportOnly: false,
-  })
-);
+// app.use(
+//   helmet.contentSecurityPolicy({
+//     useDefaults: true,
+//     directives: {
+//       'img-src': ['https://www.mysagi.org/', 'https://res.cloudinary.com/'],
+//       upgradeInsecureRequests: [],
+//     },
+//     reportOnly: false,
+//   })
+// );
 app.use(mongoSanitize());
 
 app.use('/api/v1/members', authenticateUser, memberRouter);
