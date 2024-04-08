@@ -36,12 +36,12 @@ const Register = () => {
         <Logo />
         <h4 className='text-center text-3xl font-bold mt-4'>Register</h4>
         <div className='grid lg:grid-cols-2 gap-4 '>
-          <FormInput3
+          <FormInputs
             type='text'
             label='Delegate first name'
             name='firstName'
           />
-          <FormInput
+          <FormInputs
             type='text'
             label='last and middle names'
             name='lastAndMiddleNames'
@@ -62,11 +62,11 @@ const Register = () => {
           label="4-letter association's code"
           name='associationCode'
         />
-        <FormInput type='text' label='street address' name='streetAddress' />
+        <FormInputs type='text' label='street address' name='streetAddress' />
         <div className='grid lg:grid-cols-3 gap-4 '>
-          <FormInput type='text' label='city' name='city' />
-          <FormInput type='text' label='state' name='state' />
-          <FormInput type='text' label='zip code' name='zipCode' />
+          <FormInputs type='text' label='city' name='city' />
+          <FormInputs type='text' label='state' name='state' />
+          <FormInputs type='text' label='zip code' name='zipCode' />
         </div>
 
         <div className=' grid lg:grid-cols-2 gap-4'>

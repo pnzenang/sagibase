@@ -11,7 +11,7 @@ const FormInputs = ({
   return (
     <div className='form-control'>
       <label className='label'>
-        <span className='label-text uppercase'>{label}</span>
+        <span className='label-text capitalize'>{label}</span>
       </label>
       <input
         id={id}
