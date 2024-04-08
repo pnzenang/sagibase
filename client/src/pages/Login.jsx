@@ -46,11 +46,7 @@ const Login = () => {
         <h4 className='text-center text-3xl font-bold mt-4 text-primary '>
           Login
         </h4>
-        <FormInput2
-          type='text'
-          label='association code'
-          name='associationCode'
-        />
+        <FormInput type='email' label='delegate email' name='email' />
         {/* <FormInputLogin type='password' label='password' name='password' /> */}
         <div>
           <div>
