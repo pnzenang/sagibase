@@ -4,9 +4,9 @@ import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
 
 let totalContribution = '$160,000';
-let totalVestedMember = '9,000';
-let contributionPerMember = '$16.88';
-let individualContribution = '$2.11';
+let totalVestedMember = '9,889';
+let contributionPerMember = '$16.32';
+let individualContribution = '$2.04';
 
 const Stats2 = () => {
   return (
@@ -20,8 +20,7 @@ const Stats2 = () => {
             Our contribution this month
           </h2>
           <p className='text-base-content'>
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
+            Here, we have the detail on this month's contribution.
           </p>
         </div>
 
