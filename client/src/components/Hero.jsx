@@ -29,16 +29,16 @@ const Hero12 = () => {
   return (
     <>
       <div className='relative pb-10 pt-10 pb-base-100 lg:pt-10'>
-        <div className='container mx-auto align-element'>
+        <div className='container mx-auto '>
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4 lg:w-1/2'>
-              <div className='mb-12 lg:mb-0'>
+              <div className='px-4 mb-12 lg:mb-0'>
                 <h2 className='mb-4 text-4xl font-bold !leading-[1.208] text-primary lg:text-5xl xl:text-7xl'>
                   SAGI infers
                   <br />
                   <span ref={typedJSRef} />
                 </h2>
-                <p className='mt-2 max-w-xl text-lg leading-8 text-base-content '>
+                <p className=' mt-2 max-w-xxl text-lg leading-8 text-base-content '>
                   At SAGI, we mimic the african solidarity, making one family's
                   problem the problem of the whole community by putting our
                   effort together every time one of our member falls. It is the

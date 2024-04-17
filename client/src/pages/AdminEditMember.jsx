@@ -146,6 +146,7 @@ const AdminEditMember = () => {
               onChange={() => null}
             />
           )}
+
           {user.role === 'user' ? (
             <FormInput
               type='text'

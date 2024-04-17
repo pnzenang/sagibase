@@ -1,4 +1,4 @@
-import pdf from '../documents/rules.pdf';
+import pdf from '../documents/members.pdf';
 import list from '../assets/images/list.svg';
 
 const VestedMembers = () => {
@@ -17,11 +17,11 @@ const VestedMembers = () => {
             <div className=' p-8'>
               <div className='lg:max-w-[450px]'>
                 <h3 className='mb-6 text-3xl font-bold leading-tight text-base-content md:text-[40px] lg:text-[50px]'>
-                  List of all vested members
+                  List Updates.
                 </h3>
                 <p className='mb-8 text-lg text-body-color dark:text-dark-6'>
-                  Each month, we put the updated list of all the vested members
-                  at our members disposition, the transparency is our strength.
+                  Each month, we publish all the updated list of new members,
+                  removed members and transferred members.
                 </p>
               </div>
 
@@ -31,7 +31,23 @@ const VestedMembers = () => {
                     href={pdf}
                     className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
                   >
-                    Click here to download the list
+                    This Month additions .
+                  </a>
+                </div>
+                <div className='mb-4 px-2'>
+                  <a
+                    href={pdf}
+                    className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+                  >
+                    This Month Withdrawal.
+                  </a>
+                </div>
+                <div className='mb-4 px-2'>
+                  <a
+                    href={pdf}
+                    className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+                  >
+                    This month transferred.
                   </a>
                 </div>
               </div>

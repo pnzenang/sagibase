@@ -73,7 +73,7 @@ const Tabs = ({ color }) => {
                 List updates
               </a>
             </li>
-            <li className='-mb-px  last:mr-0 flex-auto text-center'>
+            {/* <li className='-mb-px  last:mr-0 flex-auto text-center'>
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
@@ -91,7 +91,7 @@ const Tabs = ({ color }) => {
               >
                 Sagi Pool
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className='relative flex flex-col min-w-0 break-words  w-full mb-6  '>
             <div className=' py-5 flex-auto'>

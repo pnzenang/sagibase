@@ -87,12 +87,12 @@ const Timeline = () => {
               first making people register to SAGI, we went door to door, from
               associations to associations during their meetings, to convincing
               them to join, we faced a lot of difficulties, we encountered not
-              only skeptics but above also compatriots who called us all sort of
-              names, from dreaming to a band of bandits having just a plan to
-              defraud Cameroonians, but knowing the scope of what we were
-              presenting to the Cameroonians, we continued, especially thanks to
-              the support of some in the community such as Mr. Norbert Yousse or
-              Mrs. Anne Tchuisseu to name just a few. <br />
+              only skeptics but above all, some compatriots who called us all
+              sort of names, from dreamers to a band of bandits having just a
+              plan to defraud Cameroonians, but knowing the scope of what we
+              were presenting to the Cameroonians, we continued, especially
+              thanks to the support of some in the community such as Mr. Norbert
+              Yousse or Mrs. Anne Tchuisseu to name just a few. <br />
               And the worst happened when we recorded our first death in SAGI,
               an association in Kentucky, the first contribution was for more
               than $15 per person for that single death, in the end the funds
@@ -135,13 +135,13 @@ const Timeline = () => {
             </h4>
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
               In 2016, the fellow countryman initially chosen to lead the first
-              years of SAGI got a little carry away by SAGI's initial success
+              years of SAGI got a little carried away by SAGI's initial success
               and at that point began to make unilateral changes, he managed to
-              push out of the SAGI administration people like Mr. Gaston T. Mr.
-              Diedonne W. or Mr. Emmanuel M., brought on board his friends and
-              members of his family. In October 2016, we notified him of the
-              deviation that SAGI was taking and invited him to a meeting to try
-              together to put things back in order, but he hit us with a lawsuit
+              push out of SAGI bureau members like Mr. Gaston T. Mr. Diedonne W.
+              or Mr. Emmanuel M., brought on board his friends and members of
+              his family. In October 2016, we notified him of the deviation that
+              SAGI was taking and invited him to a meeting so that together we
+              can try to put things back in order, but he hit us with a lawsuit
               accompanied with a restraining order, threatening to jail us over
               it, claiming that we had tried to destabilize his organization.
             </p>

@@ -84,8 +84,11 @@ const AdminAllMembersContainer = () => {
                               Association Code{' '}
                             </th>
                             <th className={TdStyle.ThStyle}> Matriculation </th>
-                            <th className={TdStyle.ThStyle}> First Name </th>
-                            <th className={TdStyle.ThStyle}> Last Name </th>
+                            <th className={TdStyle.ThStyle}> First Names </th>
+                            <th className={TdStyle.ThStyle}>
+                              {' '}
+                              Last & Middle Names{' '}
+                            </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>
                               Registration Date

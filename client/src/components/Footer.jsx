@@ -86,25 +86,38 @@ const Footer = () => {
 
       <div className='mt-12 bg-[#101541] py-6 lg:mt-1 '>
         <div className='container mx-auto align-element'>
-          <div className='-mx-4 flex flex-wrap'>
-            <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
-              <div className='my-1 flex justify-center md:justify-start'>
-                <p className='text-base text-gray-7'>
+          <h1 className='text-center'>
+            <p className='text-base-content  '>
+              &copy; {new Date().getFullYear()} SAGI: Active Solidarity, Ltd{' '}
+              <span className='text-primary'> | </span>
+              Helps people help each other.
+            </p>{' '}
+          </h1>
+          {/* <div className='-mx-4 flex flex-wrap'> */}
+          {/* <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
+              <div className='my-1 flex justify-center   '>
+                <p className='text-base-content text-center '>
                   &copy; {new Date().getFullYear()} SAGI: Active Solidarity, Ltd
                   | Help people help each other.
                 </p>
               </div>
-            </div>
-            <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
+            </div> */}
+          {/* <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
               <div className='my-1'>
                 <div className='-mx-3 flex flex-wrap items-center justify-center md:justify-end'>
-                  <BottomNavLink link='/#' label='Privacy policy' />
-                  <BottomNavLink link='/#' label='Legal notice' />
-                  <BottomNavLink link='/#' label='Terms of service' />
+                  <BottomNavLink
+                    link='/privacy-policy'
+                    label='Privacy policy'
+                  />
+                  <BottomNavLink link='/legal-notice' label='Legal notice' />
+                  <BottomNavLink
+                    link='/term-of-service'
+                    label='Terms of service'
+                  />
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </footer>

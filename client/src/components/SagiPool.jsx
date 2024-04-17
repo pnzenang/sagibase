@@ -17,8 +17,8 @@ const SagiPool = () => {
                 Welcome to SAGI POOL.
               </h2>
               <p className='text-base text-body-color dark:text-dark-6'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                In this membership type, the member control almost everything in
+                connection to his or her membership.
               </p>
             </div>
           </div>
@@ -26,23 +26,23 @@ const SagiPool = () => {
 
         <div className='-mx-4 flex flex-wrap justify-center'>
           <ServiceCard
-            title='Dedicated project manager'
-            details='With lots of unique blocks, you can easily build a page without coding. Build your next landing page.'
+            title='You control your destiny'
+            details=' The member need to make sure that all the requirements are met. fill up his or her part of the puzzle.'
             icon={<UserPlus className='text-primary w-10 h-10' />}
           />
           <ServiceCard
             title='Organized tasks'
-            details='With lots of unique blocks, you can easily build a page without coding. Build your next landing page.'
+            details='The membership is organized so that each member has to complete his or her part of the contract.'
             icon={<Layers3 className='text-primary w-10 h-10' />}
           />
           <ServiceCard
-            title='Easy feedback sharing'
-            details='With lots of unique blocks, you can easily build a page without coding. Build your next landing page.'
+            title='Clear feedback sharing'
+            details='The member has to know what has transpired from all decision makings as if their live depend on. .'
             icon={<MessageCircleQuestion className='text-primary w-10 h-10' />}
           />
           <ServiceCard
             title='Never miss deadline'
-            details='With lots of unique blocks, you can easily build a page without coding. Build your next landing page.'
+            details='The member is responsible of making sure he or she never miss a deadline, his or her membership depend on.'
             icon={<CalendarClock className='text-primary w-10 h-10' />}
           />
         </div>

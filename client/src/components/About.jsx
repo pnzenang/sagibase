@@ -21,14 +21,14 @@ const About = () => {
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
                   <div className='py-3 sm:py-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1701761041/kv0xg6v5jnlcxmop0cp2.jpg'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713149463/teamwork_ec0y0l.png'
                       alt='together'
                       className='w-full rounded-2xl'
                     />
                   </div>
                   <div className='py-3 sm:py-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1701761041/kv0xg6v5jnlcxmop0cp2.jpg'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713149454/team_v8aadh.png'
                       alt='together'
                       className='w-full rounded-2xl'
                     />
@@ -37,7 +37,7 @@ const About = () => {
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
                   <div className='relative z-10 my-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1701761041/kv0xg6v5jnlcxmop0cp2.jpg'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713149440/teamwork_1_qlott8.png'
                       alt='likes'
                       className='w-full rounded-2xl'
                     />

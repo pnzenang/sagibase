@@ -8,7 +8,7 @@ const SagiPoolFaqs = () => {
     <>
       <div className='mx-auto mb-[60px]  text-center pt-20 lg:mb-20'>
         <h2 className='mb-4 text-3xl font-bold text-base-content sm:text-[40px]/[48px]'>
-          Frequently ask questions about list updates
+          Frequently ask questions about POOL Membership
         </h2>
       </div>
       <StateContext.Provider value={{ openTab, setOpenTab }}>
@@ -17,12 +17,10 @@ const SagiPoolFaqs = () => {
             <div className='-mx-4 flex flex-wrap'>
               <div className='w-full px-4 lg:w-4/12'>
                 <div className='mb-10 overflow-hidden rounded bg-base-200 lg:mb-0'>
-                  <Button tabNumber='1'>Payment Method</Button>
+                  <Button tabNumber='1'>Deposit Payment</Button>
                   <Button tabNumber='2'>Privacy Policy</Button>
-                  <Button tabNumber='3'>Orders</Button>
-                  <Button tabNumber='4'>Product & Stocks</Button>
-                  <Button tabNumber='5'>My Account</Button>
-                  <Button tabNumber='6'>Refund Policy</Button>
+                  <Button tabNumber='3'>Meeting Dateline</Button>
+                  <Button tabNumber='4'>Knowing everything</Button>
                 </div>
               </div>
 
@@ -30,8 +28,8 @@ const SagiPoolFaqs = () => {
                 <div className='lg:pl-8 2xl:pl-[60px]'>
                   <ContentItem
                     tabNumber='1'
-                    title='Payment Method'
-                    text="Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved."
+                    title='Deposit Payment'
+                    text='The SAGI Pool specialist will have to make the decision base on how the member is making his contribution or not.'
                     text2='Placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content.'
                   >
                     <FeaturesList

@@ -27,3 +27,6 @@ export { default as AdminEditMember } from './AdminEditMember';
 export { default as AdminEditDeceased } from './AdminEditDeceased';
 export { default as DeathAnnouncement } from './DeathAnnouncement';
 export { default as SingleNecrology } from './SingleNecrology';
+export { default as LegalNotice } from './LegalNotice';
+export { default as PrivacyPolicy } from './PrivacyPolicy';
+export { default as TermOfService } from './TermOfService';

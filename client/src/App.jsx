@@ -31,6 +31,9 @@ import {
   DeathAnnouncement,
   SingleNecrology,
   AdminEditDeceased,
+  PrivacyPolicy,
+  LegalNotice,
+  TermOfService,
 } from './pages';
 
 import { ErrorElement } from './components';
@@ -122,6 +125,21 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'term-of-service',
+        element: <TermOfService />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'legal-notice',
+        element: <LegalNotice />,
         errorElement: <ErrorElement />,
       },
     ],

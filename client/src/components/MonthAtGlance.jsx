@@ -1,4 +1,4 @@
-import calendar from '../assets/images/calendar.png';
+import schedule from '../assets/images/schedule.png';
 
 const MonthAtGlance = () => {
   return (
@@ -10,7 +10,7 @@ const MonthAtGlance = () => {
         At SAGI, the month is divided into 3 big determining moments
       </h2>
       <div className='container align-element'>
-        <img src={calendar} alt='' />
+        <img src={schedule} alt='' />
       </div>
     </section>
   );

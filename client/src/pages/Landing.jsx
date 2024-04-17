@@ -4,6 +4,7 @@ import {
   Partners,
   Mission,
   Testimonials2,
+  HighLights,
 } from '../components';
 import Testimonials from '../components/Testimonials';
 import Home from './Home';
@@ -18,6 +19,7 @@ const Landing = () => {
       <Mission />
       <Partners />
       {/* <Testimonials /> */}
+      <HighLights />
       <Testimonials2 />
     </section>
   );
