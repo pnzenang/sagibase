@@ -29,22 +29,22 @@ const RegistrationFaqs = () => {
               text='The first step is to constitute an association or group for SAGI purpose, then fill out SAGI INTRODUCTORY FORM above, and go from there. .'
             />
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='Can you benefit if you die in Cameroon while visiting?'
+              text='Yes, starting May 1 2024, if you are a US citizen or alien resident and happen to pass away while visiting Cameroon for a period of six months or less, you will can benefit from SAGI.'
             />
           </div>
           <div className='w-full px-4 lg:w-1/2'>
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='How to become a SAGI member as individual?'
+              text='To become a SAGI member, you must reside here in USA and belong to a group or association.  Your association delegate must register you on SAGI web application All we need is your name as it appears on your official documents, including Day and Month and year of birth.  No medical test is required.  You can register your parents or love ones who live in USA.  SAGI accepts anyone without distinction of age, sex, tribal or religion.'
             />
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='Who can be a SAGI member?'
+              text='Any Cameroonian or spouse of Cameroonian'
             />
             <AccordionItem
-              header='How long we deliver your first blog post?'
-              text='It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .'
+              header='Can any association become a SAGI member?'
+              text='Yes.  However, it is at the discretion of SAGI to accept or to decline the membership of an association or a member to its organization.'
             />
           </div>
         </div>

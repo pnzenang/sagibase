@@ -17,25 +17,25 @@ const ListUpdatesFaqs = () => {
         <div className='-mx-4 flex flex-wrap justify-center'>
           <div className='w-full px-4 xl:w-10/12'>
             <AccordionItem
-              header='Can I use TailGrids Pro for my clients projects?'
-              text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything."
+              header='Do we still have to fill forms to add members?'
+              text='No, adding members is done straight on the association/delegate dashboard and the members information will end up on SAGI database, the delegate can then let the prospective members the exact date he or she will become vested.'
             />
             <AccordionItem
-              header='Which license type is suitable for me?'
-              text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything."
+              header='Do we still have to fill forms to remove members?'
+              text='No, The withdrawal is done straight on the association/delegate dashboard, the delegate choose the option remove from the button: Delegate Recommendation.'
             />
             <AccordionItem
-              header='Is TailGrids Well-documented?'
-              text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything."
+              header='How to transfer a member from one association to another?'
+              text='To Transfer a member from Association A to association B, both delegate need to select the option TRANSFER for the same member by clicking Delegate Recommendation button, and SAGI admin will do the rest.'
             />
             <AccordionItem
-              header='Do you provide support?'
-              text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything."
+              header='NAME CORRECTION – How to correct the name of a members?'
+              text='The delegate should download the form (Form S4 – SAGI Name Correction), filling it out and returning it to us at info@mySag.org. If the name have been changed due to divorce or so, a court document is required as a proof.'
             />
-            <AccordionItem
+            {/* <AccordionItem
               header='Can I get the Feature Updates?'
               text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything."
-            />
+            /> */}
           </div>
         </div>
       </div>

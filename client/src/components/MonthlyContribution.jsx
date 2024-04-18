@@ -40,13 +40,13 @@ const Stats2 = () => {
           <StatsItem
             title='for about:'
             user={contributionPerMember}
-            detail='contribution per member'
+            detail='Per member'
             icon={<TbUserDollar className='w-10 h-10' />}
           />
           <StatsItem
             title='and:'
             user={individualContribution}
-            detail='individual contribution per death'
+            detail='Contribution per death'
             icon={<AiOutlineDollarCircle className='w-10 h-10' />}
           />
         </div>
