@@ -104,7 +104,7 @@ const MembersContainer = () => {
                               Association Code{' '}
                             </th>
                             <th className={TdStyle.ThStyle}> Matriculation </th>
-                            <th className={TdStyle.ThStyle}> First Name(s) </th>
+                            <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>
                               {' '}
                               Last & Middle Names{' '}
