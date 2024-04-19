@@ -92,7 +92,7 @@ const Table = () => {
                     <td className={TdStyle.TdStyle}>ABWA AKOTA</td>
                     <td className={TdStyle.TdStyle2}>21-Oct-2013</td>
                     <td className={TdStyle.TdStyle}>21-MAR-2024</td>
-                    <td className={TdStyle.TdStyle}>New Mexico</td>
+                    <td className={TdStyle.TdStyle}>Minnesota</td>
                   </tr>
                 </tbody>
               </table>
