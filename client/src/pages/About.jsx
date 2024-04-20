@@ -7,8 +7,8 @@ const AboutUs = () => {
       <About />
       <Services />
       <Timeline />
-      <Team />
-      <Delegates />
+      {/* <Team /> */}
+      {/* <Delegates /> */}
     </section>
   );
 };

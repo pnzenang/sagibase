@@ -124,8 +124,8 @@ const Portfolio = () => {
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref='https://res.cloudinary.com/dp8tkb7hq/image/upload/c_scale,h_600,w_800/v1713373012/mount_sckozz.jpg'
-              category='Despite all the difficult situations, SAGI has been through, it still stands strong.'
+              ImageHref='https://res.cloudinary.com/dp8tkb7hq/image/upload/c_scale,h_600,w_800/v1713624218/mount_vqjmqv.jpg'
+              category='Despite all the difficult situations SAGI has been through, it still stands strong.'
               title='Ancestral Benediction '
               showCard={showCard}
             />
