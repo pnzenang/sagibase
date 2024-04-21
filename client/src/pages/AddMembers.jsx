@@ -47,14 +47,14 @@ const AddMembers = () => {
           add member
         </h4>
         <div className='grid  lg:grid-cols-2 2xl:grid-cols-3 gap-4 '>
-          <FormInput3 type='text' label='member first name' name='firstName' />
-          <FormInput
+          <FormInput2 type='text' label='member first name' name='firstName' />
+          <FormInput2
             type='text'
             label='member last and middle names'
             name='lastAndMiddleNames'
           />
           <FormDate name='dateOfBirth' label='member date of birth' />
-          <FormInput
+          <FormInput2
             type='text'
             label='member country of birth'
             name='countryOfBirth'
