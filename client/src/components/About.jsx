@@ -21,14 +21,14 @@ const About = () => {
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
                   <div className='py-3 sm:py-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1713722483/volunteering_l73izu.png'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713726733/respect_tqld6e.png'
                       alt='together'
                       className='w-full rounded-2xl'
                     />
                   </div>
                   <div className='py-3 sm:py-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1713717234/team_1_agtn70.png'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713717234/team_1_agtn70.png'
                       alt='together'
                       className='w-full rounded-2xl'
                     />
@@ -37,7 +37,7 @@ const About = () => {
                 <div className='w-full px-3 sm:px-4 xl:w-1/2'>
                   <div className='relative z-10 my-4'>
                     <img
-                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1713717479/collaboration_rkvnrh.png'
+                      src='https://res.cloudinary.com/dp8tkb7hq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1713717479/collaboration_rkvnrh.png'
                       alt='likes'
                       className='w-full rounded-2xl'
                     />
