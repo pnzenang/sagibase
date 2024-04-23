@@ -34,7 +34,7 @@ const VestedMembers = () => {
                     This Month additions .
                   </a>
                 </div>
-                <div className='mb-4 px-2'>
+                {/* <div className='mb-4 px-2'>
                   <a
                     href={pdf}
                     className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
@@ -49,7 +49,7 @@ const VestedMembers = () => {
                   >
                     This month transfers.
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
