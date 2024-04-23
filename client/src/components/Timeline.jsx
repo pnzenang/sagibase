@@ -26,14 +26,14 @@ const Timeline = () => {
             <p className=' text-lg leading-8 px-6 sm:px-14 text-base-content'>
               Up until 2009, when an African family in general and Cameroonian
               in particular was struck by the death of a member, most of time it
-              had to go through a though time, not only linked to the loss of
-              the loved one, but also related to the financial question that
-              arose and was pressing, how to pay for the morgue, without delay,
-              and how to repatriate the body. And very often the family alone
-              were not able to take care of it immediately, the members of the
-              family usually had to enter into unusual practices such as asking
-              for alms in front of the church, getting into debt without having
-              an idea about where the money will come from to repay. <br />
+              had to go through a tough time, not only linked to the loss of the
+              loved one, but also related to the financial question that arose
+              and was pressing, how to pay for the morgue, without delay, and
+              how to repatriate the body. And very often the family alone were
+              not able to take care of it immediately, the members of the family
+              usually had to enter into unusual practices such as asking for
+              alms in front of the church, getting into debt without having an
+              idea about where the money will come from to repay. <br />
               In the meantime, during the vigils, there were many brave
               Cameroonians who even helped, but the funds were very often
               misdirected and did not achieve the main goal which was to take
@@ -83,8 +83,8 @@ const Timeline = () => {
             </h4>
             <p className='text-lg leading-8 px-6 sm:px-14 text-base-content'>
               After registering sagi with the Maryland Busness Authority, we had
-              to face the though part of putting our idea into practice, by
-              first making people register to SAGI, we went door to door, from
+              to face the tough part of putting our idea into practice, by first
+              making people register to SAGI, we went door to door, from
               associations to associations during their meetings, to convincing
               them to join, we faced a lot of difficulties, we encountered not
               only skeptics but above all, some compatriots who called us all
