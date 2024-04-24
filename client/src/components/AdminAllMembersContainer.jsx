@@ -80,14 +80,13 @@ const AdminAllMembersContainer = () => {
                         <thead className='text-center bg-primary'>
                           <tr>
                             <th className={TdStyle.ThStyle}>
-                              {' '}
-                              Association Code{' '}
+                              Association Code
                             </th>
                             <th className={TdStyle.ThStyle}> Matriculation </th>
                             <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>
                               {' '}
-                              Last & Middle Names{' '}
+                              Middle & First Names
                             </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>

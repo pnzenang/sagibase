@@ -106,8 +106,7 @@ const MembersContainer = () => {
                             <th className={TdStyle.ThStyle}> Matriculation </th>
                             <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>
-                              {' '}
-                              Last & Middle Names{' '}
+                              Middle & Last Names{' '}
                             </th>
                             {/* <th className={TdStyle.ThStyle}>Date of Birth</th> */}
                             <th className={TdStyle.ThStyle}>
