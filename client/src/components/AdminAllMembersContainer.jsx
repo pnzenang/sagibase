@@ -86,7 +86,7 @@ const AdminAllMembersContainer = () => {
                             <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>
                               {' '}
-                              Middle & First Names
+                              Middle & Last Names
                             </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>
