@@ -6,6 +6,7 @@ import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import { styled } from 'styled-components';
+import dayjs from 'dayjs';
 
 day.extend(advancedFormat);
 
@@ -119,8 +120,9 @@ const AdminAllMembersContainer = () => {
                                 ? 'pending'
                                 : memberMatriculation;
                             const date = day(createdAt).format('MMM Do, YYYY');
-                            const date2 =
-                              day(dateOfBirth).format('MMM Do, YYYY');
+                            const date2 = day(dateOfBirth)
+                              .add(1, 'minute')
+                              .format('MMM Do, YYYY');
                             return (
                               <tr key={_id}>
                                 <td className={TdStyle.TdStyle}>
