@@ -43,7 +43,7 @@ const Register = () => {
           />
           <FormInputs
             type='text'
-            label='last and middle names'
+            label='middle and last names'
             name='lastAndMiddleNames'
           />
         </div>
