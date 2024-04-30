@@ -98,7 +98,7 @@ const AdminEditMember = () => {
           {user.role === 'user' ? (
             <FormInput
               type='text'
-              label='member first name'
+              label='member first names'
               name='firstName'
               value={member.firstName}
               onChange={() => null}
@@ -106,7 +106,7 @@ const AdminEditMember = () => {
           ) : (
             <FormInput
               type='text'
-              label='member first name'
+              label='member first names'
               name='firstName'
               defaultValue={member.firstName}
               onChange={() => null}

@@ -58,7 +58,7 @@ const EditMember = () => {
           {user.role === 'user' ? (
             <FormInput
               type='text'
-              label='member first name'
+              label='member first names'
               name='firstName'
               value={member.firstName}
               onChange={() => null}
@@ -66,7 +66,7 @@ const EditMember = () => {
           ) : (
             <FormInput
               type='text'
-              label='member first name'
+              label='member first names'
               name='firstName'
               defaultValue={member.firstName}
               onChange={() => null}
@@ -83,7 +83,7 @@ const EditMember = () => {
           ) : (
             <FormInput
               type='text'
-              label='member last and middle names'
+              label='member middle and last names'
               name='lastAndMiddleNames'
               defaultValue={member.lastAndMiddleNames}
               onChange={() => null}
