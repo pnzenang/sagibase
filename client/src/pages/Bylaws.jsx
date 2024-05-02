@@ -1,4 +1,4 @@
-import pdf from '../documents/internalRules.pdf';
+import pdf from '../documents/rules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
