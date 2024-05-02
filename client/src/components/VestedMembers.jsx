@@ -1,4 +1,5 @@
 import pdf from '../documents/members.pdf';
+
 import list from '../assets/images/list.svg';
 
 const VestedMembers = () => {

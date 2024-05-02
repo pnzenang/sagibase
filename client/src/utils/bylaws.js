@@ -2,9 +2,10 @@ const BYLAWS = [
   {
     id: 0,
     title: 'SECTION-1: THE PREAMBLE',
-    detail: `<p>1.1. PURPOSE OF INTERNAL RULES & REGULATIONS.\n
-The purpose of the \nInternal Rules & Regulations is to ensure the smooth running and proper functioning of the organization. The Internal Rules & Regulations will provide guidelines on maintaining the organizations vision, harboring a close and supportive relationship between the bureau/board and the delegates, resolving confusion, facilitating daily activities, and improving the management of the bureau/board. The following Internal Rules & Regulations effectively serve as the Bylaws of this organization.
-The Internal Rules & Regulations should serve as a living document to the organization’s officers, presidents of associations, and delegates.  This is a set of rules that every association/member should abide by. The Internal Rules & Regulations shall be available to every SAGI association/member of the organization through the website or provided via electronic mail.</p>`,
+    detail: `1.1. PURPOSE OF INTERNAL RULES & REGULATIONS.\n
+The purpose of the \nInternal Rules & Regulations is to ensure the smooth running and proper functioning of the organization. The Internal Rules & Regulations will provide guidelines on maintaining the organizations vision, harboring a close and supportive relationship between the bureau/board and the delegates, resolving confusion, facilitating daily activities, and improving the management of the bureau/board. The following Internal Rules & Regulations effectively serve as the Bylaws of this organization.,
+1.2 LIVING DOCUMENT.
+The Internal Rules & Regulations should serve as a living document to the organization’s officers, presidents of associations, and delegates.  This is a set of rules that every association/member should abide by. The Internal Rules & Regulations shall be available to every SAGI association/member of the organization through the website or provided via electronic mail.`,
   },
   {
     id: 1,
@@ -157,6 +158,7 @@ In any litigation, arbitration, or other proceedings in which SAGI is the prevai
 Any death must be reported to the SAGI bureau within seven (7) days from the date of death; after this period, the death is no longer considered by SAGI and contributions will not be provided by SAGI.
 To preserve the privacy of the deceased, associations and families are encouraged, but not required to conceal the cause of death, usually mentioned on the death certificate, before providing it to SAGI.
 16.2.   DEATH OCCURRED IN THE UNITED STATES
+
 Documents to be submitted for a death in the US:
 
 Death certificate (Cause of death may be redacted)
@@ -164,19 +166,9 @@ SAGI Matriculation Number
 Picture of the deceased
 Funeral Home invoice
 Evidence the member association is in good standing with SAGI (i.e. No outstanding invoices)
-16.3.   DEATH OCCURRED OUT OF UNITED STATES, BUT NOT IN CAMEROON
-Documents to be submitted for a death outside the US, but not in Cameroon:
+16.3.   DEATH THAT OCCURRED IN CAMEROON OR ANYWHERE OUT OF THE US
+a. A death in Cameroon or Anywhere out of the US, as used in this section, describe the death of an individual SAGI member who is either a US citizen or Legal Permanent Resident (as defined in the US Nationality Laws enforced) who passed away while visiting Cameroon or any other country with no intention of remaining permanently, provided that the death occurred within 180 days of the individual entering the country. b.  The deceased was a SAGI member (Have a SAGI Matriculation issued and published per the general bylaws establishing membership) at the commencement of his/her visit. 
 
-Death certificate (Cause of death may be redacted)
-SAGI Matriculation Number
-Picture
-Funeral Home invoice
-Social Security Card
-Copy of passport with immigration stamp
-Copy of air ticket
-Most current 3 months' pay stub or its equivalent
-4506-T (Income tax verification processing request form) or W2 (Tax return)
-Association must be in good standing (No outstanding invoices)
 16.4.   ADMINISTRATIVE FORMALITIES
 SAGI does not deal with paperwork. This task falls to the family concerned with the death. Ergo, SAGI does not retain any documents pertaining to deaths or the individual families. SAGI maintains no records.`,
   },
