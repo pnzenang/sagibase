@@ -22,7 +22,7 @@ const Stats2 = () => {
           </h2>
           <p className='text-base-content'>
             Here, we have the detail on this month's contribution, you can also
-            download the contribution table
+            download the contributions table
           </p>
         </div>
         <div className='-mx-auto  w-full text-center pb-16 '>
