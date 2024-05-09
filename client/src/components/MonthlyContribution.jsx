@@ -25,13 +25,13 @@ const Stats2 = () => {
             download the contributions table
           </p>
         </div>
-        <div className='-mx-auto  w-full text-center pb-16 '>
-          <div className='mb-4 px-2'>
+        <div className='-mx-auto  w-full text-center pb-16  '>
+          <div className='mb-4 px-2 '>
             <a
               href={pdf}
-              className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+              className='btn inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
             >
-              This Month Contributions Table .
+              This Month's Contributions Table .
             </a>
           </div>
         </div>

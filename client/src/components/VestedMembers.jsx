@@ -16,7 +16,7 @@ const VestedMembers = () => {
           </div>
           <div className='w-full px-4 md:w-7/12 lg:w-6/12 xl:w-5/12'>
             <div className=' p-8'>
-              <div className='lg:max-w-[450px]'>
+              <div className='lg:max-w-[450px] '>
                 <h3 className='mb-6 text-3xl font-bold leading-tight text-base-content md:text-[40px] lg:text-[50px]'>
                   Updates.
                 </h3>
@@ -27,10 +27,10 @@ const VestedMembers = () => {
               </div>
 
               <div className='-mx-auto  w-full '>
-                <div className='mb-4 px-2'>
+                <div className='mb-4 px-2 '>
                   <a
                     href={pdf}
-                    className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+                    className='inline-flex border border-transparent bg-primary px-8 py-3 btn text-base font-medium text-white transition hover:bg-opacity-90'
                   >
                     This Month additions .
                   </a>
