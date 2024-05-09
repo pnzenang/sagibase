@@ -31,7 +31,7 @@ const Stats2 = () => {
               href={pdf}
               className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
             >
-              This Month Contribution Table .
+              This Month Contributions Table .
             </a>
           </div>
         </div>
