@@ -2,11 +2,12 @@ import { TbUsersGroup } from 'react-icons/tb';
 import { FaSearchDollar } from 'react-icons/fa';
 import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
+import pdf from '../documents/contributions.pdf';
 
-let totalContribution = '$160,000';
-let totalVestedMember = '9,889';
-let contributionPerMember = '$16.32';
-let individualContribution = '$2.04';
+let totalContribution = '$140,000';
+let totalVestedMember = '10,284';
+let contributionPerMember = '$13.65';
+let individualContribution = '$1.95';
 
 const Stats2 = () => {
   return (
@@ -15,13 +16,24 @@ const Stats2 = () => {
       id='contribution'
     >
       <div className='mx-auto px-4 sm:container p-20'>
-        <div className='mx-auto mb-[70px]  text-center'>
+        <div className='mx-auto mb-[20px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-5xl capitalize'>
-            Our contribution this month
+            Our May 2024's contributions
           </h2>
           <p className='text-base-content'>
-            Here, we have the detail on this month's contribution.
+            Here, we have the detail on this month's contribution, you can also
+            download the contribution table
           </p>
+        </div>
+        <div className='-mx-auto  w-full text-center pb-16 '>
+          <div className='mb-4 px-2'>
+            <a
+              href={pdf}
+              className='inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+            >
+              This Month Contribution Table .
+            </a>
+          </div>
         </div>
 
         <div className='-mx-4 flex flex-wrap'>

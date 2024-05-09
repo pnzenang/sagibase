@@ -28,31 +28,29 @@ const Table = () => {
 
                 <tbody>
                   <tr>
-                    <td className={TdStyle.TdStyle}>VDCASAGI056</td>
-                    <td className={TdStyle.TdStyle2}>GUITINYI</td>
-                    <td className={TdStyle.TdStyle}>KOMETA</td>
-                    <td className={TdStyle.TdStyle2}>20-OCT-20</td>
-                    <td className={TdStyle.TdStyle}>11-DEC-2024</td>
-                    <td className={TdStyle.TdStyle}>Maryland</td>
+                    <td className={TdStyle.TdStyle}>BANESAGI015</td>
+                    <td className={TdStyle.TdStyle2}>SAMUEL</td>
+                    <td className={TdStyle.TdStyle}>TIAKO</td>
+                    <td className={TdStyle.TdStyle2}>25-Dec-19</td>
+                    <td className={TdStyle.TdStyle}>30-Jun-23</td>
+                    <td className={TdStyle.TdStyle}>Massachusetts</td>
                   </tr>
 
                   <tr>
-                    <td className={TdStyle.TdStyle}>AKUMSAGI130</td>
-                    <td className={TdStyle.TdStyle2}>ROSE</td>
-                    <td className={TdStyle.TdStyle}>
-                      SHURI MATOH EPSE FOSSUOUO
-                    </td>
-                    <td className={TdStyle.TdStyle2}>25-Nov-18</td>
-                    <td className={TdStyle.TdStyle}>15-Jan-2024</td>
-                    <td className={TdStyle.TdStyle}>Maryland</td>
+                    <td className={TdStyle.TdStyle}>LBLMSAGI143</td>
+                    <td className={TdStyle.TdStyle2}>CLARA</td>
+                    <td className={TdStyle.TdStyle}>NKEMASONG BEZA,</td>
+                    <td className={TdStyle.TdStyle2}>1-Apr-24</td>
+                    <td className={TdStyle.TdStyle}>3-Apr-24</td>
+                    <td className={TdStyle.TdStyle}>Arizona</td>
                   </tr>
                   <tr>
-                    <td className={TdStyle.TdStyle}>COTBSAGI087</td>
-                    <td className={TdStyle.TdStyle2}>WILLIAM</td>
-                    <td className={TdStyle.TdStyle}>NDIFOR NGANG</td>
-                    <td className={TdStyle.TdStyle2}>1-Jan-2024</td>
-                    <td className={TdStyle.TdStyle}>21-Jan-2024</td>
-                    <td className={TdStyle.TdStyle}>Florida</td>
+                    <td className={TdStyle.TdStyle}>PCCHSAGI045</td>
+                    <td className={TdStyle.TdStyle2}>ROLAND LOUIS</td>
+                    <td className={TdStyle.TdStyle}>NJENGE</td>
+                    <td className={TdStyle.TdStyle2}>25-Jul-15</td>
+                    <td className={TdStyle.TdStyle}>12-Apr-24</td>
+                    <td className={TdStyle.TdStyle}>Texas</td>
                   </tr>
                   <tr>
                     <td className={TdStyle.TdStyle}>LBLMSAGI090</td>
@@ -63,36 +61,28 @@ const Table = () => {
                     <td className={TdStyle.TdStyle}>California</td>
                   </tr>
                   <tr>
-                    <td className={TdStyle.TdStyle}>CMSRSAGI047</td>
-                    <td className={TdStyle.TdStyle2}>ANDOSON</td>
-                    <td className={TdStyle.TdStyle}>WEYGANG</td>
-                    <td className={TdStyle.TdStyle2}>1-SEP-2023</td>
-                    <td className={TdStyle.TdStyle}>23-FEV-2024</td>
-                    <td className={TdStyle.TdStyle}>VIrginia</td>
-                  </tr>
-                  <tr>
-                    <td className={TdStyle.TdStyle}>MDFWSAGI056</td>
-                    <td className={TdStyle.TdStyle2}>ROSE</td>
-                    <td className={TdStyle.TdStyle}>NGOH BARIKA</td>
-                    <td className={TdStyle.TdStyle2}>3-MAR-2023</td>
-                    <td className={TdStyle.TdStyle}>3-MAR-2024</td>
+                    <td className={TdStyle.TdStyle}>UFSRSAGI042</td>
+                    <td className={TdStyle.TdStyle2}>SOPHIE</td>
+                    <td className={TdStyle.TdStyle}>MAKWANE</td>
+                    <td className={TdStyle.TdStyle2}>25-Mar-18</td>
+                    <td className={TdStyle.TdStyle}>15-Apr-24</td>
                     <td className={TdStyle.TdStyle}>Texas</td>
                   </tr>
                   <tr>
-                    <td className={TdStyle.TdStyle}>LBLMSAGI125</td>
-                    <td className={TdStyle.TdStyle2}>MEOTO</td>
-                    <td className={TdStyle.TdStyle}>GOBINA OTTO</td>
-                    <td className={TdStyle.TdStyle2}>31-Jul-2021</td>
-                    <td className={TdStyle.TdStyle}>6-Mar-2024</td>
-                    <td className={TdStyle.TdStyle}>Oregon</td>
+                    <td className={TdStyle.TdStyle}>BEDOSAGI057</td>
+                    <td className={TdStyle.TdStyle2}>MICHAEL</td>
+                    <td className={TdStyle.TdStyle}>ETCHU AYUK</td>
+                    <td className={TdStyle.TdStyle2}>1-Dec-23</td>
+                    <td className={TdStyle.TdStyle}>16-Apr-24</td>
+                    <td className={TdStyle.TdStyle}>Massachusetts</td>
                   </tr>
                   <tr>
-                    <td className={TdStyle.TdStyle}>MICASAGI062</td>
-                    <td className={TdStyle.TdStyle2}>ROSE</td>
-                    <td className={TdStyle.TdStyle}>ABWA AKOTA</td>
-                    <td className={TdStyle.TdStyle2}>21-Oct-2013</td>
-                    <td className={TdStyle.TdStyle}>21-MAR-2024</td>
-                    <td className={TdStyle.TdStyle}>Minnesota</td>
+                    <td className={TdStyle.TdStyle}>TKGUSAGI071</td>
+                    <td className={TdStyle.TdStyle2}>MARTHA</td>
+                    <td className={TdStyle.TdStyle}>MAKOR MEIN</td>
+                    <td className={TdStyle.TdStyle2}>8-Apr-23</td>
+                    <td className={TdStyle.TdStyle}>30-Apr-24</td>
+                    <td className={TdStyle.TdStyle}>Pennsylvania</td>
                   </tr>
                 </tbody>
               </table>

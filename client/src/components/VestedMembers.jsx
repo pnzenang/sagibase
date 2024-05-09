@@ -1,4 +1,4 @@
-import pdf from '../documents/members.pdf';
+import pdf from '../documents/membres.pdf';
 
 import list from '../assets/images/list.svg';
 
@@ -18,7 +18,7 @@ const VestedMembers = () => {
             <div className=' p-8'>
               <div className='lg:max-w-[450px]'>
                 <h3 className='mb-6 text-3xl font-bold leading-tight text-base-content md:text-[40px] lg:text-[50px]'>
-                  List Updates.
+                  Updates.
                 </h3>
                 <p className='mb-8 text-lg text-body-color dark:text-dark-6'>
                   Each month, we publish all the updated list of new members,
