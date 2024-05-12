@@ -155,13 +155,14 @@ const Membership = () => {
                     Pool membership
                   </h3>
                   <p className='text-base-content mb-9'>
-                    This membership is reserve Cameroonians or spouse of
+                    This membership is reserve for Cameroonians or spouse of
                     Cameroonians who could not or are not willing to join an
                     association or a group of at least 20 people, in this
                     situation, unlike in the first option, the members have to
-                    keep a close contact with SAGI admin through SAGI POOL, and
-                    may have to prepay a deposit to ensure smooth contributions
-                    when needed.
+                    keep a close contact with SAGI administration through SAGI
+                    POOL POOL Specialist where he will register and provide the
+                    necessary documentation to become a fully active SAGI
+                    Member.
                   </p>
                 </div>
               </div>
