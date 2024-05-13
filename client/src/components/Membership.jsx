@@ -160,7 +160,7 @@ const Membership = () => {
                     association or a group of at least 20 people, in this
                     situation, unlike in the first option, the members have to
                     keep a close contact with SAGI administration through SAGI
-                    POOL POOL Specialist where he will register and provide the
+                    POOL Specialist with whom he will register and provide the
                     necessary documentation to become a fully active SAGI
                     Member.
                   </p>
