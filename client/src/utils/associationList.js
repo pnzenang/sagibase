@@ -15,7 +15,7 @@ let associations = [
   { name: 'ship', number: 19 },
   { name: 'ebnt', number: 22 },
   { name: 'acmd', number: 32 },
-  { name: 'akum', number: 171 },
+  { name: 'akum', number: 180 },
   { name: 'cdia', number: 16 },
   { name: 'nola', number: 17 },
   { name: 'banc', number: 150 },

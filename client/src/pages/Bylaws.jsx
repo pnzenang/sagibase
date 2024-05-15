@@ -39,6 +39,8 @@ const Bylaws = () => {
             The following Internal Rules & Regulations effectively serve as the
             Bylaws of this organization. <br />
             <br />
+            <span className='font-bold'>1.2. LIVING DOCUMENT.</span>
+            <br />
             The Internal Rules & Regulations should serve as a living document
             to the organization’s officers, presidents of associations, and
             delegates. This is a set of rules that every association member
@@ -372,10 +374,11 @@ const Bylaws = () => {
         </div>
         <div className='collapse-content text-base-content'>
           <p>
-            All SAGI ID cards remain the sole property of SAGI, and in any case
-            cannot be used outside the scope of SAGI. The use of names and
-            matriculation numbers, as well as emails and phone numbers from SAGI
-            for political or economic purposes are specifically prohibited.
+            When they exist, All SAGI ID cards remain the sole property of SAGI,
+            and in any case cannot be used outside the scope of SAGI. The use of
+            names and matriculation numbers, as well as emails and phone numbers
+            from SAGI for political or economic purposes are specifically
+            prohibited.
           </p>
         </div>
       </div>
@@ -390,22 +393,21 @@ const Bylaws = () => {
           <p>
             <span className='font-bold'>15.1. EXCLUSIVE FORUM PROVISION</span>
             <br />
-            The headquarters of SAGI are located in Prince George’s County,
-            Maryland. Unless SAGI consents in writing to the selection of an
-            alternative forum, the sole and exclusive forum for (i) any
-            derivative action or proceeding brought on behalf of SAGI, (ii) any
-            action asserting a claim of breach of fiduciary duty owed by any
-            director or officer of SAGI to the Organization or the
-            Organization’s members (which are only associations), (iii) any
-            action asserting a claim against SAGI or any director or officer of
-            SAGI arising pursuant to any provision of the Maryland Law or the
-            Certificate of Incorporation or these By-Laws (in each case, as they
-            may be amended from time to time), or (iv) any action asserting a
-            claim against SAGI or any director or officer of SAGI governed by
-            the internal affairs doctrine, shall be the Circuit Court for Prince
-            George’s County (or if the Circuit Court for Prince George’s County
-            does not have subject matter jurisdiction, the federal district
-            court for the District of Maryland). <br />
+            The headquarters of SAGI are located in Montgomery County, Maryland.
+            Unless SAGI consents in writing to the selection of an alternative
+            forum, the sole and exclusive forum for (i) any derivative action or
+            proceeding brought on behalf of SAGI, (ii) any action asserting a
+            claim of breach of fiduciary duty owed by any director or officer of
+            SAGI to the Organization or the Organization’s members (which are
+            only associations), (iii) any action asserting a claim against SAGI
+            or any director or officer of SAGI arising pursuant to any provision
+            of the Maryland Law or the Certificate of Incorporation or these
+            By-Laws (in each case, as they may be amended from time to time), or
+            (iv) any action asserting a claim against SAGI or any director or
+            officer of SAGI governed by the internal affairs doctrine, shall be
+            the Circuit Court for Montgomery County (or if the Circuit Court for
+            Montgomery County does not have subject matter jurisdiction, the
+            federal district court for the District of Maryland). <br />
             <br />
             <span className='font-bold'>15.2. CLAIMS</span>
             <br /> Only member associations have a right to accounting and to
@@ -415,10 +417,14 @@ const Bylaws = () => {
             right to accounting and cannot challenge in court or otherwise, the
             operation of the organization including the management of its funds
             and the conduct of its officers. SAGI employees are indemnified by
-            SAGI for work done on SAGI's behalf. 15.3. ATTORNEY FEES In any
-            litigation, arbitration, or other proceedings in which SAGI is the
-            prevailing party, SAGI shall collect from the non-prevailing party,
-            its reasonable attorneys' fees incurred.
+            SAGI for work done on SAGI's behalf.
+            <br />
+            <br />
+            <span className='font-bold'>15.3. ATTORNEY FEES</span>
+            <br />
+            In any litigation, arbitration, or other proceedings in which SAGI
+            is the prevailing party, SAGI shall collect from the non-prevailing
+            party, its reasonable attorneys' fees incurred.
           </p>
         </div>
       </div>
@@ -440,7 +446,7 @@ const Bylaws = () => {
             death, usually mentioned on the death certificate, before providing
             it to SAGI. <br /> <br />{' '}
             <span className='font-bold'>
-              16.2. DEATH OCCURRED IN THE UNITED STATES
+              16.2. DEATH THAT OCCURRED IN THE UNITED STATES
             </span>
             Documents to be submitted for a death in the US: Death certificate
             (Cause of death may be redacted) SAGI Matriculation Number Picture
@@ -448,16 +454,32 @@ const Bylaws = () => {
             is in good standing with SAGI (i.e. No outstanding invoices) <br />
             <br />
             <span className='font-bold'>
-              16.3. DEATH OCCURRED OUT OF UNITED STATES, BUT NOT IN CAMEROON{' '}
+              16.3. DEATH THAT OCCURRED IN CAMEROON OR ANYWHERE OUT OF US
             </span>
             <br />
-            Documents to be submitted for a death outside the US, but not in
-            Cameroon: Death certificate (Cause of death may be redacted) SAGI
-            Matriculation Number Picture Funeral Home invoice Social Security
-            Card Copy of passport with immigration stamp Copy of air ticket Most
-            current 3 months' pay stub or its equivalent 4506-T (Income tax
-            verification processing request form) or W2 (Tax return) Association
-            must be in good standing (No outstanding invoices) <br /> <br />
+            a. A death in Cameroon or Anywhere out of the US, as used in this
+            section, describe the death of an individual SAGI member who is
+            either a US citizen or Legal Permanent Resident (as defined in the
+            US Nationality Laws enforced) who passed away while visiting
+            Cameroon or any other country with no intention of remaining
+            permanently, provided that the death occurred within 180 days of the
+            individual entering the country. <br /> <br /> b. The deceased was a
+            Sagi member (Have a SAGI Matriculation issued and published per the
+            general bylaws establishing membership) at the commencement of
+            his/her visit. <br /> <br />
+            c. The association is in good standing. <br /> <br />
+            d. The following documentation shall be required as part of the
+            report of death in Cameroon or anywhere out of the US:
+            <br /> <br /> I. Certified copy of death certificate by the Ministry
+            of External Relations of the country where the death occurred.
+            <br /> <br /> II. Proof that the death has been reported to Social
+            Security Administration (The American Citizen Services in the
+            consular section of the embassy is where the “Consular Report of
+            Death”.
+            <br /> <br />
+            III A copy of the deceased's green card and Passport or US passport,
+            including the VISA page. <br /> <br />
+            IV A copy of the deceased trip ticket(s) <br /> <br />
             <span className='font-bold'>16.4. ADMINISTRATIVE FORMALITIES</span>
             <br />
             SAGI does not deal with paperwork. This task falls to the family
@@ -516,21 +538,30 @@ const Bylaws = () => {
             <span className='font-bold'>
               17.5. NOT ELIGIBLE FOR CONTRIBUTIONS
             </span>
-            <br />
+            <br /> <br />
             Not eligible for contributions under the following circumstances:
-            The individual died within the waiting period before a matriculation
-            number could be assigned. The individual has not paid the
-            Administration and Matriculation fees. The name on the individual’s
-            death certificate is different than the name in SAGI’s database. The
-            death is announced to SAGI after seven (7) days. The individual died
-            while in Cameroon. The deceased person was cremated. <br /> <br />{' '}
+            <br /> <br />
+            <br />
+            a. The individual died within the waiting period before a
+            matriculation number could be assigned.
+            <br /> <br /> b. The individual has not paid the Administration and
+            Matriculation fees.
+            <br /> <br /> c. The name on the individual’s death certificate is
+            different than the name in SAGI’s database. <br /> <br />
+            d. The death is announced to SAGI after seven (7) days. <br />{' '}
+            <br />
+            e. The individual died while out of US and was not US citizen or
+            Green Card Holder, or was out of the US for more than 180 days.{' '}
+            <br /> <br />{' '}
             <span className='font-bold'>17.6. CONTRIBUTIONS MODE</span>
             <br />
             Contributions are made in any of the the following ways:
-            <br /> Bank deposit/transfer into one of SAGI’s bank accounts,
-            provided with the contribution list.
-            <br /> PayPal through SAGI’s website: http://www.sagiusa.org/donate/
-            Online application using SAGI’s email: info@sagiusa.org
+            <br />
+            a. Bank deposit/transfer into one of SAGI’s bank accounts, provided
+            with the contribution list.
+            <br />
+            b. Online application using SAGI’s email: info@sagiusa.org and name:
+            Active Solidarity Ltd
             <br /> <br />
             <span className='font-bold'> 17.7. CONTRIBUTION FORMALITIES </span>
             <br />
@@ -609,11 +640,10 @@ const Bylaws = () => {
             <br />
             <span className='font-bold'>20.2. MATRICULATION FEES</span>
             <br />
-            Every new individual must make a one-time payment of $20.00 as a
+            a. Every new individual must make a one-time payment of $20.00 as a
             matriculation fee, due after the attribution of a matriculation
-            number. Funds collected for matriculation are to be allocated toward
-            the creation of SAGI ID cards. The Matriculation fee is
-            non-refundable.
+            number.
+            <br /> b. The Matriculation fee is non-refundable.
           </p>
         </div>
       </div>
