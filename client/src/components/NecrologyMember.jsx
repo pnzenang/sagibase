@@ -24,10 +24,10 @@ const NecrologyMember = ({
 }) => {
   const dateAnnounced = day(createdAt).format('MMM Do, YYYY');
   const YearOfBirth = day(deceasedDateOfBirth)
-    .add(12, 'hour')
+    .add(4, 'hour')
     .format('MMM D, YYYY');
 
-  const YearIfDeath = day(dateOfDeath).format('MMM D, YYYY');
+  const YearIfDeath = day(dateOfDeath).add(4, 'hour').format('MMM D, YYYY');
   dateOfDeath = day(dateOfDeath).format('MMM Do, YYYY');
   deceasedRegistrationDate = day(deceasedRegistrationDate).format(
     'MMM Do, YYYY'
