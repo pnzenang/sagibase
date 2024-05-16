@@ -88,8 +88,8 @@ const Footer = () => {
         <div className='container mx-auto align-element'>
           <h1 className='text-center'>
             <p className='text-base-content  '>
-              &copy; {new Date().getFullYear()} SAGI: Active Solidarity, Ltd{' '}
-              <span className='text-primary'> | </span>
+              &copy; 2009 - {new Date().getFullYear()} SAGI: Active Solidarity,
+              Ltd <span className='text-primary'> | </span>
               Helps people help each other.
             </p>{' '}
           </h1>
