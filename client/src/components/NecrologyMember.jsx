@@ -23,8 +23,11 @@ const NecrologyMember = ({
   indicatorColor,
 }) => {
   const dateAnnounced = day(createdAt).format('MMM Do, YYYY');
-  const YearOfBirth = day(deceasedDateOfBirth).format('YYYY');
-  const YearIfDeath = day(dateOfDeath).format('YYYY');
+  const YearOfBirth = day(deceasedDateOfBirth)
+    .add(12, 'hour')
+    .format('MMM D, YYYY');
+
+  const YearIfDeath = day(dateOfDeath).format('MMM D, YYYY');
   dateOfDeath = day(dateOfDeath).format('MMM Do, YYYY');
   deceasedRegistrationDate = day(deceasedRegistrationDate).format(
     'MMM Do, YYYY'
@@ -66,7 +69,7 @@ const NecrologyMember = ({
               <div className=''>
                 <h2 className='  sm:text-xl lg:text-2xl font-bold uppercase text-begin'>
                   {deceasedFirstName} {deceasedLastAndMiddleNames}:{' '}
-                  <span className='text-primary'>
+                  <span className='text-primary capitalize'>
                     {YearOfBirth} ~ {YearIfDeath}
                   </span>
                 </h2>
