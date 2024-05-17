@@ -27,7 +27,7 @@ const NecrologyMember = ({
     .add(4, 'hour')
     .format('MMM D, YYYY');
 
-  const YearIfDeath = day(dateOfDeath).add(4, 'hour').format('MMM D, YYYY');
+  const YearOfDeath = day(dateOfDeath).add(4, 'hour').format('MMM D, YYYY');
   dateOfDeath = day(dateOfDeath).format('MMM Do, YYYY');
   deceasedRegistrationDate = day(deceasedRegistrationDate).format(
     'MMM Do, YYYY'
@@ -70,7 +70,7 @@ const NecrologyMember = ({
                 <h2 className='  sm:text-xl lg:text-2xl font-bold uppercase text-begin'>
                   {deceasedFirstName} {deceasedLastAndMiddleNames}:{' '}
                   <span className='text-primary capitalize'>
-                    {YearOfBirth} ~ {YearIfDeath}
+                    {YearOfBirth} ~ {YearOfDeath}
                   </span>
                 </h2>
               </div>
@@ -85,7 +85,7 @@ const NecrologyMember = ({
                   {deceasedFirstName} {deceasedLastAndMiddleNames}
                 </span>
                 which occurred on{' '}
-                <span className=' font-bold uppercase'>{dateOfDeath} </span> in{' '}
+                <span className=' font-bold uppercase'>{YearOfDeath} </span> in{' '}
                 <span className=' font-bold uppercase'>{placeOfDeath}.</span>
               </p>
             </div>
