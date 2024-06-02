@@ -12,7 +12,7 @@ const Table = () => {
           <div className='w-full '>
             <div className='max-w-full overflow-x-auto '>
               <h1 className='text-2xl text-center sm:text-5xl py-10 font-bold '>
-                Members for whom we are contributing this month.
+                Members for whom we are contributing this May 2024.
               </h1>
               <table className='w-full table-auto'>
                 <thead className='text-center bg-primary'>

@@ -32,7 +32,7 @@ const VestedMembers = () => {
                     href={pdf}
                     className='inline-flex border border-transparent bg-primary px-8 py-3 btn text-base font-medium text-white transition hover:bg-opacity-90'
                   >
-                    This Month additions .
+                    June's additions .
                   </a>
                 </div>
                 {/* <div className='mb-4 px-2'>
