@@ -24,7 +24,7 @@ const NecrologyMember = ({
 }) => {
   const dateAnnounced = day(createdAt).format('MMM Do, YYYY');
   const YearOfBirth = day(deceasedDateOfBirth)
-    .add(4, 'hour')
+    .add(23, 'hour')
     .format('MMM D, YYYY');
 
   const YearOfDeath = day(dateOfDeath).add(4, 'hour').format('MMM D, YYYY');

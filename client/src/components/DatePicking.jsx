@@ -3,14 +3,11 @@ import DatePicker from 'react-datepicker';
 import getYear from 'date-fns/getYear';
 import getMonth from 'date-fns/getYear';
 import 'react-datepicker/dist/react-datepicker.css';
+import range from 'lodash/range';
 
 const DatePicking = ({ name }) => {
-  const [startDate, setStartDate] = useState('');
-
-  const range = (start, end) => {
-    return new Array(end - start + 1).fill().map((d, i) => i + start);
-  };
-  const years = range(1940, getYear(new Date()), 1);
+  const [startDate, setStartDate] = useState();
+  const years = range(1940, getYear(new Date()) + 1, 1);
   const months = [
     'January',
     'February',
@@ -70,7 +67,8 @@ const DatePicking = ({ name }) => {
 
           <select
             className='bg-primary text-white'
-            value={months[getMonth(date)]}
+            // value={months[getMonth(date)]}
+            value={months[date.getMonth()]}
             onChange={({ target: { value } }) =>
               changeMonth(months.indexOf(value))
             }
