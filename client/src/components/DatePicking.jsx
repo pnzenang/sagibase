@@ -67,7 +67,6 @@ const DatePicking = ({ name }) => {
 
           <select
             className='bg-primary text-white'
-            // value={months[getMonth(date)]}
             value={months[date.getMonth()]}
             onChange={({ target: { value } }) =>
               changeMonth(months.indexOf(value))

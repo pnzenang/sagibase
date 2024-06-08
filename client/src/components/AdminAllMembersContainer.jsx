@@ -121,7 +121,7 @@ const AdminAllMembersContainer = () => {
                                 : memberMatriculation;
                             const date = day(createdAt).format('MMM Do, YYYY');
                             const date2 = day(dateOfBirth)
-                              .add(23, 'hour')
+                              .add(22, 'hour')
                               .format('MMM Do, YYYY');
                             return (
                               <tr key={_id}>
