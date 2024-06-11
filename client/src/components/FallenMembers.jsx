@@ -33,9 +33,8 @@ const Table = () => {
                     <td className={TdStyle.TdStyle}>NANA WASSO</td>
                     <td className={TdStyle.TdStyle2}>05-Apr-22</td>
                     <td className={TdStyle.TdStyle}>12-Jul-23</td>
-                    <td className={TdStyle.TdStyle}>Maryland</td>
+                    <td className={TdStyle.TdStyle}>Maryland.</td>
                   </tr>
-
                   <tr>
                     <td className={TdStyle.TdStyle}>LBLMSAGI098</td>
                     <td className={TdStyle.TdStyle2}>ROBINSON</td>
