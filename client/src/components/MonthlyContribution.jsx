@@ -4,10 +4,10 @@ import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
 import pdf from '../documents/contributions.pdf';
 
-let totalContribution = '$140,000';
-let totalVestedMember = '10,284';
-let contributionPerMember = '$13.65';
-let individualContribution = '$1.95';
+let totalContribution = '$160,000';
+let totalVestedMember = '10,336';
+let contributionPerMember = '$15.52';
+let individualContribution = '$1.94';
 
 const Stats2 = () => {
   return (
@@ -18,7 +18,7 @@ const Stats2 = () => {
       <div className='mx-auto px-4 sm:container p-20'>
         <div className='mx-auto mb-[20px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-5xl capitalize'>
-            Our May 2024's contributions
+            Our June 2024's contributions
           </h2>
           <p className='text-base-content'>
             Here, we have the detail on this month's contribution, you can also
