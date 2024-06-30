@@ -6,7 +6,7 @@ import { FaRegEnvelope } from 'react-icons/fa6';
 import { HiOutlineBuildingOffice2 } from 'react-icons/hi2';
 const Footer = () => {
   return (
-    <footer className='relative z-1 bg-emerald-800 '>
+    <footer className='relative z-1 bg-emerald-700 '>
       <span className='absolute left-0 top-0 block h-2 w-1/2 bg-primary'></span>
       <span className='absolute right-0 top-0 block h-2 w-1/2 bg-secondary'></span>
       <div className='container mx-auto pt-8 lg:pt-10 align-element'>
