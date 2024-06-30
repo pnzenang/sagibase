@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <NavLink to='/' className='flex  text-2xl items-center'>
       <img
-        src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1719309232/newLogo_ixgk8v.svg'
+        src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1719764498/newLogo_nljmul.svg'
         alt='logo'
         className='w-28'
       />
