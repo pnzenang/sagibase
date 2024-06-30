@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/logo.svg';
+// import logo from '../assets/newLogo.svg';
 // import logo from '../assets/images/sagilogo1.png';
 
 const Logo = () => {
   return (
-    <NavLink to='/' className='flex  text-3xl items-center'>
+    <NavLink to='/' className='flex  text-2xl items-center'>
       <img
-        src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1713289775/mysagiLogo_yqew9b.svg'
+        src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1719309232/newLogo_ixgk8v.svg'
         alt='logo'
+        className='w-28'
       />
     </NavLink>
   );

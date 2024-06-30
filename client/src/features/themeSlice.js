@@ -1,10 +1,10 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
-const themes = { winter: "winter", dracula: "dracula" };
+const themes = { cupcake: 'cupcake', dracula: 'dracula' };
 
 const getThemeFromLocalStorage = () => {
-  const theme = localStorage.getItem("theme") || themes.winter;
-  document.documentElement.setAttribute("data-theme", theme);
+  const theme = localStorage.getItem('theme') || themes.cupcake;
+  document.documentElement.setAttribute('data-theme', theme);
   return theme;
 };
 
@@ -12,14 +12,14 @@ const initialState = {
   theme: getThemeFromLocalStorage(),
 };
 const themeSlice = createSlice({
-  name: "theme",
+  name: 'theme',
   initialState,
   reducers: {
     toggleTheme: (state) => {
-      const { dracula, winter } = themes;
-      state.theme = state.theme === dracula ? winter : dracula;
-      document.documentElement.setAttribute("data-theme", state.theme);
-      localStorage.setItem("theme", state.theme);
+      const { dracula, cupcake } = themes;
+      state.theme = state.theme === dracula ? cupcake : dracula;
+      document.documentElement.setAttribute('data-theme', state.theme);
+      localStorage.setItem('theme', state.theme);
     },
   },
 });

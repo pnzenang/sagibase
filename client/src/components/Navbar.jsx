@@ -20,11 +20,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-base-300 sticky top-0 flex  h-20 place-content-center z-20'>
+    <nav className='bg-base-300 sticky top-0 flex h-20 sm:h-20 place-content-center z-20'>
       <div className=' align-element  navbar '>
         <div className='navbar-start'>
           {/* TITLE */}
-          <div className='hidden lg:block '>
+          <div className=' hidden lg:block scale-90'>
             <Logo />
           </div>
           <button className='nav-btn lg:hidden' onClick={toggleSidebar}>

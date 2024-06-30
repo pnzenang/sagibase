@@ -17,11 +17,11 @@ const Footer = () => {
                 <Logo />
               </div>
 
-              <p className='mb-7 text-base text-gray-7'>
-                SAGI gather people from all areas of our motherland Cameroon fo
+              <p className='mb-7 text-base text-gray-7 hover:text-white'>
+                SAGI gathers people from all areas of our motherland Cameroon fo
                 the awesome purpose of helping each other.
               </p>
-              <div className='-mx-3 flex items-center'>
+              <div className='-mx-3 flex items-center hover:text-white'>
                 <SocialLinks />
               </div>
             </div>
@@ -49,18 +49,18 @@ const Footer = () => {
               </h4>
               <ul>
                 <li>
-                  <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7'>
+                  <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7 hover:text-white'>
                     <span className='mr-3 mt-[10px]'>
-                      <FaRegEnvelope className='w-6 h-6 text-primary' />
+                      <FaRegEnvelope className='w-6 h-6 text-primary ' />
                     </span>
                     info@mySagi.org
                   </p>
                 </li>
 
                 <li>
-                  <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7'>
+                  <p className='mb-3 inline-flex items-start text-base leading-loose text-gray-7 hover:text-white'>
                     <span className='mr-3 mt-[10px]'>
-                      <FiPhoneCall className='w-6 h-6 text-primary' />
+                      <FiPhoneCall className='w-6 h-6 text-primary ' />
                     </span>
                     1(804)-214-6390
                   </p>
@@ -73,7 +73,7 @@ const Footer = () => {
                         <HiOutlineBuildingOffice2 className='w-6 h-6 text-primary' />
                       </span>
                     </div>
-                    <div className='ml-3 text-sm'>
+                    <div className='ml-3 text-sm hover:text-white'>
                       <p>23612 Public House Rd Clarksburg MD 20871</p>
                     </div>
                   </div>
@@ -87,7 +87,7 @@ const Footer = () => {
       <div className='mt-12 bg-[#101541] py-6 lg:mt-1 '>
         <div className='container mx-auto align-element'>
           <h1 className='text-center'>
-            <p className='text-base-content  '>
+            <p className='text-base-content hover:text-white '>
               &copy; 2009 - {new Date().getFullYear()} SAGI: Active Solidarity,
               Ltd <span className='text-primary'> | </span>
               Helps people help each other.

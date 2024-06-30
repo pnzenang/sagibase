@@ -94,7 +94,6 @@ export const createMember = async (req, res) => {
   req.body.createdBy = req.user.userId;
   req.body.associationName = user.associationName;
   req.body.associationCode = user.associationCode;
-
   req.body.memberMatriculation = `AS${user.associationCode.toLocaleUpperCase()}${randomMatriculation()}`;
   const member = await Member.create(req.body);
 
