@@ -50,7 +50,7 @@ const AddMembers = () => {
           <FormInput2 type='text' label='member first name' name='firstName' />
           <FormInput2
             type='text'
-            label='member middle and last names'
+            label='member last and middle names'
             name='lastAndMiddleNames'
           />
           <FormDate name='dateOfBirth' label='member date of birth' />
