@@ -1,4 +1,4 @@
-import pdf from '../documents/membres.pdf';
+import pdf from '../documents/members.pdf';
 
 import list from '../assets/images/list.svg';
 
@@ -32,7 +32,7 @@ const VestedMembers = () => {
                     href={pdf}
                     className='inline-flex border border-transparent bg-primary px-8 py-3 btn text-base font-medium text-white transition hover:bg-opacity-90'
                   >
-                    June's additions .
+                    July's additions .
                   </a>
                 </div>
                 {/* <div className='mb-4 px-2'>

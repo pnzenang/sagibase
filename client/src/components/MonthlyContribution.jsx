@@ -2,12 +2,12 @@ import { TbUsersGroup } from 'react-icons/tb';
 import { FaSearchDollar } from 'react-icons/fa';
 import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
-import pdf from '../documents/contributions.pdf';
+import pdf from '../documents/contributionTable.pdf';
 
 let totalContribution = '$160,000';
-let totalVestedMember = '10,336';
-let contributionPerMember = '$15.52';
-let individualContribution = '$1.94';
+let totalVestedMember = '11,247';
+let contributionPerMember = '$14.24';
+let individualContribution = '$1.78';
 
 const Stats2 = () => {
   return (
@@ -18,7 +18,7 @@ const Stats2 = () => {
       <div className='mx-auto px-4 sm:container p-20'>
         <div className='mx-auto mb-[20px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-5xl capitalize'>
-            Our June 2024's contributions
+            Our July 2024's contributions
           </h2>
           <p className='text-base-content'>
             Here, we have the detail on this month's contribution, you can also

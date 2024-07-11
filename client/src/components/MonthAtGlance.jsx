@@ -1,4 +1,4 @@
-import schedule from '../assets/images/schedule.png';
+import schedule from '../assets/images/schedule2.png';
 
 const MonthAtGlance = () => {
   return (
