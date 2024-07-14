@@ -10,7 +10,7 @@ const Stats2 = () => {
       <div className='mx-auto px-10 sm:container align-element'>
         <div className='-mx-4 flex flex-wrap '>
           <StatsItem
-            user='10,000+'
+            user='11,200+'
             title='Vested members'
             icon={<LuUsers className='w-10 h-10 text-primary' />}
           />
