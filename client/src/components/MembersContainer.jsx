@@ -108,7 +108,7 @@ const MembersContainer = () => {
                             <th className={TdStyle.ThStyle}>
                               Last & Middle Names{' '}
                             </th>
-                            {/* <th className={TdStyle.ThStyle}>Date of Birth</th> */}
+                            <th className={TdStyle.ThStyle}>Date of Birth</th>
                             <th className={TdStyle.ThStyle}>
                               Registration Date{' '}
                             </th>
@@ -125,7 +125,7 @@ const MembersContainer = () => {
                               memberMatriculation,
                               firstName,
                               lastAndMiddleNames,
-                              // dateOfBirth,
+                              dateOfBirth,
                               createdAt,
                               delegateRecommendation,
                               memberStatus,
@@ -138,8 +138,8 @@ const MembersContainer = () => {
                                 ? 'pending'
                                 : memberMatriculation;
                             const date = day(createdAt).format('MMM Do, YYYY');
-                            // const date2 =
-                            //   day(dateOfBirth).format('MMM Do, YYYY');
+                            const date2 =
+                              day(dateOfBirth).format('MMM Do, YYYY');
 
                             return (
                               <tr key={_id}>
@@ -153,7 +153,7 @@ const MembersContainer = () => {
                                 <td className={TdStyle.TdStyle2}>
                                   {lastAndMiddleNames}
                                 </td>
-                                {/* <td className={TdStyle.TdStyle}>{date2}</td> */}
+                                <td className={TdStyle.TdStyle}>{date2}</td>
                                 <td className={TdStyle.TdStyle}>{date}</td>
                                 <td className={TdStyle.TdStyle}>
                                   {delegateRecommendation}
