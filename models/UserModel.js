@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const UserSchema = new mongoose.Schema({
   firstName: String,
   lastAndMiddleNames: String,
-  email: String,
+  email: { type: String, lowercase: true },
   phoneNumber: String,
   associationName: String,
   associationCode: String,
