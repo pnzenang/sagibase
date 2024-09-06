@@ -1,4 +1,4 @@
-import pdf from '../documents/rules.pdf';
+import pdf from '../documents/Internal-Rules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Bylaws = () => {
@@ -507,52 +507,52 @@ const Bylaws = () => {
             <span className='font-bold'>
               17.2. CONTRIBUTION AMOUNT <br />
             </span>
-            The fixed amount to be collected is $20,000.00 (twenty thousand
-            dollars) per death. This amount is divided among all active members
-            in member associations, and each association’s contribution depends
-            on the total number of individuals belonging to that association.
-            The amount of the contribution cannot be modified after the list is
-            sent out. <br /> <br />{' '}
+            The ﬁxed amount to be collected is $20,000.00 (twenty thousand
+            dollars) if the death occurred in the US or in a country that is not
+            the deceased’s country of descent and $10,000.00(ten thousand
+            dollars) if the death occurred in the deceased’s country of descent.
+            <br />
+            This amount is divided among all active members in member
+            associations, and each association’s contribution depends on the
+            total number of individuals belonging to that association. The
+            amount of the contribution cannot be modiﬁed after the list is sent
+            out.
+            <br /> <br />{' '}
             <span className='font-bold'>17.3. CONTRIBUTION DUE DATE </span>
             <br />
-            The due date of contributions is seven (7) days after the
-            contribution table is sent out by the SAGI Bureau/Board. Member
-            associations are strongly encouraged to make their contributions as
-            soon as the list of contributions is published, without waiting for
-            the 7th day deadline. The official announcement of death is only
-            made after the SAGI Bureau/Board receives the required documents as
-            outlined above. <br />
+            The due date of contributions is posted on the contribution table
+            sent out by the SAGI Bureau/Board. The associations are strongly
+            encouraged to make their contributions as soon as the list of
+            contributions is published, without waiting for the deadline. The
+            official announcement of death is only made after the SAGI
+            Bureau/Board receives the required documents as outlined above.
+            <br />
             <br />
             <span className='font-bold'>
-              17.4. ELIGIBILITY FOR CONTRIBUTIONS
-            </span>
-            <br />
-            The death was verified and certified by SAGI Bureau/Board. The name
-            of the individual, as it appears in the death certificate, matches
-            exactly the name in SAGI’s database The member association must be
-            in good standing (has paid its administration and/or matriculation
-            fees and met all requirements as outlined herein) The individual who
-            passed away must be current with the administration and/or
-            matriculation fees before the date of the death. <br />
-            <br />
-            <span className='font-bold'>
-              17.5. NOT ELIGIBLE FOR CONTRIBUTIONS
+              17.4. NOT ELIGIBLE FOR CONTRIBUTIONS
             </span>
             <br /> <br />
-            Not eligible for contributions under the following circumstances:
+            Deaths are not eligible for contributions under the following
+            circumstances:
             <br /> <br />
-            <br />
             a. The individual died within the waiting period before a
             matriculation number could be assigned.
-            <br /> <br /> b. The individual has not paid the Administration and
-            Matriculation fees.
+            <br /> <br /> b. The association is NOT IN GOOD STANDING for
+            non-contribution or non-payment of any administration fees.
             <br /> <br /> c. The name on the individual’s death certificate is
-            different than the name in SAGI’s database. <br /> <br />
-            d. The death is announced to SAGI after seven (7) days. <br />{' '}
-            <br />
-            e. The individual died while out of US and was not US citizen or
-            Green Card Holder, or was out of the US for more than 180 days.{' '}
-            <br /> <br />{' '}
+            different from the name in SAGI’s database. <br /> <br />
+            d. The individual passed away out of the USA after starting his or
+            her visit before May 1st, 2024. <br /> <br />
+            e. The Individual passed away out of the USA after being in the
+            country of death for more than 180 days.
+            <br /> <br />
+            f. The individual passed away out of the USA and does not hold a US
+            green card, a US Passport or any other US document allowing him or
+            her to live permanently in the USA.
+            <br /> <br />
+            g. The death was announced to SAGI more than seven (7) days of the
+            person passing.
+            <br /> <br />
             <span className='font-bold'>17.6. CONTRIBUTIONS MODE</span>
             <br />
             Contributions are made in any of the the following ways:

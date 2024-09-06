@@ -178,6 +178,7 @@ const EditMember = () => {
               name='memberStatus'
               defaultValue={member.memberStatus}
               list={[MEMBER_STATUS.PENDING]}
+              
             />
           ) : (
             <FormSelect
