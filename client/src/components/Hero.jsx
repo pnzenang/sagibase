@@ -28,7 +28,7 @@ const Hero12 = () => {
 
   return (
     <>
-      <div className='relative pb-10 pt-10 pb-base-100 lg:pt-10'>
+      <div className='relative pb-4 pt-4 pb-base-100 lg:pt-4'>
         <div className='container mx-auto '>
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4 lg:w-1/2'>
@@ -51,7 +51,7 @@ const Hero12 = () => {
                 </p>
               </div>
             </div>
-            <div className='w-full px-4 lg:w-1/2'>
+            <div className='w-full px-6 lg:w-1/2'>
               <div className='-mx-2 flex flex-wrap sm:-mx-4'>
                 <div className='w-1/2 px-2 sm:px-4'>
                   <div className='mb-4 h-[256px] sm:mb-8 sm:h-[442px] lg:h-[332px] xl:h-[442px]'>
@@ -72,7 +72,7 @@ const Hero12 = () => {
                   </div>
                   <div className='mb-4 h-[120px] sm:mb-8 sm:h-[205px] lg:h-[150px] xl:h-[205px]'>
                     <img
-                      src={hero4}
+                      src={hero3}
                       alt='hero image'
                       className='h-full w-full object-cover object-center'
                     />

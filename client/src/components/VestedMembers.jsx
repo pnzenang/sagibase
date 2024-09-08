@@ -21,19 +21,18 @@ const VestedMembers = () => {
                   Updates.
                 </h3>
                 <p className='mb-8 text-lg text-body-color dark:text-dark-6'>
-                  Each month, we publish all the updated list of new members,
-                  removed members and transferred members.
+                  Each month, we publish the numbers of new registered.
                 </p>
               </div>
 
               <div className='-mx-auto  w-full '>
                 <div className='mb-4 px-2 '>
-                  <a
-                    href={pdf}
+                  <div
+                    // href='#'
                     className='inline-flex border border-transparent bg-primary px-8 py-3 btn text-base font-medium text-white transition hover:bg-opacity-90'
                   >
-                    July's additions .
-                  </a>
+                    Sep 24's additions: 205 new members .
+                  </div>
                 </div>
                 {/* <div className='mb-4 px-2'>
                   <a

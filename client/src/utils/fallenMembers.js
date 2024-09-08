@@ -1,11 +1,11 @@
 const FallenMembers = [
   {
     index: 1,
-    matriculation: 'ASANNA234598',
-    firstName: 'Manfred',
-    lastName: 'MANDIN ATOGA',
-    registrationDate: '3-MAR-2022',
-    dateOfDeath: '3-MAR-2024',
+    matriculation: 'NMNESAGI043',
+    firstName: 'Patrick',
+    lastName: 'Assibong Agbor',
+    registrationDate: '25-SEP-2019',
+    dateOfDeath: '1-JUL-2023',
     publicationDate: '6-FEB-2024',
   },
   {
