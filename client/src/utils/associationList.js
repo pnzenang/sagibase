@@ -1,11 +1,11 @@
 let associations = [
-  { name: 'sage', number: 17 },
+  
   { name: 'fofa', number: 19 },
-  { name: 'BMDU', number: 19 },
-  { name: 'tfgu', number: 13 },
+  { name: 'BMDU ', number: 19 },
+  { name: 'tfgu ', number: 13 },
   { name: 'hnat', number: 28 },
-  { name: 'wehf', number: 28 },
-  { name: 'azwi', number: 29 },
+  { name: 'wehfv  ', number: 28 },
+  { name: 'azwi ', number: 29 },
   { name: 'afso', number: 12 },
   { name: 'henc', number: 83 },
   { name: 'cbac', number: 19 },

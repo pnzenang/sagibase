@@ -1,9 +1,9 @@
 const FallenMembers = [
   {
     index: 1,
-    matriculation: 'NMNESAGI043',
-    firstName: 'Patrick',
-    lastName: 'Assibong Agbor',
+    matriculation: 'BUANSAGIO33',
+    firstName: 'ODETTE SANDRA',
+    lastName: 'MINKAM WAFFO',
     registrationDate: '25-SEP-2019',
     dateOfDeath: '1-JUL-2023',
     publicationDate: '6-FEB-2024',

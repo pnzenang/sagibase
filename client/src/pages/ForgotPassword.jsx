@@ -32,15 +32,7 @@ const ResetPassword = () => {
 
         <div className='mt-4'>
           <SubmitBtn text='send reset email' />
-          {/* <p className='text-center mt-4'>
-            Not a member yet?
-            <Link
-              to='/register'
-              className='ml-2 link link-hover link-primary capitalize'
-            >
-              register
-            </Link>
-          </p> */}
+        
         </div>
       </Form>
     </section>
