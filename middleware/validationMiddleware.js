@@ -40,7 +40,7 @@ export const validateMemberInput = withValidationErrors([
   body('associationName')
     .notEmpty()
     .withMessage('association name is required')
-    .isLength({ min: 5 }),
+    .isLength({ min: 4 }),
 
   body('associationCode')
     .notEmpty()
