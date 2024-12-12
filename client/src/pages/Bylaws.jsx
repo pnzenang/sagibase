@@ -553,7 +553,7 @@ const Bylaws = () => {
             g. The death was announced to SAGI more than seven (7) days of the
             person passing.
             <br /> <br />
-            <span className='font-bold'>17.6. CONTRIBUTIONS MODE</span>
+            <span className='font-bold'>17.5. CONTRIBUTIONS MODE</span>
             <br />
             Contributions are made in any of the the following ways:
             <br />
@@ -563,7 +563,7 @@ const Bylaws = () => {
             b. Online application using SAGI’s email: info@sagiusa.org and name:
             Active Solidarity Ltd
             <br /> <br />
-            <span className='font-bold'> 17.7. CONTRIBUTION FORMALITIES </span>
+            <span className='font-bold'> 17.6. CONTRIBUTION FORMALITIES </span>
             <br />
             Bank deposits must be the exact amount as it appears on the
             contribution list. DO NOT neglect cents, this is very important as
