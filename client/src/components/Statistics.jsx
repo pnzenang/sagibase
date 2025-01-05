@@ -10,7 +10,7 @@ const Stats2 = () => {
       <div className='mx-auto px-10 sm:container align-element'>
         <div className='-mx-4 flex flex-wrap '>
           <StatsItem
-            user='11,200+'
+            user='11,500+'
             title='Vested members'
             icon={<LuUsers className='w-10 h-10 text-primary' />}
           />
@@ -25,7 +25,7 @@ const Stats2 = () => {
             icon={<TbUserDollar className='w-10 h-10 text-primary' />}
           />
           <StatsItem
-            user='$9,000,000+'
+            user='$10,000,000+'
             title='Total Payouts to date'
             icon={<GiMoneyStack className='w-10 h-10 text-primary' />}
           />
