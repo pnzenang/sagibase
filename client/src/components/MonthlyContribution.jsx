@@ -2,7 +2,7 @@ import { TbUsersGroup } from 'react-icons/tb';
 import { FaSearchDollar } from 'react-icons/fa';
 import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
-import pdf from '../documents/contributionTable.pdf';
+import pdf from '../documents/contribution.pdf';
 
 let totalContribution = '$200,000';
 let totalVestedMember = '11,277';
