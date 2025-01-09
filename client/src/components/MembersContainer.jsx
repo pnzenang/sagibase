@@ -7,7 +7,6 @@ import PageBtnContainer from './PageBtnContainer';
 import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { styled } from 'styled-components';
 
 import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
@@ -29,10 +28,10 @@ const MembersContainer = () => {
 
   const [layout, setLayout] = useState('list');
   const setActiveStyles = (pattern) => {
-    return `text-xl btn btn-circle btn-sm ${
+    return `text-xl btn  btn-sm  ${
       pattern === layout
         ? 'btn-primary text-primary-content'
-        : ' text-primary border-primary'
+        : ' text-primary border-primary rounded-lg'
     }`;
   };
   const { data } = useAllMembersContext();
@@ -51,14 +50,14 @@ const MembersContainer = () => {
             onClick={() => {
               handlePrint(null, () => contentToPrint.current);
             }}
-            className='px-2 bg-primary rounded-lg text-white text-xs sm:text-sm'
+            className='p-2 bg-primary rounded-lg text-white text-xs sm:text-sm'
           >
-            PRINT PAGE
+            PRINT LIST
           </button>
           <button
             type='button'
             onClick={() => setLayout('list')}
-            className={setActiveStyles('list')}
+            className={setActiveStyles('list ')}
           >
             <BsList />
           </button>

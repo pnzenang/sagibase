@@ -19,10 +19,10 @@ const TdStyle = {
 const AdminAllMembersContainer = () => {
   const [layout, setLayout] = useState('list');
   const setActiveStyles = (pattern) => {
-    return `text-xl btn btn-circle btn-sm ${
+    return `text-xl btn  btn-sm ${
       pattern === layout
         ? 'btn-primary text-primary-content'
-        : 'text-primary border-primary'
+        : 'text-primary border-primary rounded-lg'
     }`;
   };
   const { data } = useAdminAllMembersContext();
@@ -86,7 +86,6 @@ const AdminAllMembersContainer = () => {
                             <th className={TdStyle.ThStyle}> Matriculation </th>
                             <th className={TdStyle.ThStyle}> First Names </th>
                             <th className={TdStyle.ThStyle}>
-                              
                               Last & Middle Names
                             </th>
                             <th className={TdStyle.ThStyle}>Date of Birth</th>
