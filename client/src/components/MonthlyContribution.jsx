@@ -2,12 +2,12 @@ import { TbUsersGroup } from 'react-icons/tb';
 import { FaSearchDollar } from 'react-icons/fa';
 import { TbUserDollar } from 'react-icons/tb';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
-import pdf from '../documents/contributionTable2.pdf';
+import pdf from '../documents/contributionTable.pdf';
 
-let totalContribution = '$160,000';
-let totalVestedMember = '11,022';
-let contributionPerMember = '$14.56';
-let individualContribution = '$1.82';
+let totalContribution = '$200,000';
+let totalVestedMember = '11,277';
+let contributionPerMember = '$17.80';
+let individualContribution = '$1.78';
 
 const Stats2 = () => {
   return (
@@ -17,21 +17,21 @@ const Stats2 = () => {
     >
       <div className='mx-auto px-4 sm:container p-10'>
         <div className='mx-auto mb-[20px]  text-center'>
-          <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-5xl capitalize'>
-            Our November 2024's contributions
+          <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-6xl capitalize'>
+            Month of January 2025
           </h2>
           <p className='text-base-content'>
             Here, we have the detail on this month's contribution, you can also
-            download the contributions table
+            download the contributions table.
           </p>
         </div>
         <div className='-mx-auto  w-full text-center pb-16  '>
           <div className='mb-4 px-2 '>
             <a
               href={pdf}
-              className='btn inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-opacity-90'
+              className='btn inline-flex border border-transparent bg-primary px-8 py-3 text-base font-medium text-white transition hover:bg-secondary'
             >
-              This Month's Contributions Data .
+              This Month's Contributions Data.
             </a>
           </div>
         </div>
@@ -78,7 +78,7 @@ const StatsItem = ({ user, title, icon, detail }) => {
           {icon}
         </div>
         <div className=''>
-          <h3 className='mb-[10px] text-3xl font-bold leading-[1.2] text-base-content xl:text-[40px]'>
+          <h3 className='mb-[10px] text-3xl font-bold leading-[1.2] text-base-content md:text-6xl'>
             {user}
           </h3>
           <p className='w-48 text-lg text-body-color dark:text-dark-6  mx-auto'>

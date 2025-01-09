@@ -16,8 +16,8 @@ const Landing = () => {
     <section className='my-10 '>
       <ScrollToTop smooth color='#0891b2' width='40' />
       <Hero />
-      {/* <MonthlyContribution /> */}
-      <Statistics />
+      <MonthlyContribution />
+      {/* <Statistics /> */}
       <Mission />
       <Partners />
       {/* <Testimonials /> */}
