@@ -5,8 +5,8 @@ import Member from './Member';
 import { useState } from 'react';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { styled } from 'styled-components';
-import dayjs from 'dayjs';
+// import { styled } from 'styled-components';
+// import dayjs from 'dayjs';
 
 day.extend(advancedFormat);
 
@@ -26,7 +26,7 @@ const AdminAllMembersContainer = () => {
     }`;
   };
   const { data } = useAdminAllMembersContext();
-  const { adminMembers, numOfPages, currentPage, totalMembers } = data;
+  const { adminMembers, numOfPages, totalMembers } = data;
   return (
     <section>
       <div className='flex justify-between'>

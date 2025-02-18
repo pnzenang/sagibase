@@ -27,7 +27,7 @@ const AdminNecrologyMember = ({
   const dateAnnounced = day(createdAt).format('MMM Do, YYYY');
   const YearOfBirth = day(deceasedDateOfBirth).format('YYYY');
   const YearIfDeath = day(dateOfDeath).format('YYYY');
-  dateOfDeath = day(dateOfDeath).format('MMM Do, YYYY');
+  dateOfDeath = day(dateOfDeath).add(4, 'hour').format('MMM Do, YYYY');
   deceasedDateOfBirth = day(deceasedDateOfBirth).format('MMM Do, YYYY');
   deceasedRegistrationDate = day(deceasedRegistrationDate).format(
     'MMM Do, YYYY'
