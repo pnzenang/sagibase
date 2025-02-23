@@ -98,7 +98,6 @@ const AdminAllMembersContainer = () => {
                         </thead>
                         <tbody>
                           {adminMembers.map((member) => {
-                            console.log(member);
                             const {
                               _id,
                               associationCode,

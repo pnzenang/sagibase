@@ -5,7 +5,6 @@ import {
   About,
   How,
   Necrology,
-  Home,
   Team,
   Bylaws,
   HomeLayout,

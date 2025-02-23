@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import pdf from '../documents/Internal-Rules.pdf';
 import ScrollToTop from 'react-scroll-to-top';
 

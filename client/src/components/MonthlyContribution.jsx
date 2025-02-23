@@ -5,9 +5,9 @@ import { AiOutlineDollarCircle } from 'react-icons/ai';
 import pdf from '../documents/contribution.pdf';
 
 let totalContribution = '$200,000';
-let totalVestedMember = '11,277';
-let contributionPerMember = '$17.80';
-let individualContribution = '$1.78';
+let totalVestedMember = '11,311';
+let contributionPerMember = '$17.72';
+let individualContribution = '$1.48';
 
 const Stats2 = () => {
   return (
@@ -18,7 +18,7 @@ const Stats2 = () => {
       <div className='mx-auto px-4 sm:container p-10'>
         <div className='mx-auto mb-[20px]  text-center'>
           <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-base-content md:text-6xl '>
-            January 2025's Contributions.
+            February 2025's Contributions.
           </h2>
           <p className='text-base-content'>
             Here, we have the detail on this month's contribution, you can also
